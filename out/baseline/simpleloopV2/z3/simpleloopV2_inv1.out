@@ -1,0 +1,38 @@
+unsat
+((set-logic NIA)
+(proof
+(let (($x49 (exists ((x Int) (y Int) )(! (let (($x46 (not (= (+ (- (- (+ x 1) y00) x00) (- y 1)) 0))))
+ (let (($x39 (not (= (+ (- (- (- x 1) y00) x00) y 1) 0))))
+ (let (($x47 (or $x39 $x46)))
+ (let (($x32 (= (+ (- (- x y00) x00) y) 0)))
+ (and $x32 $x32 $x47))))) :qid k!28))
+ ))
+ (let (($x117 (= $x49 false)))
+ (let (($x104 (exists ((x Int) (y Int) )(! false :qid k!28))
+ ))
+ (let ((@x116 (elim-unused (= $x104 false))))
+ (let (($x107 (= $x49 $x104)))
+ (let ((?x130 (lambda ((x Int) (y Int) )(let (($x46 (not (= (+ (- (- (+ x 1) y00) x00) (- y 1)) 0))))
+ (let (($x39 (not (= (+ (- (- (- x 1) y00) x00) y 1) 0))))
+ (let (($x47 (or $x39 $x46)))
+ (let (($x32 (= (+ (- (- x y00) x00) y) 0)))
+ (let (($x48 (and $x32 $x32 $x47)))
+ (let (($x98 (= $x48 false)))
+ (let (($x70 (= (+ x (* (- 1) y00) (* (- 1) x00) y) 0)))
+ (let (($x103 (not $x70)))
+ (let (($x119 (and $x70 $x70 $x103)))
+ (let ((@x63 (monotonicity (rewrite (= $x39 $x103)) (rewrite (= $x46 $x103)) (= $x47 (or $x103 $x103)))))
+ (let ((@x83 (rewrite (= $x32 $x70))))
+ (let ((@x88 (monotonicity @x83 @x83 (trans @x63 (rewrite (= (or $x103 $x103) $x103)) (= $x47 $x103)) (= $x48 $x119))))
+ (trans @x88 (rewrite (= $x119 false)) $x98))))))))))))))
+ ))
+ (let ((@x50 (asserted $x49)))
+ (mp @x50 (trans (quant-intro (proof-bind ?x130) $x107) @x116 $x117) false))))))))))
+
+(:max-memory   3.31
+ :memory       3.00
+ :mk-bool-var  5
+ :num-allocs   899156
+ :rlimit-count 149
+ :time         0.01
+ :total-time   0.02)

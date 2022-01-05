@@ -1,0 +1,32 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on cubes_inv1
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for cubes_inv1
+% SZS output start Proof for cubes_inv1
+1. ? [X1 : $int,X3 : $int,X2 : $int,X0 : $int] : (0 = $difference($sum($uminus(6),X2),$product(6,X3)) & 0 = $sum($sum($difference($difference($difference(4,$product(18,X0)),$product($product(9,X0),X3)),$product(5,X1)),$product(9,X3)),$product(X1,X1)) & 0 = $sum($difference($sum($product($uminus(3),X0),$product(X1,X3)),X1),$product(2,X3)) & 0 = $sum($difference($product($product(3,X3),X3),X1),$product(3,X3)) & ~0 = $difference($sum($sum($uminus(6),X2),6),$product(6,$sum(X3,1)))) [input]
+2. ? [X1 : $int,X3 : $int,X2 : $int,X0 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X3))) & 0 = $sum($sum($sum($difference($difference(4,$product(18,X0)),$product($product(9,X0),X3)),$uminus($product(5,X1))),$product(9,X3)),$product(X1,X1)) & 0 = $sum($sum($sum($product($uminus(3),X0),$product(X1,X3)),$uminus(X1)),$product(2,X3)) & 0 = $sum($sum($product($product(3,X3),X3),$uminus(X1)),$product(3,X3)) & ~0 = $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X3,1))))) [theory normalization 1]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 141]
+21. ? [X1 : $int,X3 : $int,X2 : $int,X0 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X3))) & 0 = $sum($sum($sum($sum($difference(4,$product(18,X0)),$uminus($product($product(9,X0),X3))),$uminus($product(5,X1))),$product(9,X3)),$product(X1,X1)) & 0 = $sum($sum($sum($product($uminus(3),X0),$product(X1,X3)),$uminus(X1)),$product(2,X3)) & 0 = $sum($sum($product($product(3,X3),X3),$uminus(X1)),$product(3,X3)) & ~0 = $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X3,1))))) [theory normalization 2]
+22. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X1))) & 0 = $sum($sum($sum($sum($difference(4,$product(18,X3)),$uminus($product($product(9,X3),X1))),$uminus($product(5,X0))),$product(9,X1)),$product(X0,X0)) & 0 = $sum($sum($sum($product($uminus(3),X3),$product(X0,X1)),$uminus(X0)),$product(2,X1)) & 0 = $sum($sum($product($product(3,X1),X1),$uminus(X0)),$product(3,X1)) & ~0 = $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X1,1))))) [rectify 21]
+23. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int] : (0 = $sum($sum($uminus(6),X2),$uminus($product(6,X1))) & 0 = $sum($sum($sum($sum($difference(4,$product(18,X3)),$uminus($product($product(9,X3),X1))),$uminus($product(5,X0))),$product(9,X1)),$product(X0,X0)) & 0 = $sum($sum($sum($product($uminus(3),X3),$product(X0,X1)),$uminus(X0)),$product(2,X1)) & 0 = $sum($sum($product($product(3,X1),X1),$uminus(X0)),$product(3,X1)) & 0 != $sum($sum($sum($uminus(6),X2),6),$uminus($product(6,$sum(X1,1))))) [flattening 22]
+24. 0 != $sum($sum($sum($uminus(6),sK2),6),$uminus($product(6,$sum(sK1,1)))) [cnf transformation 23]
+28. 0 = $sum($sum($uminus(6),sK2),$uminus($product(6,sK1))) [cnf transformation 23]
+30. 0 != $sum(sK2,$uminus($product(6,$sum(sK1,1)))) [evaluation 24]
+32. 0 = $sum($sum(-6,sK2),$uminus($product(6,sK1))) [evaluation 28]
+407. 0 != $sum(sK2,$uminus($product(6,$sum(1,sK1)))) [forward demodulation 30,3]
+454. 1 <=> 0 = $sum(sK2,$uminus($product(6,$sum(1,sK1)))) [avatar definition]
+457. ~1 [avatar split clause 407,454]
+549. 2 <=> 0 = $sum($sum(-6,sK2),$uminus($product(6,sK1))) [avatar definition]
+552. 2 [avatar split clause 32,549]
+553. $false [avatar sat refutation 457,552]
+% SZS output end Proof for cubes_inv1
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
+% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Termination reason: Refutation
+
+% Memory used [KB]: 7291
+% Time elapsed: 0.138 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.168 s

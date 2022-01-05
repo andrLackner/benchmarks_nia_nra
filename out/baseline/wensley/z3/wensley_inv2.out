@@ -1,0 +1,120 @@
+unsat
+((set-logic NRA)
+(declare-fun d!6 () Real)
+(declare-fun b!7 () Real)
+(declare-fun y!5 () Real)
+(declare-fun a!8 () Real)
+(proof
+(let ((?x209 (+ (* (/ 1.0 2.0) (* d00 b!7)) (* (- (/ 1.0 2.0)) (* b00 d!6)))))
+ (let (($x235 (not (<= ?x209 0.0))))
+ (let (($x219 (>= ?x209 0.0)))
+ (let ((?x182 (* d00 b!7)))
+ (let ((?x208 (+ ?x182 (* (- 1.0) (* b00 d!6)))))
+ (let (($x170 (>= ?x208 0.0)))
+ (let (($x188 (= 0.0 ?x208)))
+ (let ((@x230 (symm (commutativity (= $x188 (= ?x208 0.0))) (= (= ?x208 0.0) $x188))))
+ (let (($x206 (= ?x208 0.0)))
+ (let (($x204 (= ?x209 0.0)))
+ (let (($x201 (not $x204)))
+ (let ((?x65 (* d!6 a!8)))
+ (let ((?x210 (+ ?x65 (* (- 2.0) (* b!7 y!5)) (* (- 1.0) (* a00 d!6)) (* 2.0 (* y00 b!7)))))
+ (let ((?x69 (* (- 2.0) (* b00 y00))))
+ (let ((?x30 (* a00 d00)))
+ (let (($x80 (= (+ ?x30 ?x69 (* 2.0 (* b00 y!5)) (* (- 1.0) (* d00 a!8))) 0.0)))
+ (let (($x195 (and $x80 $x206 (= ?x210 0.0) $x201)))
+ (let (($x130 (= (+ (* (/ 1.0 2.0) (* b!7 d00)) (* (- (/ 1.0 2.0)) (* d!6 b00))) 0.0)))
+ (let ((?x155 (+ ?x65 (* (- 2.0) (* y!5 b!7)) (* 2.0 (* b!7 y00)) (* (- 1.0) (* d!6 a00)))))
+ (let (($x77 (= (+ ?x30 (* (- 1.0) (* a!8 d00)) ?x69 (* 2.0 (* y!5 b00))) 0.0)))
+ (let (($x196 (and $x77 (= (+ (* b!7 d00) (* (- 1.0) (* d!6 b00))) 0.0) (= ?x155 0.0) (not $x130))))
+ (let (($x144 (exists ((a Real) (b Real) (d Real) (y Real) )(! (let (($x94 (not (= (+ (* (/ 1.0 2.0) (* b d00)) (* (- (/ 1.0 2.0)) (* d b00))) 0.0))))
+ (let ((?x111 (* (- 2.0) (* y b))))
+ (let ((?x86 (* d a)))
+ (let (($x146 (= (+ ?x86 ?x111 (* 2.0 (* b y00)) (* (- 1.0) (* d a00))) 0.0)))
+ (let ((?x69 (* (- 2.0) (* b00 y00))))
+ (let ((?x30 (* a00 d00)))
+ (let (($x101 (= (+ ?x30 (* (- 1.0) (* a d00)) ?x69 (* 2.0 (* y b00))) 0.0)))
+ (and $x101 (= (+ (* b d00) (* (- 1.0) (* d b00))) 0.0) $x146 $x94)))))))) :qid k!32))
+ ))
+ (let (($x152 (exists ((a Real) (b Real) (d Real) (y Real) )(! (let (($x167 (not (= (+ (* (- (/ 1.0 2.0)) (* d00 b)) (* (/ 1.0 2.0) (* b00 d))) 0.0))))
+ (let ((?x111 (* (- 2.0) (* y b))))
+ (let ((?x86 (* d a)))
+ (let (($x168 (= (+ ?x86 ?x111 (* 2.0 (* y00 b)) (* (- 1.0) (* a00 d))) 0.0)))
+ (let ((?x30 (* a00 d00)))
+ (let ((?x69 (* (- 2.0) (* b00 y00))))
+ (let (($x95 (= (+ ?x69 ?x30 (* 2.0 (* b00 y)) (* (- 1.0) (* d00 a))) 0.0)))
+ (and $x95 (= (+ (* (- 1.0) (* d00 b)) (* b00 d)) 0.0) $x168 $x167)))))))) :qid k!32))
+ ))
+ (let ((?x192 (lambda ((a Real) (b Real) (d Real) (y Real) )(let (($x94 (not (= (+ (* (/ 1.0 2.0) (* b d00)) (* (- (/ 1.0 2.0)) (* d b00))) 0.0))))
+ (let ((?x111 (* (- 2.0) (* y b))))
+ (let ((?x86 (* d a)))
+ (let (($x146 (= (+ ?x86 ?x111 (* 2.0 (* b y00)) (* (- 1.0) (* d a00))) 0.0)))
+ (let ((?x69 (* (- 2.0) (* b00 y00))))
+ (let ((?x30 (* a00 d00)))
+ (let (($x101 (= (+ ?x30 (* (- 1.0) (* a d00)) ?x69 (* 2.0 (* y b00))) 0.0)))
+ (let (($x131 (and $x101 (= (+ (* b d00) (* (- 1.0) (* d b00))) 0.0) $x146 $x94)))
+ (let (($x167 (not (= (+ (* (- (/ 1.0 2.0)) (* d00 b)) (* (/ 1.0 2.0) (* b00 d))) 0.0))))
+ (let (($x168 (= (+ ?x86 ?x111 (* 2.0 (* y00 b)) (* (- 1.0) (* a00 d))) 0.0)))
+ (let (($x95 (= (+ ?x69 ?x30 (* 2.0 (* b00 y)) (* (- 1.0) (* d00 a))) 0.0)))
+ (let (($x147 (and $x95 (= (+ (* (- 1.0) (* d00 b)) (* b00 d)) 0.0) $x168 $x167)))
+ (rewrite (= $x147 $x131)))))))))))))))
+ ))
+ (let (($x60 (exists ((a Real) (b Real) (d Real) (y Real) )(! (let (($x56 (= (+ (* (- 1.0) (/ b 2.0) d00) (* b00 (/ d 2.0))) 0.0)))
+ (let (($x57 (not $x56)))
+ (let ((?x48 (* a00 d)))
+ (let ((?x49 (- (+ (- (* a d) (* 2.0 b y)) (* 2.0 b y00)) ?x48)))
+ (let ((?x33 (* a d00)))
+ (let ((?x30 (* a00 d00)))
+ (let (($x36 (= (- (+ (* (- 2.0) b00 y00) ?x30 (* 2.0 b00 y)) ?x33) 0.0)))
+ (and $x36 (= (+ (* (- 1.0) b d00) (* b00 d)) 0.0) (= ?x49 0.0) (or $x57 $x57))))))))) :qid k!32))
+ ))
+ (let ((?x154 (lambda ((a Real) (b Real) (d Real) (y Real) )(let (($x167 (not (= (+ (* (- (/ 1.0 2.0)) (* d00 b)) (* (/ 1.0 2.0) (* b00 d))) 0.0))))
+ (let ((?x111 (* (- 2.0) (* y b))))
+ (let ((?x86 (* d a)))
+ (let (($x168 (= (+ ?x86 ?x111 (* 2.0 (* y00 b)) (* (- 1.0) (* a00 d))) 0.0)))
+ (let ((?x30 (* a00 d00)))
+ (let ((?x69 (* (- 2.0) (* b00 y00))))
+ (let (($x95 (= (+ ?x69 ?x30 (* 2.0 (* b00 y)) (* (- 1.0) (* d00 a))) 0.0)))
+ (let (($x147 (and $x95 (= (+ (* (- 1.0) (* d00 b)) (* b00 d)) 0.0) $x168 $x167)))
+ (let (($x56 (= (+ (* (- 1.0) (/ b 2.0) d00) (* b00 (/ d 2.0))) 0.0)))
+ (let (($x57 (not $x56)))
+ (let ((?x48 (* a00 d)))
+ (let ((?x49 (- (+ (- (* a d) (* 2.0 b y)) (* 2.0 b y00)) ?x48)))
+ (let ((?x33 (* a d00)))
+ (let (($x36 (= (- (+ (* (- 2.0) b00 y00) ?x30 (* 2.0 b00 y)) ?x33) 0.0)))
+ (let (($x59 (and $x36 (= (+ (* (- 1.0) b d00) (* b00 d)) 0.0) (= ?x49 0.0) (or $x57 $x57))))
+ (rewrite (= $x59 $x147))))))))))))))))))
+ ))
+ (let ((@x61 (asserted $x60)))
+ (let ((@x117 (mp (mp @x61 (quant-intro (proof-bind ?x154) (= $x60 $x152)) $x152) (quant-intro (proof-bind ?x192) (= $x152 $x144)) $x144)))
+ (let ((@x211 (mp (mp~ @x117 (sk (~ $x144 $x196)) $x196) (rewrite (= $x196 $x195)) $x195)))
+ (let ((@x231 (mp (and-elim @x211 $x206) @x230 $x188)))
+ (let ((@x233 ((_ th-lemma arith) (unit-resolution ((_ th-lemma arith triangle-eq) (or (not $x188) $x170)) @x231 $x170) (hypothesis (not $x219)) false)))
+ (let (($x214 (= 0.0 ?x209)))
+ (let (($x242 (not $x214)))
+ (let ((@x244 (monotonicity (symm (commutativity (= $x214 $x204)) (= $x204 $x214)) (= $x201 $x242))))
+ (let ((@x247 (unit-resolution ((_ th-lemma arith triangle-eq) (or $x214 $x235 (not $x219))) (mp (and-elim @x211 $x201) @x244 $x242) (or $x235 (not $x219)))))
+ (let (($x187 (<= ?x208 0.0)))
+ ((_ th-lemma arith) (unit-resolution ((_ th-lemma arith triangle-eq) (or (not $x188) $x187)) @x231 $x187) (unit-resolution @x247 (lemma @x233 $x219) $x235) false)))))))))))))))))))))))))))))))))))))))
+
+(:added-eqs           10
+ :arith-eq-adapter    4
+ :arith-conflicts     2
+ :arith-diseq         2
+ :arith-lower         5
+ :arith-make-feasible 3
+ :arith-max-columns   26
+ :arith-max-rows      4
+ :arith-upper         5
+ :conflicts           2
+ :decisions           1
+ :del-clause          14
+ :max-memory          1.41
+ :memory              0.97
+ :mk-bool-var         18
+ :mk-clause           16
+ :num-allocs          67773
+ :num-checks          1
+ :propagations        8
+ :rlimit-count        1401
+ :time                0.00
+ :total-time          0.00)

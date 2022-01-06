@@ -72,5 +72,5 @@ for BENCHMARK in $BENCHMARKS; do
 
     # Run prover
     echo "Running $PROVER on $BENCHMARK_NAME..."
-    timeout "1m" $PROVER $FLAGS $BENCHMARK > $OUTFILE
+    timeout "5m" $PROVER $FLAGS $BENCHMARK > $OUTFILE
 done

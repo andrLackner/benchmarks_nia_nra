@@ -1,0 +1,15 @@
+unsat
+((set-logic NIA)
+(proof
+(asserted false)))
+
+(:max-memory          3.31
+ :memory              3.01
+ :mk-bool-var         5
+ :num-allocs          1182750
+ :num-checks          1
+ :qsat-num-predicates 2
+ :qsat-num-rounds     1
+ :rlimit-count        412
+ :time                0.02
+ :total-time          0.02)

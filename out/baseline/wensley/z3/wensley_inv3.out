@@ -139,4 +139,4 @@ unsat
  :propagations        8
  :rlimit-count        1691
  :time                0.00
- :total-time          0.01)
+ :total-time          0.00)

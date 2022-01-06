@@ -31,4 +31,4 @@ unsat
  :num-allocs   898029
  :rlimit-count 97
  :time         0.01
- :total-time   0.02)
+ :total-time   0.01)

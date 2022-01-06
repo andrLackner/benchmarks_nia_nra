@@ -163,4 +163,4 @@ unsat
  :propagations              10
  :rlimit-count              1386
  :time                      0.01
- :total-time                0.02)
+ :total-time                0.01)

@@ -1,0 +1,31 @@
+sat
+(error "line 30 column 10: proof is not available")
+(:added-eqs                 37
+ :arith-assert-diseq        4
+ :arith-assert-lower        50
+ :arith-assert-upper        49
+ :arith-eq-adapter          6
+ :arith-fixed-eqs           35
+ :arith-grobner             5
+ :arith-max-min             494
+ :arith-nonlinear-bounds    7
+ :arith-nonlinear-horner    24
+ :arith-num-rows            13
+ :arith-pivots              11
+ :arith-pseudo-nonlinear    32
+ :arith-row-summations      32
+ :arith-tableau-max-columns 62
+ :arith-tableau-max-rows    13
+ :decisions                 7
+ :del-clause                3
+ :final-checks              10
+ :max-memory                3.92
+ :memory                    3.34
+ :mk-bool-var               26
+ :mk-clause                 24
+ :num-allocs                1607663
+ :num-checks                1
+ :propagations              12
+ :rlimit-count              11200
+ :time                      0.01
+ :total-time                0.02)

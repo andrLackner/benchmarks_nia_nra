@@ -13,3 +13,8 @@ if [ $# -lt 2 ]; then
     exit 1
 fi
 
+
+function read
+
+find all .out files in the given directory
+

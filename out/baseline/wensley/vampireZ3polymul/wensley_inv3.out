@@ -1,0 +1,270 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 26481
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off_2 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11001
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on_2 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11001
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off_4 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 15095
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on_182 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 199826
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_27 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 63197
+% Time elapsed: 3.700 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:gtg=exists_all_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 26993
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:thsq=on:thsqd=16_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 20084
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:thsq=on_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 20212
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:sos=theory:sstl=5_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 26609
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% WARNING: value on for option gve not known
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:gve=on_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 27121
+% Time elapsed: 1.300 s
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:bsd=on:fsd=on_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 25713
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:plsq=on_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 15607
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:avsq=on_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 26865
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:sp=frequency_9 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 17526
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off_6 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 15095
+% Time elapsed: 1.0000 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:gtg=exists_all_2 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:thsq=on:thsqd=16_2 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11129
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:thsq=on_2 on wensley_inv3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11129
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:sos=theory:sstl=5_2 on wensley_inv3
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for wensley_inv3
+% SZS output start Proof for wensley_inv3
+1. ? [X1 : $real,X0 : $real,X2 : $real,X3 : $real] : (0.0 = $difference($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$product(X0,d00)) & 0.0 = $sum($product($product($uminus(1.0),X1),d00),$product(b00,X2)) & 0.0 = $difference($sum($difference($product(X0,X2),$product($product(2.0,X1),X3)),$product($product(2.0,X1),y00)),$product(a00,X2)) & (~0.0 = $difference($sum($difference($product(X0,$quotient(X2,2.0)),$product($product(2.0,$quotient(X1,2.0)),X3)),$product($product(2.0,$quotient(X1,2.0)),y00)),$product(a00,$quotient(X2,2.0))) | ~0.0 = $difference($sum($difference($product($sum(X0,X1),$quotient(X2,2.0)),$product($product(2.0,$quotient(X1,2.0)),$sum(X3,$quotient(X2,2.0)))),$product($product(2.0,$quotient(X1,2.0)),y00)),$product(a00,$quotient(X2,2.0))))) [input]
+2. ? [X1 : $real,X0 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X0,d00))) & 0.0 = $sum($product($product($uminus(1.0),X1),d00),$product(b00,X2)) & 0.0 = $sum($sum($difference($product(X0,X2),$product($product(2.0,X1),X3)),$product($product(2.0,X1),y00)),$uminus($product(a00,X2))) & (~0.0 = $sum($sum($difference($product(X0,$quotient(X2,2.0)),$product($product(2.0,$quotient(X1,2.0)),X3)),$product($product(2.0,$quotient(X1,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))) | ~0.0 = $sum($sum($difference($product($sum(X0,X1),$quotient(X2,2.0)),$product($product(2.0,$quotient(X1,2.0)),$sum(X3,$quotient(X2,2.0)))),$product($product(2.0,$quotient(X1,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))))) [theory normalization 1]
+22. ? [X1 : $real,X0 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X0,d00))) & 0.0 = $sum($product($product($uminus(1.0),X1),d00),$product(b00,X2)) & 0.0 = $sum($sum($sum($product(X0,X2),$uminus($product($product(2.0,X1),X3))),$product($product(2.0,X1),y00)),$uminus($product(a00,X2))) & (~0.0 = $sum($sum($sum($product(X0,$quotient(X2,2.0)),$uminus($product($product(2.0,$quotient(X1,2.0)),X3))),$product($product(2.0,$quotient(X1,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))) | ~0.0 = $sum($sum($sum($product($sum(X0,X1),$quotient(X2,2.0)),$uminus($product($product(2.0,$quotient(X1,2.0)),$sum(X3,$quotient(X2,2.0))))),$product($product(2.0,$quotient(X1,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))))) [theory normalization 2]
+23. ? [X0 : $real,X1 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X1,d00))) & 0.0 = $sum($product($product($uminus(1.0),X0),d00),$product(b00,X2)) & 0.0 = $sum($sum($sum($product(X1,X2),$uminus($product($product(2.0,X0),X3))),$product($product(2.0,X0),y00)),$uminus($product(a00,X2))) & (~0.0 = $sum($sum($sum($product(X1,$quotient(X2,2.0)),$uminus($product($product(2.0,$quotient(X0,2.0)),X3))),$product($product(2.0,$quotient(X0,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))) | ~0.0 = $sum($sum($sum($product($sum(X1,X0),$quotient(X2,2.0)),$uminus($product($product(2.0,$quotient(X0,2.0)),$sum(X3,$quotient(X2,2.0))))),$product($product(2.0,$quotient(X0,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))))) [rectify 22]
+24. ? [X0 : $real,X1 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X1,d00))) & 0.0 = $sum($product($product($uminus(1.0),X0),d00),$product(b00,X2)) & 0.0 = $sum($sum($sum($product(X1,X2),$uminus($product($product(2.0,X0),X3))),$product($product(2.0,X0),y00)),$uminus($product(a00,X2))) & (0.0 != $sum($sum($sum($product(X1,$quotient(X2,2.0)),$uminus($product($product(2.0,$quotient(X0,2.0)),X3))),$product($product(2.0,$quotient(X0,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))) | 0.0 != $sum($sum($sum($product($sum(X1,X0),$quotient(X2,2.0)),$uminus($product($product(2.0,$quotient(X0,2.0)),$sum(X3,$quotient(X2,2.0))))),$product($product(2.0,$quotient(X0,2.0)),y00)),$uminus($product(a00,$quotient(X2,2.0)))))) [flattening 23]
+25. 0.0 != $sum($sum($sum($product($sum(sK1,sK0),$quotient(sK2,2.0)),$uminus($product($product(2.0,$quotient(sK0,2.0)),$sum(sK3,$quotient(sK2,2.0))))),$product($product(2.0,$quotient(sK0,2.0)),y00)),$uminus($product(a00,$quotient(sK2,2.0)))) | 0.0 != $sum($sum($sum($product(sK1,$quotient(sK2,2.0)),$uminus($product($product(2.0,$quotient(sK0,2.0)),sK3))),$product($product(2.0,$quotient(sK0,2.0)),y00)),$uminus($product(a00,$quotient(sK2,2.0)))) [cnf transformation 24]
+26. 0.0 = $sum($sum($sum($product(sK1,sK2),$uminus($product($product(2.0,sK0),sK3))),$product($product(2.0,sK0),y00)),$uminus($product(a00,sK2))) [cnf transformation 24]
+27. 0.0 = $sum($product($product($uminus(1.0),sK0),d00),$product(b00,sK2)) [cnf transformation 24]
+28. 0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),sK3)),$uminus($product(sK1,d00))) [cnf transformation 24]
+30. 0.0 != $sum($product(0.5,$uminus($product(sK2,a00))),$sum($product(2.0,$product(0.5,$product(sK0,y00))),$sum($product(2.0,$sum($product(-0.25,$product(sK0,sK2)),$product(-0.5,$product(sK0,sK3)))),$product(0.5,$sum($product(sK0,sK2),$product(sK1,sK2)))))) | 0.0 != $sum($product(2.0,$product(-0.5,$product(sK0,sK3))),$sum($product(0.5,$product(sK1,sK2)),$sum($product(0.5,$uminus($product(sK2,a00))),$product(2.0,$product(0.5,$product(sK0,y00)))))) [polynomial multiplication 25]
+31. 0.0 != $sum($product(0.5,$uminus($product(sK2,a00))),$sum($product(sK0,y00),$sum($product(2.0,$sum($product(-0.25,$product(sK0,sK2)),$product(-0.5,$product(sK0,sK3)))),$product(0.5,$sum($product(sK0,sK2),$product(sK1,sK2)))))) | 0.0 != $sum($product(-1.0,$product(sK0,sK3)),$sum($product(0.5,$product(sK1,sK2)),$sum($product(0.5,$uminus($product(sK2,a00))),$product(sK0,y00)))) [evaluation 30]
+32. 0.0 != $sum($product(2.0,$sum($product(-0.5,$product(sK0,sK3)),$product(-0.25,$product(sK0,sK2)))),$sum($product(sK0,y00),$sum($product(0.5,$sum($product(sK0,sK2),$product(sK1,sK2))),$product(0.5,$uminus($product(sK2,a00)))))) | 0.0 != $sum($product(sK0,y00),$sum($uminus($product(sK0,sK3)),$sum($product(0.5,$product(sK1,sK2)),$product(0.5,$uminus($product(sK2,a00)))))) [polynomial multiplication 31]
+33. 0.0 = $sum($product(2.0,$uminus($product(sK0,sK3))),$sum($uminus($product(sK2,a00)),$sum($product(2.0,$product(sK0,y00)),$product(sK1,sK2)))) [polynomial multiplication 26]
+34. 0.0 = $sum($product($product(-1.0,sK0),d00),$product(b00,sK2)) [evaluation 27]
+35. 0.0 = $sum($product(sK2,b00),$uminus($product(sK0,d00))) [polynomial multiplication 34]
+36. 0.0 = $sum($sum($sum($product($product(-2.0,b00),y00),$product(a00,d00)),$product($product(2.0,b00),sK3)),$uminus($product(sK1,d00))) [evaluation 28]
+37. 0.0 = $sum($uminus($product(sK1,d00)),$sum($product(2.0,$product(sK3,b00)),$sum($product(a00,d00),$product(-2.0,$product(y00,b00))))) [polynomial multiplication 36]
+39. 1 <=> 0.0 = $sum($uminus($product(sK1,d00)),$sum($product(2.0,$product(sK3,b00)),$sum($product(a00,d00),$product(-2.0,$product(y00,b00))))) [avatar definition]
+42. 1 [avatar split clause 37,39]
+44. 2 <=> 0.0 = $sum($product(sK2,b00),$uminus($product(sK0,d00))) [avatar definition]
+47. 2 [avatar split clause 35,44]
+49. 3 <=> 0.0 = $sum($product(2.0,$uminus($product(sK0,sK3))),$sum($uminus($product(sK2,a00)),$sum($product(2.0,$product(sK0,y00)),$product(sK1,sK2)))) [avatar definition]
+52. 3 [avatar split clause 33,49]
+54. 4 <=> 0.0 = $sum($product(sK0,y00),$sum($uminus($product(sK0,sK3)),$sum($product(0.5,$product(sK1,sK2)),$product(0.5,$uminus($product(sK2,a00)))))) [avatar definition]
+58. 5 <=> 0.0 = $sum($product(2.0,$sum($product(-0.5,$product(sK0,sK3)),$product(-0.25,$product(sK0,sK2)))),$sum($product(sK0,y00),$sum($product(0.5,$sum($product(sK0,sK2),$product(sK1,sK2))),$product(0.5,$uminus($product(sK2,a00)))))) [avatar definition]
+61. ~4 | ~5 [avatar split clause 32,58,54]
+62. $false [avatar sat refutation 42,47,52,61]
+% SZS output end Proof for wensley_inv3
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Refutation
+
+% Memory used [KB]: 7036
+% Time elapsed: 0.034 s
+% ------------------------------
+% ------------------------------
+% Success in time 44.861 s

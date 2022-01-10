@@ -7,7 +7,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 14839
+% Memory used [KB]: 15607
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
@@ -19,7 +19,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 27121
+% Memory used [KB]: 26865
 % Time elapsed: 1.0000 s
 % ------------------------------
 % ------------------------------
@@ -52,7 +52,7 @@
 % Termination reason: Refutation
 
 % Memory used [KB]: 7036
-% Time elapsed: 0.056 s
+% Time elapsed: 0.063 s
 % ------------------------------
 % ------------------------------
-% Success in time 1.592 s
+% Success in time 1.59 s

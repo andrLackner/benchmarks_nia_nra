@@ -1,0 +1,54 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on simpleloop_inv1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 13944
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on simpleloop_inv1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 21364
+% Time elapsed: 1.0000 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on simpleloop_inv1
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for simpleloop_inv1
+% SZS output start Proof for simpleloop_inv1
+1. ? [X1 : $int,X0 : $int] : (0 = $sum($difference($difference(X0,y00),x00),X1) & ~0 = $sum($sum($difference($difference($difference(X0,1),y00),x00),X1),1)) [input]
+2. ? [X1 : $int,X0 : $int] : (0 = $sum($sum($difference(X0,y00),$uminus(x00)),X1) & ~0 = $sum($sum($sum($difference($difference(X0,1),y00),$uminus(x00)),X1),1)) [theory normalization 1]
+15. ? [X1 : $int,X0 : $int] : (0 = $sum($sum($sum(X0,$uminus(y00)),$uminus(x00)),X1) & ~0 = $sum($sum($sum($sum($difference(X0,1),$uminus(y00)),$uminus(x00)),X1),1)) [theory normalization 2]
+16. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum(X1,$uminus(y00)),$uminus(x00)),X0) & ~0 = $sum($sum($sum($sum($difference(X1,1),$uminus(y00)),$uminus(x00)),X0),1)) [rectify 15]
+17. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum(X1,$uminus(y00)),$uminus(x00)),X0) & 0 != $sum($sum($sum($sum($difference(X1,1),$uminus(y00)),$uminus(x00)),X0),1)) [flattening 16]
+18. 0 != $sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1) [cnf transformation 17]
+19. 0 = $sum($sum($sum(sK1,$uminus(y00)),$uminus(x00)),sK0) [cnf transformation 17]
+20. 0 != $sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$sum($difference(sK1,1),1)))) [polynomial multiplication 18]
+21. 0 = $sum(sK0,$sum($uminus(x00),$sum($uminus(y00),sK1))) [polynomial multiplication 19]
+23. 1 <=> 0 = $sum(sK0,$sum($uminus(x00),$sum($uminus(y00),sK1))) [avatar definition]
+26. 1 [avatar split clause 21,23]
+28. 2 <=> 0 = $sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$sum($difference(sK1,1),1)))) [avatar definition]
+31. ~2 [avatar split clause 20,28]
+32. $false [avatar sat refutation 26,31]
+% SZS output end Proof for simpleloop_inv1
+% ------------------------------
+% Version: Vampire 4.5.1 (commit 241cfa2a1 on 2021-08-12 16:59:40 +0200)
+% Linked with Z3 4.8.11.0 39af2a188da198b87037fe4fad2bd5da67386c86 z3-4.8.4-5089-g39af2a188
+% Termination reason: Refutation
+
+% Memory used [KB]: 7036
+% Time elapsed: 0.030 s
+% ------------------------------
+% ------------------------------
+% Success in time 1.539 s

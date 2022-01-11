@@ -1,0 +1,18 @@
+# [0] = BENCHMARK_NAME
+# [1] = INVARIANT_NO
+# [2] = INVARIANT_IDX
+# [3] = LENGTH OF RANDOM POLY
+
+load:[0]
+newb:v1:[0]_denorm_inv[1]_1xlen[3]
+ldloop:[0]
+toint:$i
+addgen:$i
+
+push:$[2]
+denorm
+rand:3:[3]
+mult
+test
+
+out:/denorm/[0]

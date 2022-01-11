@@ -1,28 +1,19 @@
 #!/bin/bash
 
-if [ $# -lt 3 ]; then
-    echo "Usage: $0 <max_len_poly> <num_of_runs> [norm|denorm][<benchmark_name>]"
+# check if a arguemnt is given; no arguemnt expected
+if [ $# -gt 2 ]; then
+    echo "Usage: $0 (norm|denorm)[<benchmark_name>]"
     exit 1
 fi
 
-if [ "$3" != "norm" ] && [ "$3" != "denorm" ]; then
-    echo "Usage: $0 <max_len_poly> <num_of_runs> [norm|denorm][<benchmark_name>]"
-    exit 1
-fi
-
-TYPE=$3
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BASE_DIR="$SCRIPT_DIR/../basis/ideal"
 
-if [ $# -eq 4 ]; then
-    BASE_FILES=$(find $BASE_DIR -type f -name "$3")
+if [ $# -eq 2 ]; then
+    BASE_FILES=$(find $BASE_DIR -type f -name "$2")
 else
     BASE_FILES=$(find $BASE_DIR -type f)
 fi
-
-
-LEN_POLY=$1
-NUM_OF_RUNS=$2
 
 for FILE in $BASE_FILES; do
     NAME=$(basename $FILE)
@@ -33,13 +24,21 @@ for FILE in $BASE_FILES; do
 
     # Test each invariant
     for (( i=1; i<=${NO_INV}; i++ )); do
-        for (( l=2; l<=${LEN_POLY}; l++ )); do
-            for (( n=1; n<=${NUM_OF_RUNS}; n++ )); do
+        if [ "$1" == "norm" ]; then
+            MAX_N=3
+            START_LEN=2
+        else
+            MAX_N=4
+            START_LEN=1
+        fi
+        for (( n=1; n<=$MAX_N; n++ )); do
+            MAX_LEN=$((4- (n - 1)))
+            for (( l=$START_LEN; l<=$MAX_LEN; l++ )); do
                 IDX=$((i-1))
-                zazu $SCRIPT_DIR/zazu/$3 $NAME $i $IDX $l $n >> /dev/null
+                zazu $SCRIPT_DIR/zazu/$1_$n $NAME $i $IDX $l >> /dev/null
             done
-            echo "Generated benchmarks with l=$l for $NAME/$i"
         done
+        
     done
     echo "Benchmark $NAME done"
 done

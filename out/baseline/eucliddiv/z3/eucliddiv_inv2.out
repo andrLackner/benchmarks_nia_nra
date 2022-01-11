@@ -90,4 +90,4 @@ unsat
  :num-checks   1
  :rlimit-count 337
  :time         0.01
- :total-time   0.01)
+ :total-time   0.02)

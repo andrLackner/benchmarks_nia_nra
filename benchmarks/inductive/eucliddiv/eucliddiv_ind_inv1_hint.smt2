@@ -1,27 +1,22 @@
-; ORIGIN:       https://github.com/ahumenberger/Aligator.jl/blob/master/benchmark/multipath.jl
-; INVARIANTS:   n - 1//6*z - n00 + 1//6*z00
+; ORIGIN:       https://github.com/ahumenberger/Aligator.jl/blob/master/benchmark/singlepath.jl
+; INVARIANTS:   -y00 + y
 ;
 ; SOURCECODE: 
-;   while n<=N
-;       n = n+1
-;       x = x+y
-;       y = y+z
-;       z = z+6
+;   while true
+;       r = r - y
+;       q = q + 1
 ;   end
 
 (set-logic NIA)
 (set-option :produce-proofs true)
 
-
-(declare-fun n (Int) Int)
-(declare-fun x (Int) Int)
+(declare-fun r (Int) Int)
+(declare-fun q (Int) Int)
 (declare-fun y (Int) Int)
-(declare-fun z (Int) Int)
 
-(declare-const n00 Int)
-(declare-const x00 Int)
+(declare-const r00 Int)
+(declare-const q00 Int)
 (declare-const y00 Int)
-(declare-const z00 Int)
 
 (declare-fun inv (Int) Int)
 
@@ -29,10 +24,9 @@
 ; Initializsation
 (assert
     (and
-        (= (n 0) n00)
-        (= (x 0) x00)
-        (= (y 0) y00)
-        (= (z 0) z00)
+        (not (= r00 0))
+        (not (= q00 0))
+        (not (= y00 0))
     )
 )
 
@@ -44,13 +38,11 @@
         (=>
             (>= i 0)
             (and
-                (= (n (+ i 1)) (+ 1 (n i)))
-                (= (x (+ i 1)) (+ (x i) (y i)))
-                (= (y (+ i 1)) (+ (y i) (z i)))
-                (= (z (+ i 1)) (+ (z i) 6))
-                (= 
+                (= (r (+ i 1)) (- (r i) (y i)))
+                (= (q (+ i 1)) (+ (q i) 1))
+                (=
                     (inv i)
-                    (- (- (* (n i) 6) (z i)) (+ (* 6 (n 0)) (z 0)))
+                    (+ (* (- 1) (y 0)) (y i))
                 )
             )
         )

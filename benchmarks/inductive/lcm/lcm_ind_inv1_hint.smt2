@@ -86,6 +86,32 @@
     )
 )
 
+; Hint
+(assert
+    (=>
+        (and
+            (= (inv 0) 0)
+            (forall
+                ((i Int))
+                (=>
+                    (>= i 0)
+                    (=>
+                        (= (inv i) 0)
+                        (= (inv (+ i 1)) 0)
+                    )
+                )
+            )
+        )
+        (forall
+            ((i Int))
+            (=>
+                (>= i 0)
+                (= (inv i) 0)
+            )
+        )   
+    )
+)
+
 (check-sat)
 (get-proof)
 (exit)

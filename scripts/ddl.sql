@@ -4,9 +4,11 @@ CREATE TABLE "benchmark" (
     "base" TEXT NOT NULL,
     "no_inv" NUMBER NOT NULL,
     "test_idx" NUMBER NOT NULL,
-    "len_rand_poly" NUMBER NOT NULL,
-    "no_rand_poly" NUMBER NOT NULL,
     "len_test_poly" NUMBER NOT NULL,
+    "opt_hint" NUMBER NOT NULL,
+    "opt_deterministic" NUMBER NOT NULL,
+    "opt_len_rand_poly" NUMBER NOT NULL,
+    "opt_no_rand_poly" NUMBER NOT NULL,
     PRIMARY KEY ("id")
 );
 

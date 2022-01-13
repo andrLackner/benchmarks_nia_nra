@@ -5,8 +5,8 @@
 % SZS output start Proof for lcm_inv1
 1. ? [X3 : $int,X2 : $int,X1 : $int,X0 : $int] : (0 = $difference($sum($sum($product($product($uminus(1),u00),x00),$product(X0,X2)),$product(X1,X3)),$product(v00,y00)) & (~0 = $difference($sum($sum($product($product($uminus(1),u00),x00),$product(X0,$difference(X2,X3))),$product($sum(X1,X0),X3)),$product(v00,y00)) | ~0 = $difference($sum($sum($product($product($uminus(1),u00),x00),$product($sum(X0,X1),X2)),$product(X1,$difference(X3,X2))),$product(v00,y00)))) [input]
 2. ? [X3 : $int,X2 : $int,X1 : $int,X0 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X0,X2)),$product(X1,X3)),$uminus($product(v00,y00))) & (~0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X0,$difference(X2,X3))),$product($sum(X1,X0),X3)),$uminus($product(v00,y00))) | ~0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product($sum(X0,X1),X2)),$product(X1,$difference(X3,X2))),$uminus($product(v00,y00))))) [theory normalization 1]
-3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 141]
-14. $product(X0,X1) = $product(X1,X0) [theory axiom 141]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 143]
+14. $product(X0,X1) = $product(X1,X0) [theory axiom 143]
 21. ? [X3 : $int,X2 : $int,X1 : $int,X0 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X0,X2)),$product(X1,X3)),$uminus($product(v00,y00))) & (~0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X0,$sum(X2,$uminus(X3)))),$product($sum(X1,X0),X3)),$uminus($product(v00,y00))) | ~0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product($sum(X0,X1),X2)),$product(X1,$sum(X3,$uminus(X2)))),$uminus($product(v00,y00))))) [theory normalization 2]
 22. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X3,X1)),$product(X2,X0)),$uminus($product(v00,y00))) & (~0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X3,$sum(X1,$uminus(X0)))),$product($sum(X2,X3),X0)),$uminus($product(v00,y00))) | ~0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product($sum(X3,X2),X1)),$product(X2,$sum(X0,$uminus(X1)))),$uminus($product(v00,y00))))) [rectify 21]
 23. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X3,X1)),$product(X2,X0)),$uminus($product(v00,y00))) & (0 != $sum($sum($sum($product($product($uminus(1),u00),x00),$product(X3,$sum(X1,$uminus(X0)))),$product($sum(X2,X3),X0)),$uminus($product(v00,y00))) | 0 != $sum($sum($sum($product($product($uminus(1),u00),x00),$product($sum(X3,X2),X1)),$product(X2,$sum(X0,$uminus(X1)))),$uminus($product(v00,y00))))) [flattening 22]
@@ -34,15 +34,15 @@
 930. 2 <=> 0 = $sum($uminus($product(v00,y00)),$sum($product(sK2,$sum(sK0,$uminus(sK1))),$sum($product(x00,$product(-1,u00)),$product(sK1,$sum(sK2,sK3))))) [avatar definition]
 934. 3 <=> 0 = $sum($sum($product(sK0,$sum(sK2,sK3)),$sum($product(x00,$product(-1,u00)),$product(sK3,$sum(sK1,$uminus(sK0))))),$uminus($product(v00,y00))) [avatar definition]
 937. ~2 | ~3 [avatar split clause 881,934,930]
-938. $false [avatar sat refutation 773,937]
+938. $false [avatar smt refutation 773,937]
 % SZS output end Proof for lcm_inv1
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
 % Termination reason: Refutation
 
-% Memory used [KB]: 7547
-% Time elapsed: 0.041 s
+% Memory used [KB]: 7803
+% Time elapsed: 0.051 s
 % ------------------------------
 % ------------------------------
-% Success in time 0.046 s
+% Success in time 0.056 s

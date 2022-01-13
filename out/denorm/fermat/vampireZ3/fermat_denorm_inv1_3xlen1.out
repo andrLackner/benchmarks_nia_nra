@@ -2,32 +2,32 @@
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on fermat_denorm_inv1_3xlen1
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 7803
+% Memory used [KB]: 8059
 % Time elapsed: 0.500 s
 % ------------------------------
 % ------------------------------
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on fermat_denorm_inv1_3xlen1
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 7931
+% Memory used [KB]: 8059
 % Time elapsed: 1.0000 s
 % ------------------------------
 % ------------------------------
 % dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on fermat_denorm_inv1_3xlen1
 % Time limit reached!
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
 % Termination reason: Time limit
 % Termination phase: Saturation
 
@@ -52,15 +52,15 @@
 34. 2 <=> 0 = $product($product($product($product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$difference(sK2,sK1)),$product(4,r00)),$product(2,u00)),$product(2,sK0)),$product(2,$sum(sK1,2))),$product(2,v00)),$uminus($product(sK0,sK0))),$product($sum(sK1,2),$sum(sK1,2))),$product(u00,u00)),$uminus($product(v00,v00))),$product($sum(sK2,$uminus(sK1)),$product(sK0,$product(sK0,$product(sK0,$product($sum(sK1,2),$product($sum(sK1,2),$product($sum(sK1,2),$product($sum(sK2,$uminus(sK1)),$product($sum(sK2,$uminus(sK1)),$product($sum(sK2,$uminus(sK1)),$product(sK0,$product($sum(sK1,2),$sum(sK1,2)))))))))))))),$sum(sK2,$uminus(sK1))),$sum(sK2,$uminus(sK1))),$sum(sK1,2)) [avatar definition]
 38. 3 <=> 0 = $product($product($product($product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$sum(sK2,sK0)),$product(4,r00)),$product(2,u00)),$product(2,$sum(sK0,2))),$product(2,sK1)),$product(2,v00)),$uminus($product($sum(sK0,2),$sum(sK0,2)))),$product(sK1,sK1)),$product(u00,u00)),$uminus($product(v00,v00))),$product($sum(sK2,sK0),$product($sum(sK0,2),$product($sum(sK0,2),$product($sum(sK0,2),$product(sK1,$product(sK1,$product(sK1,$product($sum(sK2,sK0),$product($sum(sK2,sK0),$product($sum(sK2,sK0),$product($sum(sK0,2),$product(sK1,sK1))))))))))))),$sum(sK2,sK0)),$sum(sK2,sK0)),sK1) [avatar definition]
 41. ~2 | ~3 [avatar split clause 27,38,34]
-42. $false [avatar sat refutation 32,41]
+42. $false [avatar smt refutation 32,41]
 % SZS output end Proof for fermat_denorm_inv1_3xlen1
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
 % Termination reason: Refutation
 
-% Memory used [KB]: 7291
-% Time elapsed: 0.075 s
+% Memory used [KB]: 7419
+% Time elapsed: 0.471 s
 % ------------------------------
 % ------------------------------
-% Success in time 2.05 s
+% Success in time 2.563 s

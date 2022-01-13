@@ -12,15 +12,15 @@
 28. 0 != $sum($product(-1,y00),y00) [evaluation 24]
 35. 1 <=> 0 = $sum($product(-1,y00),y00) [avatar definition]
 38. ~1 [avatar split clause 28,35]
-39. $false [avatar sat refutation 38]
+39. $false [avatar smt refutation 38]
 % SZS output end Proof for eucliddiv_inv1
 % ------------------------------
-% Version: Vampire 4.5.1 (commit 7537e19c0 on 2021-06-08 12:31:04 +0200)
-% Linked with Z3 4.8.10.0 517d907567f4283ad8b48ff9c2a3f6dce838569e z3-4.8.4-4541-g517d90756
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
 % Termination reason: Refutation
 
-% Memory used [KB]: 6908
-% Time elapsed: 0.022 s
+% Memory used [KB]: 7164
+% Time elapsed: 0.032 s
 % ------------------------------
 % ------------------------------
-% Success in time 0.025 s
+% Success in time 0.037 s

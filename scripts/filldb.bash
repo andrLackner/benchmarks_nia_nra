@@ -1,11 +1,11 @@
 #!/bin/bash
 
 function add_row() {
-    COLS="\"id\", \"type\", \"base\", \"no_inv\", \"test_idx\", \"len_rand_poly\", \"no_rand_poly\", \"len_test_poly\""
-    VALS="\"$ID\", \"$TYPE\", \"$BASE\", \"$NO_INV\", \"$TEST_IDX\", \"$LEN_RAND_POLY\", \"$NO_RAND_POLY\", \"$LEN_TEST_POLY\""
+    COLS="\"id\", \"type\", \"base\", \"no_inv\", \"test_idx\", \"len_test_poly\", \"opt_hint\", \"opt_deterministic\", \"opt_len_rand_poly\", \"opt_no_rand_poly\""
+    VALS="\"$ID\", \"$TYPE\", \"$BASE\", \"$NO_INV\", \"$TEST_IDX\", \"$LEN_TEST_POLY\", \"$HINT\", \"$DETERMINISTIC\", \"$LEN_RAND_POLY\", \"$NO_RAND_POLY\""
     TABLE="benchmark"
     QUERY="INSERT INTO $TABLE ($COLS) VALUES ($VALS);"
-    echo $ID >> $TEMP_FILE
+    echo $QUERY >> $TEMP_FILE
 }
 
 function exec_query() {
@@ -27,30 +27,83 @@ FILES=$(find $DIR -name "*.smt2")
 
 TEMP_FILE=$(mktemp)
 
+DENORM=0
+NORM=0
+INDUCTIVE=0
+BASELINE=0
+UNRECOGNIZED=0
+
 for FILE in $FILES; do
     ID=$(basename $FILE)
-    if [[ $ID =~ ^([a-zA-Z0-9]+)_(norm|denorm)_inv([0-9]+)_len([0-9]+)_[0-9]+\.smt2$ ]]; then
+    if [[ $ID =~ ^([a-zA-Z0-9]+)_(norm|denorm)_inv([0-9]+)_([0-9]+)xlen([0-9]+).smt2$ ]]; then
         BASE=${BASH_REMATCH[1]}
         TYPE=${BASH_REMATCH[2]}
         NO_INV=0
         TEST_IDX=${BASH_REMATCH[3]}
-        LEN_RAND_POLY=${BASH_REMATCH[4]}
-        NO_RAND_POLY=1
+        NO_RAND_POLY=${BASH_REMATCH[4]}
+        LEN_RAND_POLY=${BASH_REMATCH[5]}
         LEN_TEST_POLY=0
+        HINT=-1
+        DETERMINISTIC=-1
         add_row
+        if [ $TYPE == "denorm" ]; then
+            DENORM=$((DENORM+1))
+        else
+            NORM=$((NORM+1))
+        fi
     elif [[ $ID =~ ^([a-zA-Z0-9]+)_inv([0-9]+)\.smt2$ ]]; then
         BASE=${BASH_REMATCH[1]}
         TYPE="baseline"
         NO_INV=0
         TEST_IDX=${BASH_REMATCH[2]}
-        LEN_RAND_POLY="-1"
-        NO_RAND_POLY="-1"
+        LEN_RAND_POLY=-1
+        NO_RAND_POLY=-1
         LEN_TEST_POLY=0
+        HINT=-1
+        DETERMINISTIC=-1
         add_row
+        BASELINE=$((BASELINE+1))
+    elif [[ $ID =~ ^([a-zA-Z0-9]+)_ind_inv([0-9]+)(_nd)?(_hint)?\.smt2$ ]]; then
+        BASE=${BASH_REMATCH[1]}
+        TYPE="inductive"
+        NO_INV=0
+        TEST_IDX=${BASH_REMATCH[2]}
+        LEN_RAND_POLY=-1
+        NO_RAND_POLY=-1
+        LEN_TEST_POLY=0
+        DETERMINISTIC=0
+        HINT=1
+        if [[ -z ${BASH_REMATCH[3]} ]]; then
+            DETERMINISTIC=1
+        fi
+        if [[ -z ${BASH_REMATCH[4]} ]]; then
+            HINT=0
+        fi
+        add_row
+        INDUCTIVE=$((INDUCTIVE+1))
     else
-        echo $ID
+        UNRECOGNIZED=$((UNRECOGNIZED+1))
+        echo "Cannot find matching dataset for $ID"
     fi
 done
+
+echo -e "\n\n"
+echo "Creating the following datasets:"
+echo "   Baseline:     $BASELINE"
+echo "   Norm:         $NORM"
+echo "   Denorm:       $DENORM"
+echo "   Inductive:    $INDUCTIVE"
+echo "------------------------------"
+echo "   Total:        $((BASELINE+NORM+DENORM+INDUCTIVE))"
+echo "   Unrecognized: $UNRECOGNIZED"
+echo -e "\n\n"
+# ask if benchmark should be created
+read -p "Create benchmark? [y/n] " -n 1 -r
+echo
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
 
 
 # execute the queries

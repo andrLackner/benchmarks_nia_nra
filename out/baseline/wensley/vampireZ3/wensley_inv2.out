@@ -1,0 +1,36 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_9 on wensley_inv2
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for wensley_inv2
+% SZS output start Proof for wensley_inv2
+1. ? [X1 : $real,X0 : $real,X2 : $real,X3 : $real] : (0.0 = $difference($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$product(X0,d00)) & 0.0 = $sum($product($product($uminus(1.0),X1),d00),$product(b00,X2)) & 0.0 = $difference($sum($difference($product(X0,X2),$product($product(2.0,X1),X3)),$product($product(2.0,X1),y00)),$product(a00,X2)) & (~0.0 = $sum($product($product($uminus(1.0),$quotient(X1,2.0)),d00),$product(b00,$quotient(X2,2.0))) | ~0.0 = $sum($product($product($uminus(1.0),$quotient(X1,2.0)),d00),$product(b00,$quotient(X2,2.0))))) [input]
+2. ? [X1 : $real,X0 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X0,d00))) & 0.0 = $sum($product($product($uminus(1.0),X1),d00),$product(b00,X2)) & 0.0 = $sum($sum($difference($product(X0,X2),$product($product(2.0,X1),X3)),$product($product(2.0,X1),y00)),$uminus($product(a00,X2))) & (~0.0 = $sum($product($product($uminus(1.0),$quotient(X1,2.0)),d00),$product(b00,$quotient(X2,2.0))) | ~0.0 = $sum($product($product($uminus(1.0),$quotient(X1,2.0)),d00),$product(b00,$quotient(X2,2.0))))) [theory normalization 1]
+14. $product(X0,X1) = $product(X1,X0) [theory axiom 143]
+22. ? [X1 : $real,X0 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X0,d00))) & 0.0 = $sum($product($product($uminus(1.0),X1),d00),$product(b00,X2)) & 0.0 = $sum($sum($sum($product(X0,X2),$uminus($product($product(2.0,X1),X3))),$product($product(2.0,X1),y00)),$uminus($product(a00,X2))) & (~0.0 = $sum($product($product($uminus(1.0),$quotient(X1,2.0)),d00),$product(b00,$quotient(X2,2.0))) | ~0.0 = $sum($product($product($uminus(1.0),$quotient(X1,2.0)),d00),$product(b00,$quotient(X2,2.0))))) [theory normalization 2]
+23. ? [X0 : $real,X1 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X1,d00))) & 0.0 = $sum($product($product($uminus(1.0),X0),d00),$product(b00,X2)) & 0.0 = $sum($sum($sum($product(X1,X2),$uminus($product($product(2.0,X0),X3))),$product($product(2.0,X0),y00)),$uminus($product(a00,X2))) & (~0.0 = $sum($product($product($uminus(1.0),$quotient(X0,2.0)),d00),$product(b00,$quotient(X2,2.0))) | ~0.0 = $sum($product($product($uminus(1.0),$quotient(X0,2.0)),d00),$product(b00,$quotient(X2,2.0))))) [rectify 22]
+24. ? [X0 : $real,X1 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X1,d00))) & 0.0 = $sum($product($product($uminus(1.0),X0),d00),$product(b00,X2)) & 0.0 = $sum($sum($sum($product(X1,X2),$uminus($product($product(2.0,X0),X3))),$product($product(2.0,X0),y00)),$uminus($product(a00,X2))) & (0.0 != $sum($product($product($uminus(1.0),$quotient(X0,2.0)),d00),$product(b00,$quotient(X2,2.0))) | 0.0 != $sum($product($product($uminus(1.0),$quotient(X0,2.0)),d00),$product(b00,$quotient(X2,2.0))))) [flattening 23]
+25. ? [X0 : $real,X1 : $real,X2 : $real,X3 : $real] : (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),X3)),$uminus($product(X1,d00))) & 0.0 = $sum($product($product($uminus(1.0),X0),d00),$product(b00,X2)) & 0.0 = $sum($sum($sum($product(X1,X2),$uminus($product($product(2.0,X0),X3))),$product($product(2.0,X0),y00)),$uminus($product(a00,X2))) & (0.0 != $sum($product($product($uminus(1.0),$quotient(X0,2.0)),d00),$product(b00,$quotient(X2,2.0))) | 0.0 != $sum($product($product($uminus(1.0),$quotient(X0,2.0)),d00),$product(b00,$quotient(X2,2.0))))) => (0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),sK3)),$uminus($product(sK1,d00))) & 0.0 = $sum($product($product($uminus(1.0),sK0),d00),$product(b00,sK2)) & 0.0 = $sum($sum($sum($product(sK1,sK2),$uminus($product($product(2.0,sK0),sK3))),$product($product(2.0,sK0),y00)),$uminus($product(a00,sK2))) & (0.0 != $sum($product($product($uminus(1.0),$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0))) | 0.0 != $sum($product($product($uminus(1.0),$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0))))) [choice axiom]
+26. 0.0 = $sum($sum($sum($product($product($uminus(2.0),b00),y00),$product(a00,d00)),$product($product(2.0,b00),sK3)),$uminus($product(sK1,d00))) & 0.0 = $sum($product($product($uminus(1.0),sK0),d00),$product(b00,sK2)) & 0.0 = $sum($sum($sum($product(sK1,sK2),$uminus($product($product(2.0,sK0),sK3))),$product($product(2.0,sK0),y00)),$uminus($product(a00,sK2))) & (0.0 != $sum($product($product($uminus(1.0),$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0))) | 0.0 != $sum($product($product($uminus(1.0),$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0)))) [skolemisation 24,25]
+27. 0.0 != $sum($product($product($uminus(1.0),$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0))) | 0.0 != $sum($product($product($uminus(1.0),$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0))) [cnf transformation 26]
+29. 0.0 = $sum($product($product($uminus(1.0),sK0),d00),$product(b00,sK2)) [cnf transformation 26]
+32. 0.0 != $sum($product($product($uminus(1.0),$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0))) [duplicate literal removal 27]
+33. 0.0 != $sum($product($product(-1.0,$quotient(sK0,2.0)),d00),$product(b00,$quotient(sK2,2.0))) [evaluation 32]
+34. 0.0 = $sum($product($product(-1.0,sK0),d00),$product(b00,sK2)) [evaluation 29]
+89. 0.0 = $sum($product(d00,$product(-1.0,sK0)),$product(b00,sK2)) [forward demodulation 34,14]
+91. 1 <=> 0.0 = $sum($product(d00,$product(-1.0,sK0)),$product(b00,sK2)) [avatar definition]
+94. 1 [avatar split clause 89,91]
+171. 0.0 != $sum($product(d00,$product(-1.0,$quotient(sK0,2.0))),$product(b00,$quotient(sK2,2.0))) [forward demodulation 33,14]
+173. 2 <=> 0.0 = $sum($product(d00,$product(-1.0,$quotient(sK0,2.0))),$product(b00,$quotient(sK2,2.0))) [avatar definition]
+176. ~2 [avatar split clause 171,173]
+177. $false [avatar smt refutation 94,176]
+% SZS output end Proof for wensley_inv2
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation
+
+% Memory used [KB]: 7419
+% Time elapsed: 0.037 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.042 s

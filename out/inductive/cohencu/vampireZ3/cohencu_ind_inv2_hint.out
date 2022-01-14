@@ -1,0 +1,307 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 17910
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 22131
+% Time elapsed: 1.0000 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on:thsqd=16_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 17526
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 17654
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sos=theory:sstl=5_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 12409
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gve=force:asg=force:canc=force:ev=force:pum=on_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10618
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:hsm=on_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10618
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:to=lpo_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 28656
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 18549
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:av=on:atotf=0.5_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 26353
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:avsq=on:plsq=on_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 20596
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sp=frequency_2 on cohencu_ind_inv2_hint
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 18166
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+1002_5:1_aac=none:afr=on:afp=4000:afq=1.1:amm=sco:anc=none:bsr=on:br=off:cond=on:fsr=off:gsp=input_only:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=32:newcnf=on:nwc=1.1:sas=z3:sp=reverse_arity:tha=off:urr=on_600 on cohencu_ind_inv2_hint
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for cohencu_ind_inv2_hint
+% SZS output start Proof for cohencu_ind_inv2_hint
+1. n00 = n(0) & x00 = x(0) & y00 = y(0) & z00 = z(0) [input]
+2. ! [X0 : $int] : ($greatereq(X0,0) => ($sum(1,n(X0)) = n($sum(X0,1)) & $sum(x(X0),y(X0)) = x($sum(X0,1)) & $sum(y(X0),z(X0)) = y($sum(X0,1)) & $sum(z(X0),6) = z($sum(X0,1)) & $sum($sum($difference($difference($sum($product($product($uminus(1),z(0)),z(0)),$product(12,y(0))),$product(12,y(X0))),$product(6,z(X0))),$product(6,z(0))),$product(z(X0),z(X0))) = inv(X0))) [input]
+3. ~! [X0 : $int] : ($greatereq(X0,0) => 0 = inv(X0)) [input]
+4. (0 = inv(0) & ! [X1 : $int] : ($greatereq(X1,0) => (0 = inv(X1) => 0 = inv($sum(X1,1))))) => ! [X0 : $int] : ($greatereq(X0,0) => 0 = inv(X0)) [input]
+5. (0 = inv(0) & ! [X1 : $int] : (~$less(X1,0) => (0 = inv(X1) => 0 = inv($sum(X1,1))))) => ! [X0 : $int] : (~$less(X0,0) => 0 = inv(X0)) [theory normalization 4]
+6. ~! [X0 : $int] : (~$less(X0,0) => 0 = inv(X0)) [theory normalization 3]
+7. ! [X0 : $int] : (~$less(X0,0) => ($sum(1,n(X0)) = n($sum(X0,1)) & $sum(x(X0),y(X0)) = x($sum(X0,1)) & $sum(y(X0),z(X0)) = y($sum(X0,1)) & $sum(z(X0),6) = z($sum(X0,1)) & inv(X0) = $sum($sum($sum($difference($sum($product($product($uminus(1),z(0)),z(0)),$product(12,y(0))),$product(12,y(X0))),$uminus($product(6,z(X0)))),$product(6,z(0))),$product(z(X0),z(X0))))) [theory normalization 2]
+8. ! [X0 : $int] : (~$less(X0,0) => ($sum(1,n(X0)) = n($sum(X0,1)) & $sum(x(X0),y(X0)) = x($sum(X0,1)) & $sum(y(X0),z(X0)) = y($sum(X0,1)) & $sum(z(X0),6) = z($sum(X0,1)) & inv(X0) = $sum($sum($sum($sum($sum($product($product($uminus(1),z(0)),z(0)),$product(12,y(0))),$uminus($product(12,y(X0)))),$uminus($product(6,z(X0)))),$product(6,z(0))),$product(z(X0),z(X0))))) [theory normalization 7]
+9. (0 = inv(0) & ! [X0 : $int] : (~$less(X0,0) => (0 = inv(X0) => 0 = inv($sum(X0,1))))) => ! [X1 : $int] : (~$less(X1,0) => 0 = inv(X1)) [rectify 5]
+10. ! [X1 : $int] : (0 = inv(X1) | $less(X1,0)) | (0 != inv(0) | ? [X0 : $int] : ((0 != inv($sum(X0,1)) & 0 = inv(X0)) & ~$less(X0,0))) [ennf transformation 9]
+11. ! [X1 : $int] : (0 = inv(X1) | $less(X1,0)) | 0 != inv(0) | ? [X0 : $int] : (0 != inv($sum(X0,1)) & 0 = inv(X0) & ~$less(X0,0)) [flattening 10]
+12. ? [X0 : $int] : (0 != inv(X0) & ~$less(X0,0)) [ennf transformation 6]
+13. ! [X0 : $int] : (($sum(1,n(X0)) = n($sum(X0,1)) & $sum(x(X0),y(X0)) = x($sum(X0,1)) & $sum(y(X0),z(X0)) = y($sum(X0,1)) & $sum(z(X0),6) = z($sum(X0,1)) & inv(X0) = $sum($sum($sum($sum($sum($product($product($uminus(1),z(0)),z(0)),$product(12,y(0))),$uminus($product(12,y(X0)))),$uminus($product(6,z(X0)))),$product(6,z(0))),$product(z(X0),z(X0)))) | $less(X0,0)) [ennf transformation 8]
+14. z00 = z(0) [cnf transformation 1]
+15. y00 = y(0) [cnf transformation 1]
+16. x00 = x(0) [cnf transformation 1]
+17. n00 = n(0) [cnf transformation 1]
+18. 0 != inv($sum(sK0,1)) | 0 != inv(0) | $less(X1,0) | 0 = inv(X1) [cnf transformation 11]
+19. 0 = inv(sK0) | 0 != inv(0) | $less(X1,0) | 0 = inv(X1) [cnf transformation 11]
+20. ~$less(sK0,0) | 0 != inv(0) | $less(X1,0) | 0 = inv(X1) [cnf transformation 11]
+21. ~$less(sK1,0) [cnf transformation 12]
+22. 0 != inv(sK1) [cnf transformation 12]
+23. $less(X0,0) | inv(X0) = $sum($sum($sum($sum($sum($product($product($uminus(1),z(0)),z(0)),$product(12,y(0))),$uminus($product(12,y(X0)))),$uminus($product(6,z(X0)))),$product(6,z(0))),$product(z(X0),z(X0))) [cnf transformation 13]
+24. $sum(z(X0),6) = z($sum(X0,1)) | $less(X0,0) [cnf transformation 13]
+25. $sum(y(X0),z(X0)) = y($sum(X0,1)) | $less(X0,0) [cnf transformation 13]
+26. $sum(x(X0),y(X0)) = x($sum(X0,1)) | $less(X0,0) [cnf transformation 13]
+27. $sum(1,n(X0)) = n($sum(X0,1)) | $less(X0,0) [cnf transformation 13]
+28. $less(X0,0) | inv(X0) = $sum($sum($sum($sum($sum($product($product(-1,z(0)),z(0)),$product(12,y(0))),$uminus($product(12,y(X0)))),$uminus($product(6,z(X0)))),$product(6,z(0))),$product(z(X0),z(X0))) [evaluation 23]
+30. 1 <=> n00 = n(0) [avatar definition]
+32. 1 [avatar split clause 17,30]
+34. 2 <=> x00 = x(0) [avatar definition]
+35. x00 = x(0) <- (2) [avatar component clause 34]
+36. 2 [avatar split clause 16,34]
+38. 3 <=> y00 = y(0) [avatar definition]
+39. y00 = y(0) <- (3) [avatar component clause 38]
+40. 3 [avatar split clause 15,38]
+42. 4 <=> z00 = z(0) [avatar definition]
+43. z00 = z(0) <- (4) [avatar component clause 42]
+44. 4 [avatar split clause 14,42]
+46. 5 <=> ! [X1 : $int] : ($less(X1,0) | 0 = inv(X1)) [avatar definition]
+47. 0 = inv(X1) | $less(X1,0) <- (5) [avatar component clause 46]
+49. 6 <=> 0 = inv(0) [avatar definition]
+52. 7 <=> $less(sK0,0) [avatar definition]
+53. ~$less(sK0,0) <- (~7) [avatar component clause 52]
+54. 5 | ~6 | ~7 [avatar split clause 20,52,49,46]
+56. 8 <=> 0 = inv(sK0) [avatar definition]
+58. 5 | ~6 | 8 [avatar split clause 19,56,49,46]
+60. 9 <=> 0 = inv($sum(sK0,1)) [avatar definition]
+62. 5 | ~6 | ~9 [avatar split clause 18,60,49,46]
+64. 10 <=> 0 = inv(sK1) [avatar definition]
+65. 0 != inv(sK1) <- (~10) [avatar component clause 64]
+66. ~10 [avatar split clause 22,64]
+68. 11 <=> $less(sK1,0) [avatar definition]
+69. ~$less(sK1,0) <- (~11) [avatar component clause 68]
+70. ~11 [avatar split clause 21,68]
+71. $sum(1,n(sK1)) = n($sum(sK1,1)) <- (~11) [unit resulting resolution 69,27]
+73. 12 <=> $sum(1,n(sK1)) = n($sum(sK1,1)) [avatar definition]
+75. 12 | 11 [avatar split clause 71,68,73]
+76. $sum(z(sK1),6) = z($sum(sK1,1)) <- (~11) [unit resulting resolution 69,24]
+78. 13 <=> $sum(z(sK1),6) = z($sum(sK1,1)) [avatar definition]
+79. $sum(z(sK1),6) = z($sum(sK1,1)) <- (13) [avatar component clause 78]
+80. 13 | 11 [avatar split clause 76,68,78]
+81. $sum(y(sK1),z(sK1)) = y($sum(sK1,1)) <- (~11) [unit resulting resolution 69,25]
+82. y($sum(0,1)) = $sum(y00,z(0)) | $less(0,0) <- (3) [superposition 25,39]
+83. y($sum(0,1)) = $sum(y(0),z00) | $less(0,0) <- (4) [superposition 25,43]
+86. $sum(y(0),z00) = y(1) <- (4) [evaluation 83]
+87. $sum(y00,z(0)) = y(1) <- (3) [evaluation 82]
+89. 14 <=> $sum(y(sK1),z(sK1)) = y($sum(sK1,1)) [avatar definition]
+91. 14 | 11 [avatar split clause 81,68,89]
+92. y(1) = $sum(y00,z00) <- (3, 4) [forward demodulation 87,43]
+94. 15 <=> y(1) = $sum(y00,z00) [avatar definition]
+96. 15 | ~3 | ~4 [avatar split clause 92,42,38,94]
+97. y(1) = $sum(y00,z00) <- (3, 4) [forward demodulation 86,39]
+98. 15 | ~3 | ~4 [avatar split clause 97,42,38,94]
+99. $sum(x(sK1),y(sK1)) = x($sum(sK1,1)) <- (~11) [unit resulting resolution 69,26]
+100. x($sum(0,1)) = $sum(x00,y(0)) | $less(0,0) <- (2) [superposition 26,35]
+101. x($sum(0,1)) = $sum(x(0),y00) | $less(0,0) <- (3) [superposition 26,39]
+102. $sum(x(0),y00) = x(1) <- (3) [evaluation 101]
+103. $sum(x00,y(0)) = x(1) <- (2) [evaluation 100]
+105. 16 <=> $sum(x(sK1),y(sK1)) = x($sum(sK1,1)) [avatar definition]
+107. 16 | 11 [avatar split clause 99,68,105]
+108. x(1) = $sum(x00,y00) <- (2, 3) [forward demodulation 103,39]
+110. 17 <=> x(1) = $sum(x00,y00) [avatar definition]
+112. 17 | ~2 | ~3 [avatar split clause 108,38,34,110]
+113. x(1) = $sum(x00,y00) <- (2, 3) [forward demodulation 102,35]
+114. 17 | ~2 | ~3 [avatar split clause 113,38,34,110]
+115. inv(X0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y(0))),$uminus($product(12,y(X0)))),$uminus($product(6,z(X0)))),$product(6,z00)),$product(z(X0),z(X0))) | $less(X0,0) <- (4) [forward demodulation 28,43]
+116. inv(X0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y(X0)))),$uminus($product(6,z(X0)))),$product(6,z00)),$product(z(X0),z(X0))) | $less(X0,0) <- (3, 4) [forward demodulation 115,39]
+117. inv(sK1) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y(sK1)))),$uminus($product(6,z(sK1)))),$product(6,z00)),$product(z(sK1),z(sK1))) <- (3, 4, ~11) [unit resulting resolution 69,116]
+118. inv(0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y00))),$uminus($product(6,z(0)))),$product(6,z00)),$product(z(0),z(0))) | $less(0,0) <- (3, 4) [superposition 116,39]
+119. inv(0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y(0)))),$uminus($product(6,z00))),$product(6,z00)),$product(z00,z00)) | $less(0,0) <- (3, 4) [superposition 116,43]
+121. inv(0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y(0)))),$uminus($product(6,z00))),$product(6,z00)),$product(z00,z00)) <- (3, 4) [evaluation 119]
+122. inv(0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y00))),$uminus($product(6,z(0)))),$product(6,z00)),$product(z(0),z(0))) <- (3, 4) [evaluation 118]
+124. 18 <=> inv(sK1) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y(sK1)))),$uminus($product(6,z(sK1)))),$product(6,z00)),$product(z(sK1),z(sK1))) [avatar definition]
+126. 18 | ~3 | ~4 | 11 [avatar split clause 117,68,42,38,124]
+127. inv(0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y00))),$uminus($product(6,z00))),$product(6,z00)),$product(z00,z00)) <- (3, 4) [forward demodulation 122,43]
+129. 19 <=> inv(0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y00))),$uminus($product(6,z00))),$product(6,z00)),$product(z00,z00)) [avatar definition]
+131. 19 | ~3 | ~4 [avatar split clause 127,42,38,129]
+132. inv(0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y00))),$uminus($product(6,z00))),$product(6,z00)),$product(z00,z00)) <- (3, 4) [forward demodulation 121,39]
+133. 19 | ~3 | ~4 [avatar split clause 132,42,38,129]
+136. $false <- (5, ~10, ~11) [unit resulting resolution 69,65,47]
+139. ~5 | 10 | 11 [avatar contradiction clause 136]
+140. inv(sK0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y(sK0)))),$uminus($product(6,z(sK0)))),$product(6,z00)),$product(z(sK0),z(sK0))) <- (3, 4, ~7) [unit resulting resolution 53,116]
+141. $sum(x(sK0),y(sK0)) = x($sum(sK0,1)) <- (~7) [unit resulting resolution 53,26]
+142. $sum(y(sK0),z(sK0)) = y($sum(sK0,1)) <- (~7) [unit resulting resolution 53,25]
+143. $sum(z(sK0),6) = z($sum(sK0,1)) <- (~7) [unit resulting resolution 53,24]
+144. $sum(1,n(sK0)) = n($sum(sK0,1)) <- (~7) [unit resulting resolution 53,27]
+146. 20 <=> $sum(1,n(sK0)) = n($sum(sK0,1)) [avatar definition]
+148. 20 | 7 [avatar split clause 144,52,146]
+150. 21 <=> $sum(z(sK0),6) = z($sum(sK0,1)) [avatar definition]
+151. $sum(z(sK0),6) = z($sum(sK0,1)) <- (21) [avatar component clause 150]
+152. 21 | 7 [avatar split clause 143,52,150]
+154. 22 <=> $sum(y(sK0),z(sK0)) = y($sum(sK0,1)) [avatar definition]
+156. 22 | 7 [avatar split clause 142,52,154]
+158. 23 <=> $sum(x(sK0),y(sK0)) = x($sum(sK0,1)) [avatar definition]
+160. 23 | 7 [avatar split clause 141,52,158]
+162. 24 <=> inv(sK0) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y(sK0)))),$uminus($product(6,z(sK0)))),$product(6,z00)),$product(z(sK0),z(sK0))) [avatar definition]
+164. 24 | ~3 | ~4 | 7 [avatar split clause 140,52,42,38,162]
+165. inv($sum(sK1,1)) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y($sum(sK1,1))))),$uminus($product(6,$sum(z(sK1),6)))),$product(6,z00)),$product($sum(z(sK1),6),$sum(z(sK1),6))) | $less($sum(sK1,1),0) <- (3, 4, 13) [superposition 116,79]
+166. y($sum($sum(sK1,1),1)) = $sum(y($sum(sK1,1)),$sum(z(sK1),6)) | $less($sum(sK1,1),0) <- (13) [superposition 25,79]
+167. $sum(y($sum(sK1,1)),$sum(z(sK1),6)) = y($sum(2,sK1)) | $less($sum(sK1,1),0) <- (13) [evaluation 166]
+169. 25 <=> $less($sum(sK1,1),0) [avatar definition]
+172. 26 <=> inv($sum(sK1,1)) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y($sum(sK1,1))))),$uminus($product(6,$sum(z(sK1),6)))),$product(6,z00)),$product($sum(z(sK1),6),$sum(z(sK1),6))) [avatar definition]
+174. 25 | 26 | ~3 | ~4 | ~13 [avatar split clause 165,78,42,38,172,169]
+176. 27 <=> $sum(y($sum(sK1,1)),$sum(z(sK1),6)) = y($sum(2,sK1)) [avatar definition]
+178. 25 | 27 | ~13 [avatar split clause 167,78,176,169]
+179. inv($sum(sK0,1)) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y($sum(sK0,1))))),$uminus($product(6,$sum(z(sK0),6)))),$product(6,z00)),$product($sum(z(sK0),6),$sum(z(sK0),6))) | $less($sum(sK0,1),0) <- (3, 4, 21) [superposition 116,151]
+180. y($sum($sum(sK0,1),1)) = $sum(y($sum(sK0,1)),$sum(z(sK0),6)) | $less($sum(sK0,1),0) <- (21) [superposition 25,151]
+181. $sum(y($sum(sK0,1)),$sum(z(sK0),6)) = y($sum(2,sK0)) | $less($sum(sK0,1),0) <- (21) [evaluation 180]
+183. 28 <=> $less($sum(sK0,1),0) [avatar definition]
+186. 29 <=> inv($sum(sK0,1)) = $sum($sum($sum($sum($sum($product($product(-1,z00),z00),$product(12,y00)),$uminus($product(12,y($sum(sK0,1))))),$uminus($product(6,$sum(z(sK0),6)))),$product(6,z00)),$product($sum(z(sK0),6),$sum(z(sK0),6))) [avatar definition]
+188. 28 | 29 | ~3 | ~4 | ~21 [avatar split clause 179,150,42,38,186,183]
+190. 30 <=> $sum(y($sum(sK0,1)),$sum(z(sK0),6)) = y($sum(2,sK0)) [avatar definition]
+192. 28 | 30 | ~21 [avatar split clause 181,150,190,183]
+193. $false [avatar smt refutation 32,36,40,44,54,58,62,66,70,75,80,91,96,98,107,112,114,126,131,133,139,148,152,156,160,164,174,178,188,192]
+% SZS output end Proof for cohencu_ind_inv2_hint
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation
+
+% Memory used [KB]: 7547
+% Time elapsed: 0.064 s
+% ------------------------------
+% ------------------------------
+% Success in time 7.097 s

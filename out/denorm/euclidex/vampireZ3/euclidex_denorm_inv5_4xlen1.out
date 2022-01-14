@@ -192,3 +192,29 @@
 % ------------------------------
 % ------------------------------
 % dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_300 on euclidex_denorm_inv5_4xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8315
+% Time elapsed: 39.200 s
+% ------------------------------
+% ------------------------------
+% lrs+10_5_add=off:afp=10000:afq=1.0:amm=off:anc=none:bsr=on:fde=unused:gs=on:irw=on:nm=2:newcnf=on:nwc=1:nicw=on:sas=z3:sos=on:sac=on:sp=occurrence:updr=off:uhcvi=on_300 on euclidex_denorm_inv5_4xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 39.200 s
+% ------------------------------
+% ------------------------------
+% dis+10_4_add=off:afp=4000:afq=1.1:amm=sco:anc=none:fsr=off:gs=on:ile=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:tha=off:urr=on:updr=off_300 on euclidex_denorm_inv5_4xlen1
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/scripts/../benchmarks/denorm/euclidex/euclidex_denorm_inv5_4xlen1.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/scripts/../benchmarks/denorm/euclidex/euclidex_denorm_inv5_4xlen1.smt2

@@ -68,6 +68,7 @@ fi
 # get all out files
 FILES=$(find $1 -name "*.out")
 TEMP_FILE=$(mktemp)
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 for FILE in $FILES; do
     ID="$(basename -s ".out" $FILE).smt2"
@@ -83,5 +84,5 @@ for FILE in $FILES; do
     fi
 done;
 
-vi $TEMP_FILE
+sqlite3 $SCRIPT_DIR/../results.db < $TEMP_FILE
 rm $TEMP_FILE

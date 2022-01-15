@@ -37,7 +37,12 @@ elif [ "$1" = "vampireZ3_ind" ]; then
   PROVER="vampireZ3"
   LABEL="vampireZ3ind"
   FLAGS="--input_syntax smtlib2 --mode portfolio -sched smtcomp --schedule induction -t 5m"
+elif [ "$1" = "z3_test" ]; then
+  PROVER="/home/andy/vampire/vampireZ3/z3/build/z3"
+  LABEL="z3_test"
+  FLAGS="-smt2 -T:300 -st"
 fi
+
 
 # Make sure that the output directory exists
 mkdir -p $OUTDIR_BASE

@@ -1,0 +1,724 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16502
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10106
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on_182 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 169506
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_27 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 33517
+% Time elapsed: 3.700 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:gtg=exists_all_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16502
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:thsq=on:thsqd=16_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9466
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:thsq=on_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9466
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:sos=theory:sstl=5_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16502
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:gve=force:asg=force:canc=force:ev=force:pum=on_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 12025
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:hsm=on_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 18421
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:to=lpo_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16502
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:bsd=on:fsd=on_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16630
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:av=on:atotf=0.5_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 16502
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:avsq=on:plsq=on_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9466
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:sp=frequency_9 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8187
+% Time elapsed: 1.300 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off_6 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 14072
+% Time elapsed: 1.0000 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:gtg=exists_all_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10618
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:thsq=on:thsqd=16_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10618
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:thsq=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:sos=theory:sstl=5_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11641
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:gve=force:asg=force:canc=force:ev=force:pum=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9338
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:hsm=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11385
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:to=lpo_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11257
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:bsd=on:fsd=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10618
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:av=on:atotf=0.5_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10618
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:avsq=on:plsq=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:sp=frequency_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7803
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on_6 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 13432
+% Time elapsed: 1.0000 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:gtg=exists_all_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:thsq=on:thsqd=16_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:thsq=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:sos=theory:sstl=5_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11001
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:gve=force:asg=force:canc=force:ev=force:pum=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9210
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:hsm=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11513
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:to=lpo_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 11385
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:bsd=on:fsd=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:av=on:atotf=0.5_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10618
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:avsq=on:plsq=on_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10746
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:sp=frequency_2 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7803
+% Time elapsed: 0.500 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off_12 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 17654
+% Time elapsed: 1.700 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:gtg=exists_all_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8827
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:thsq=on:thsqd=16_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 3454
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:thsq=on_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 3454
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:sos=theory:sstl=5_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 14839
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:gve=force:asg=force:canc=force:ev=force:pum=on_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 6268
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:hsm=on_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9978
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:to=lpo_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10490
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:bsd=on:fsd=on_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10234
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:av=on:atotf=0.5_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 14456
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:avsq=on:plsq=on_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 3454
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:sp=frequency_4 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10234
+% Time elapsed: 0.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on_546 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 498286
+% Time elapsed: 71.100 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:gtg=exists_all_182 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 168099
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:thsq=on:thsqd=16_182 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 166308
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:thsq=on_182 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 167587
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:sos=theory:sstl=5_182 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 167459
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:gve=force:asg=force:canc=force:ev=force:pum=on_182 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 90830
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:hsm=on_182 on prodbin_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 206734
+% Time elapsed: 23.800 s
+% ------------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:to=lpo_182 on prodbin_denorm_inv1_1xlen3
+Aborted by signal SIGTERM on ./benchmarks/denorm/prodbin/prodbin_denorm_inv1_1xlen3.smt2
+Aborted by signal SIGTERM on ./benchmarks/denorm/prodbin/prodbin_denorm_inv1_1xlen3.smt2

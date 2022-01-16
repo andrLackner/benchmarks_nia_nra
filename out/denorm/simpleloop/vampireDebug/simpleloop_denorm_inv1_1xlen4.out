@@ -1,0 +1,122 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on simpleloop_denorm_inv1_1xlen4
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8443
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 912
+clauses deleted: 329
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 1
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on simpleloop_denorm_inv1_1xlen4
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9594
+% Time elapsed: 1.0000 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2717
+clauses deleted: 1664
+ssat_ground_clauses_for_congruence: 2
+ssat_new_components: 2
+ssat_non_splittable_sat_clauses: 2
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on simpleloop_denorm_inv1_1xlen4
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for simpleloop_denorm_inv1_1xlen4
+% SZS output start Proof for simpleloop_denorm_inv1_1xlen4
+1. ? [X1 : $int,X0 : $int] : (0 = $sum($difference($difference(X0,y00),x00),X1) & ~0 = $product($sum($sum($difference($difference($difference(X0,1),y00),x00),X1),1),$sum($sum($product($product($product($product($product($difference(X0,1),$difference(X0,1)),$difference(X0,1)),$sum(X1,1)),$sum(X1,1)),$sum(X1,1)),$product($product($product($product($product(0,$difference(X0,1)),$difference(X0,1)),$difference(X0,1)),$sum(X1,1)),$sum(X1,1))),$product($product($product($difference(X0,1),$difference(X0,1)),$sum(X1,1)),$sum(X1,1))))) [input]
+2. ? [X1 : $int,X0 : $int] : (0 = $sum($sum($difference(X0,y00),$uminus(x00)),X1) & ~0 = $product($sum($sum($sum($difference($difference(X0,1),y00),$uminus(x00)),X1),1),$sum($sum($product($product($product($product($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X1,1)),$sum(X1,1)),$sum(X1,1)),$product($product($product($product($product(0,$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X1,1)),$sum(X1,1))),$product($product($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1))),$sum(X1,1)),$sum(X1,1))))) [theory normalization 1]
+3. $sum(X0,X1) = $sum(X1,X0) [theory axiom 144]
+5. $sum(X0,0) = X0 [theory axiom 146]
+14. $product(X0,X1) = $product(X1,X0) [theory axiom 144]
+17. 0 = $product(X0,0) [theory axiom 158]
+21. ? [X1 : $int,X0 : $int] : (0 = $sum($sum($sum(X0,$uminus(y00)),$uminus(x00)),X1) & ~0 = $product($sum($sum($sum($sum($difference(X0,1),$uminus(y00)),$uminus(x00)),X1),1),$sum($sum($product($product($product($product($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X1,1)),$sum(X1,1)),$sum(X1,1)),$product($product($product($product($product(0,$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X1,1)),$sum(X1,1))),$product($product($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1))),$sum(X1,1)),$sum(X1,1))))) [theory normalization 2]
+22. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum(X1,$uminus(y00)),$uminus(x00)),X0) & ~0 = $product($sum($sum($sum($sum($difference(X1,1),$uminus(y00)),$uminus(x00)),X0),1),$sum($sum($product($product($product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1)),$sum(X0,1)),$product($product($product($product($product(0,$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1))),$product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1))))) [rectify 21]
+23. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum(X1,$uminus(y00)),$uminus(x00)),X0) & 0 != $product($sum($sum($sum($sum($difference(X1,1),$uminus(y00)),$uminus(x00)),X0),1),$sum($sum($product($product($product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1)),$sum(X0,1)),$product($product($product($product($product(0,$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1))),$product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1))))) [flattening 22]
+24. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($sum($product($product($product($product($product($sum(sK1,$uminus(1)),$sum(sK1,$uminus(1))),$sum(sK1,$uminus(1))),$sum(sK0,1)),$sum(sK0,1)),$sum(sK0,1)),$product($product($product($product($product(0,$sum(sK1,$uminus(1))),$sum(sK1,$uminus(1))),$sum(sK1,$uminus(1))),$sum(sK0,1)),$sum(sK0,1))),$product($product($product($sum(sK1,$uminus(1)),$sum(sK1,$uminus(1))),$sum(sK0,1)),$sum(sK0,1)))) [cnf transformation 23]
+25. 0 = $sum($sum($sum(sK1,$uminus(y00)),$uminus(x00)),sK0) [cnf transformation 23]
+27. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($sum($product($product($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum(sK0,1)),$product($product($product($product($product(0,$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1))),$product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)))) [evaluation 24]
+29. 1 <=> 0 = $sum($sum($sum(sK1,$uminus(y00)),$uminus(x00)),sK0) [avatar definition]
+31. 0 = $sum($sum($sum(sK1,$uminus(y00)),$uminus(x00)),sK0) <- (1) [avatar component clause 29]
+32. 1 [avatar split clause 25,29]
+37. 0 = $sum($sum($uminus(x00),$sum(sK1,$uminus(y00))),sK0) <- (1) [backward demodulation 31,3]
+39. $sum(0,X1) = X1 [superposition 3,5]
+47. 2 <=> 0 = $sum($sum($uminus(x00),$sum(sK1,$uminus(y00))),sK0) [avatar definition]
+49. 0 = $sum($sum($uminus(x00),$sum(sK1,$uminus(y00))),sK0) <- (2) [avatar component clause 47]
+50. 2 | ~1 [avatar split clause 37,29,47]
+51. 0 = $sum(sK0,$sum($uminus(x00),$sum(sK1,$uminus(y00)))) <- (2) [superposition 49,3]
+52. 0 = $sum(sK0,$sum($uminus(x00),$sum(sK1,$uminus(y00)))) <- (2) [superposition 49,3]
+53. 0 = $sum(sK0,$sum($uminus(x00),$sum(sK1,$uminus(y00)))) <- (2) [superposition 3,49]
+54. 0 = $sum(sK0,$sum($uminus(x00),$sum(sK1,$uminus(y00)))) <- (2) [superposition 3,49]
+56. 0 = $product(0,X1) [superposition 14,17]
+64. 3 <=> 0 = $sum(sK0,$sum($uminus(x00),$sum(sK1,$uminus(y00)))) [avatar definition]
+67. 3 | ~2 [avatar split clause 51,47,64]
+68. 3 | ~2 [avatar split clause 52,47,64]
+69. 3 | ~2 [avatar split clause 53,47,64]
+70. 3 | ~2 [avatar split clause 54,47,64]
+81. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum($product($product($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum(sK0,1)),$product($product($product($product($product(0,$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1))))) [forward demodulation 27,3]
+82. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum($product($product($product($product($product(0,$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$product($product($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum(sK0,1))))) [forward demodulation 81,3]
+83. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum($product($product($product($product($product(0,$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$product($sum(sK0,1),$product($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)))))) [forward demodulation 82,14]
+84. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum($product($product($product($product($product(0,$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$product($sum(sK0,1),$product($sum(sK0,1),$product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1))))))) [forward demodulation 83,14]
+85. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum($product($product($product($product($product(0,$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$product($sum(sK0,1),$product($sum(sK0,1),$product($sum(sK0,1),$product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)))))))) [forward demodulation 84,14]
+86. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$sum($product($product($product($product($product(0,$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1)),$product($sum(sK0,1),$product($sum(sK0,1),$product($sum(sK0,1),$product($sum(sK1,-1),$product($sum(sK1,-1),$sum(sK1,-1))))))))) [forward demodulation 85,14]
+87. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(-1,sK1),$sum(-1,sK1)),$sum(sK0,1)),$sum(sK0,1)),$sum($product($product($product($product($product(0,$sum(-1,sK1)),$sum(-1,sK1)),$sum(-1,sK1)),$sum(sK0,1)),$sum(sK0,1)),$product($sum(sK0,1),$product($sum(sK0,1),$product($sum(sK0,1),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 86,3]
+88. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(-1,sK1),$sum(-1,sK1)),$sum(1,sK0)),$sum(1,sK0)),$sum($product($product($product($product($product(0,$sum(-1,sK1)),$sum(-1,sK1)),$sum(-1,sK1)),$sum(1,sK0)),$sum(1,sK0)),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 87,3]
+89. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(-1,sK1),$sum(-1,sK1)),$sum(1,sK0)),$sum(1,sK0)),$sum($product($sum(1,sK0),$product($product($product($product(0,$sum(-1,sK1)),$sum(-1,sK1)),$sum(-1,sK1)),$sum(1,sK0))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 88,14]
+90. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(-1,sK1),$sum(-1,sK1)),$sum(1,sK0)),$sum(1,sK0)),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($product($product(0,$sum(-1,sK1)),$sum(-1,sK1)),$sum(-1,sK1)))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 89,14]
+91. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(-1,sK1),$sum(-1,sK1)),$sum(1,sK0)),$sum(1,sK0)),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($product(0,$sum(-1,sK1)),$sum(-1,sK1))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 90,14]
+92. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($product($product($sum(-1,sK1),$sum(-1,sK1)),$sum(1,sK0)),$sum(1,sK0)),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$product(0,$sum(-1,sK1)))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 91,14]
+93. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($sum(1,sK0),$product($product($sum(-1,sK1),$sum(-1,sK1)),$sum(1,sK0))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$product(0,$sum(-1,sK1)))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 92,14]
+94. 0 != $product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$product(0,$sum(-1,sK1)))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 93,14]
+95. 0 != $product($sum(1,$sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0)),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$product(0,$sum(-1,sK1)))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 94,3]
+96. 0 != $product($sum(1,$sum(sK0,$sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$product(0,$sum(-1,sK1)))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 95,3]
+97. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($difference(sK1,1),$uminus(y00))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$product(0,$sum(-1,sK1)))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 96,3]
+98. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$product(0,$sum(-1,sK1)))))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 97,3]
+103. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),0)))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 98,56]
+104. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),0))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 103,17]
+105. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),$product($sum(1,sK0),0)),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 104,17]
+106. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum($product($sum(1,sK0),0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 105,17]
+107. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$sum(0,$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1))))))))) [forward demodulation 106,17]
+108. 0 != $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1)))))))) [forward demodulation 107,39]
+110. 4 <=> 0 = $product($sum(1,$sum(sK0,$sum($uminus(x00),$sum($uminus(y00),$difference(sK1,1))))),$sum($product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$sum(-1,sK1)))),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(1,sK0),$product($sum(-1,sK1),$product($sum(-1,sK1),$sum(-1,sK1)))))))) [avatar definition]
+113. ~4 [avatar split clause 108,110]
+114. $false [avatar smt refutation 32,50,67,68,69,70,113]
+% SZS output end Proof for simpleloop_denorm_inv1_1xlen4
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation
+
+% Memory used [KB]: 7419
+% Time elapsed: 0.093 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 98
+clauses deleted: 21
+ssat_ground_clauses_for_congruence: 7
+ssat_new_components: 4
+ssat_non_splittable_sat_clauses: 7
+ssat_reused_components: 3
+ssat_sat_clauses: 7
+-----------------------------
+% ------------------------------
+% Success in time 1.656 s

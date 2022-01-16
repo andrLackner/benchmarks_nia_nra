@@ -41,6 +41,11 @@ elif [ "$1" = "z3_test" ]; then
   PROVER="/home/andy/vampire/vampireZ3/z3/build/z3"
   LABEL="z3_test"
   FLAGS="-smt2 -T:300 -st"
+elif [ "$1" = "vampireDebug" ]; then
+  DEBUG_BIN=$(ls /home/andy/vampire/vampire_workspace/vampire/build/Debug/bin/)
+  PROVER="/home/andy/vampire/vampire_workspace/vampire/build/Debug/bin/${DEBUG_BIN[0]}"
+  FLAGS="--input_syntax smtlib2 --mode portfolio -sched smtcomp -polymul force -t 5m"
+  LABEL="vampireDebug"
 fi
 
 

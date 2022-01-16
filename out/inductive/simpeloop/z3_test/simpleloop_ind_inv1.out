@@ -1,0 +1,41 @@
+unknown
+(error "line 63 column 10: proof is not available")
+(:added-eqs                   171577
+ :arith-assert-diseq          4909
+ :arith-assert-lower          99829
+ :arith-assert-upper          96954
+ :arith-assume-eqs            9
+ :arith-bound-prop            17
+ :arith-conflicts             5
+ :arith-eq-adapter            92972
+ :arith-fixed-eqs             11275
+ :arith-num-rows              242
+ :arith-offset-eqs            67259
+ :arith-pivots                185640
+ :arith-row-summations        159355
+ :arith-tableau-max-columns   468
+ :arith-tableau-max-rows      242
+ :conflicts                   24
+ :decisions                   4987
+ :del-clause                  495302
+ :eliminated-vars             2
+ :final-checks                11035
+ :interface-eqs               9
+ :lazy-quant-instantiations   40828
+ :max-generation              20
+ :max-memory                  354.45
+ :max-missed-qa-cost          21.00
+ :memory                      224.46
+ :min-missed-qa-cost          21.00
+ :minimized-lits              28
+ :missed-quant-instantiations 45
+ :mk-bool-var                 319966
+ :mk-clause                   495810
+ :num-allocs                  3841568457453543.00
+ :num-checks                  1
+ :propagations                283802
+ :quant-instantiations        40866
+ :restarts                    1000
+ :rlimit-count                283341497
+ :time                        262.89
+ :total-time                  262.38)

@@ -1,0 +1,437 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8827
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1313
+clauses deleted: 509
+ssat_ground_clauses_for_congruence: 3
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 3
+ssat_sat_clauses: 3
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9466
+% Time elapsed: 1.0000 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1729
+clauses deleted: 619
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 5
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 5
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8443
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 965
+clauses deleted: 187
+ssat_ground_clauses_for_congruence: 68
+ssat_new_components: 53
+ssat_non_splittable_sat_clauses: 68
+ssat_reused_components: 17
+ssat_sat_clauses: 69
+total_frozen: 21
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on:thsqd=16_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8187
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 234
+clauses deleted: 21
+ssat_ground_clauses_for_congruence: 10
+ssat_new_components: 10
+ssat_non_splittable_sat_clauses: 10
+ssat_sat_clauses: 10
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8187
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 234
+clauses deleted: 21
+ssat_ground_clauses_for_congruence: 10
+ssat_new_components: 10
+ssat_non_splittable_sat_clauses: 10
+ssat_sat_clauses: 10
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sos=theory:sstl=5_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2325
+clauses deleted: 1611
+ssat_ground_clauses_for_congruence: 3
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 3
+ssat_sat_clauses: 3
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gve=force:asg=force:canc=force:ev=force:pum=on_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8187
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 806
+clauses deleted: 469
+global_subsumption_by_number_of_removed_literals:
+  1: 4
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 1
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:hsm=on_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 956
+clauses deleted: 266
+global_subsumption_by_number_of_removed_literals:
+  1: 28
+  2: 7
+  3: 3
+ssat_ground_clauses_for_congruence: 60
+ssat_new_components: 26
+ssat_non_splittable_sat_clauses: 60
+ssat_reused_components: 34
+ssat_sat_clauses: 60
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:to=lpo_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1178
+clauses deleted: 471
+ssat_ground_clauses_for_congruence: 3
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 3
+ssat_sat_clauses: 3
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8827
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+bsd 0 candidates: 1
+clauses created: 1313
+clauses deleted: 509
+ssat_ground_clauses_for_congruence: 3
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 3
+ssat_sat_clauses: 3
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:av=on:atotf=0.5_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1143
+clauses deleted: 420
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:avsq=on:plsq=on_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7931
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 355
+clauses deleted: 151
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 1
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sp=frequency_2 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8827
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1314
+clauses deleted: 509
+ssat_ground_clauses_for_congruence: 3
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 3
+ssat_sat_clauses: 3
+-----------------------------
+% ------------------------------
+% dis+1002_5:1_aac=none:afr=on:afp=4000:afq=1.1:amm=sco:anc=none:bsr=on:br=off:cond=on:fsr=off:gsp=input_only:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=32:newcnf=on:nwc=1.1:sas=z3:sp=reverse_arity:tha=off:urr=on_600 on freire2_denorm_inv3_3xlen2
+% Child killed by signal 11
+% lrs+1011_3:1_aac=none:add=large:afp=1000:afq=2.0:fsr=off:gs=on:gsaa=from_current:gsem=on:ile=on:nm=4:nwc=1.5:sas=z3:sp=reverse_arity:tha=off:uwa=interpreted_only:uhcvi=on_300 on freire2_denorm_inv3_3xlen2
+% Child killed by signal 11
+% ott+1_5:1_afr=on:afp=4000:afq=1.2:amm=off:anc=none:bs=unit_only:br=off:cond=on:fsr=off:gs=on:gsem=on:ile=on:nm=64:newcnf=on:nwc=1:sac=on:sp=reverse_arity:urr=on:updr=off_600 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 22259
+% Time elapsed: 78.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 42479
+clauses deleted: 133
+-----------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_300 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9466
+% Time elapsed: 39.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 449
+clauses deleted: 70
+ssat_ground_clauses_for_congruence: 6
+ssat_new_components: 6
+ssat_non_splittable_sat_clauses: 6
+ssat_sat_clauses: 6
+-----------------------------
+% ------------------------------
+% lrs+10_5_add=off:afp=10000:afq=1.0:amm=off:anc=none:bsr=on:fde=unused:gs=on:irw=on:nm=2:newcnf=on:nwc=1:nicw=on:sas=z3:sos=on:sac=on:sp=occurrence:updr=off:uhcvi=on_300 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9338
+% Time elapsed: 39.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 412
+ssat_ground_clauses_for_congruence: 7
+ssat_new_components: 13
+ssat_non_splittable_sat_clauses: 7
+ssat_sat_clauses: 10
+total_frozen: 5
+-----------------------------
+% ------------------------------
+% dis+10_4_add=off:afp=4000:afq=1.1:amm=sco:anc=none:fsr=off:gs=on:ile=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:tha=off:urr=on:updr=off_300 on freire2_denorm_inv3_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8571
+% Time elapsed: 39.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 28
+ssat_ground_clauses_for_congruence: 6
+ssat_new_components: 6
+ssat_non_splittable_sat_clauses: 6
+ssat_sat_clauses: 6
+-----------------------------
+% ------------------------------
+% lrs-11_2:3_av=off:bd=off:lcm=predicate:lma=on:nm=4:newcnf=on:nwc=1:sp=reverse_arity_600 on freire2_denorm_inv3_3xlen2
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 22387
+% Time elapsed: 73.715 s
+% ------------------------------
+----  Runtime statistics ----
+binary resolutions skipped for weight limit before building clause: 3603
+binary resolutions skipped for weight limit while building clause: 915
+clauses created: 68980
+clauses deleted: 60341
+clauses discarded by weight limit in forward simplification: 482
+clauses discarded from active on weight limit update: 1
+clauses discarded from passive on weight limit update: 1224
+superpositions skipped for weight limit while constructing other literals: 18
+superpositions weight skipped after rewrited literal weight retrieval: 600
+superpositions weight skipped after rewriter weight retrieval: 1820
+superpositions weight skipped early: 1732
+-----------------------------
+% ------------------------------
+% lrs+1_3:1_acc=model:add=large:afp=40000:afq=1.2:anc=none:bd=off:bsr=on:ccuc=first:fsr=off:inw=on:irw=on:lma=on:nm=64:newcnf=on:nwc=2:sp=reverse_arity:updr=off_300 on freire2_denorm_inv3_3xlen2
+% Refutation not found, non-redundant clauses discarded% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation not found, non-redundant clauses discarded
+
+% Memory used [KB]: 17270
+% Time elapsed: 16.015 s
+% ------------------------------
+----  Runtime statistics ----
+binary resolutions skipped for weight limit before building clause: 163
+binary resolutions skipped for weight limit while building clause: 111
+clauses created: 13602
+clauses deleted: 10305
+clauses discarded by weight limit in forward simplification: 72
+clauses discarded from passive on weight limit update: 76
+ssat_dp_model: 10
+ssat_dp_model_components: 8
+ssat_ground_clauses_for_congruence: 57
+ssat_new_components: 41
+ssat_non_splittable_sat_clauses: 57
+ssat_reused_components: 162
+ssat_sat_clauses: 57
+superpositions skipped for weight limit while constructing other literals: 23
+superpositions weight skipped after rewrited literal weight retrieval: 1597
+superpositions weight skipped after rewriter weight retrieval: 9913
+superpositions weight skipped early: 843
+total_frozen: 12
+-----------------------------
+% ------------------------------
+% fmb+10_1_av=off:bce=on:fmbes=contour:fmbsr=1.4:fde=unused:updr=off_900 on freire2_denorm_inv3_3xlen2
+% WARNING: trying to run FMB on interpreted or otherwise provably infinite-domain problem!
+% Terminated due to inappropriate strategy.
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Inappropriate
+
+% Memory used [KB]: 2942
+% Time elapsed: 0.030 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 25
+-----------------------------
+% ------------------------------
+% dis+1011_2:1_add=off:afp=40000:afq=1.1:amm=sco:anc=none:fsr=off:fde=unused:gsp=input_only:ile=on:irw=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sos=all:sp=occurrence:updr=off:uhcvi=on_300 on freire2_denorm_inv3_3xlen2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/scripts/../benchmarks/denorm/freire2/freire2_denorm_inv3_3xlen2.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/scripts/../benchmarks/denorm/freire2/freire2_denorm_inv3_3xlen2.smt2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 4093
+% Time elapsed: 2.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 252
+ssat_ground_clauses_for_congruence: 6
+ssat_new_components: 6
+ssat_non_splittable_sat_clauses: 6
+ssat_sat_clauses: 6
+-----------------------------
+% ------------------------------
+% Proof not found in time 300.118 s
+% SZS status Timeout for freire2_denorm_inv3_3xlen2

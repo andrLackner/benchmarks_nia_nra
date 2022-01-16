@@ -1,0 +1,20 @@
+(error "line 51 column 25: invalid qualified/indexed identifier, '_' or 'as' expected")
+sat
+(error "line 112 column 10: proof is not available")
+(:arith-assert-lower        1
+ :arith-num-rows            1
+ :arith-tableau-max-columns 5
+ :arith-tableau-max-rows    1
+ :decisions                 4
+ :eliminated-vars           4
+ :final-checks              1
+ :max-memory                20.03
+ :memory                    19.14
+ :mk-bool-var               8
+ :mk-clause                 5
+ :num-allocs                714754
+ :num-checks                1
+ :propagations              2
+ :rlimit-count              1000
+ :time                      0.01
+ :total-time                0.02)

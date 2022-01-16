@@ -1,0 +1,12 @@
+(error "line 61 column 26: unknown constant inv (Int) ")
+(error "line 76 column 25: unknown constant inv (Int) ")
+(error "line 86 column 21: unknown constant inv (Int) ")
+sat
+(error "line 109 column 10: proof is not available")
+(:eliminated-vars 3
+ :max-memory      18.95
+ :memory          18.95
+ :num-allocs      220949
+ :rlimit-count    56
+ :time            0.01
+ :total-time      0.05)

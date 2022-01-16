@@ -1,0 +1,644 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 4605
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1565
+clauses deleted: 595
+-----------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_27 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:gtg=exists_all_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:thsq=on:thsqd=16_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:thsq=on_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:sos=theory:sstl=5_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:gve=force:asg=force:canc=force:ev=force:pum=on_9 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7675
+% Time elapsed: 1.300 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 188
+clauses deleted: 79
+ssat_ground_clauses_for_congruence: 2
+ssat_new_components: 2
+ssat_non_splittable_sat_clauses: 2
+ssat_sat_clauses: 2
+total_frozen: 1
+-----------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:hsm=on_9 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7803
+% Time elapsed: 1.300 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 566
+clauses deleted: 38
+ssat_ground_clauses_for_congruence: 3
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 3
+ssat_sat_clauses: 3
+-----------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:to=lpo_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:bsd=on:fsd=on_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:av=on:atotf=0.5_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:avsq=on:plsq=on_9 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7803
+% Time elapsed: 1.300 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 181
+clauses deleted: 38
+ssat_ground_clauses_for_congruence: 2
+ssat_new_components: 4
+ssat_non_splittable_sat_clauses: 2
+ssat_sat_clauses: 3
+-----------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence:sp=frequency_9 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off_6 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:gtg=exists_all_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:thsq=on:thsqd=16_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:thsq=on_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:sos=theory:sstl=5_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:gve=force:asg=force:canc=force:ev=force:pum=on_2 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8443
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 366
+ssat_ground_clauses_for_congruence: 2
+ssat_new_components: 24
+ssat_non_splittable_sat_clauses: 2
+ssat_reused_components: 5
+ssat_sat_clauses: 14
+-----------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:hsm=on_2 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7547
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 188
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 1
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:to=lpo_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:bsd=on:fsd=on_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:av=on:atotf=0.5_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:avsq=on:plsq=on_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_2_add=large:afp=10000:afq=1.0:amm=sco:anc=none:gs=on:ile=on:lma=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:sos=all:uwa=all:updr=off:sp=frequency_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on_6 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:gtg=exists_all_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:thsq=on:thsqd=16_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:thsq=on_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:sos=theory:sstl=5_2 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7931
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 545
+clauses deleted: 126
+global_subsumption_by_number_of_removed_literals:
+  1: 2
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:gve=force:asg=force:canc=force:ev=force:pum=on_2 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7675
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 148
+clauses deleted: 14
+ssat_ground_clauses_for_congruence: 4
+ssat_new_components: 4
+ssat_non_splittable_sat_clauses: 4
+ssat_sat_clauses: 4
+total_frozen: 2
+-----------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:hsm=on_2 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7419
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 187
+-----------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:to=lpo_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:bsd=on:fsd=on_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:av=on:atotf=0.5_2 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8315
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1225
+clauses deleted: 78
+ssat_ground_clauses_for_congruence: 2
+ssat_new_components: 2
+ssat_non_splittable_sat_clauses: 2
+ssat_sat_clauses: 2
+total_frozen: 2
+-----------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:avsq=on:plsq=on_2 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7547
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 75
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_3_afr=on:afp=40000:afq=2.0:anc=none:fsr=off:gs=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:sos=all:sac=on:sp=occurrence:urr=on:sp=frequency_2 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off_12 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 6140
+% Time elapsed: 1.700 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2202
+clauses deleted: 785
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:gtg=exists_all_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 4861
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1635
+clauses deleted: 618
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:thsq=on:thsqd=16_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 4989
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2666
+clauses deleted: 858
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:thsq=on_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 5117
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2679
+clauses deleted: 846
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:sos=theory:sstl=5_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 5117
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2241
+clauses deleted: 1199
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:gve=force:asg=force:canc=force:ev=force:pum=on_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 3837
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 944
+clauses deleted: 495
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:hsm=on_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 3326
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 542
+clauses deleted: 108
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:to=lpo_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 5117
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2617
+clauses deleted: 949
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:bsd=on:fsd=on_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 4733
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+BSD, MLMatch but no subsumption demodulation: 4
+FSD, MLMatch but no FSD inference: 23
+bsd 0 candidates: 5
+bsd 1 mustPred survivors: 4
+clauses created: 1564
+clauses deleted: 595
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:av=on:atotf=0.5_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 9210
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1574
+clauses deleted: 595
+ssat_new_components: 2
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:avsq=on:plsq=on_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 5117
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2301
+clauses deleted: 983
+-----------------------------
+% ------------------------------
+% dis+11_5_av=off:cond=on:fsr=off:ile=on:lwlo=on:nm=64:nwc=3:sp=reverse_arity:updr=off:sp=frequency_4 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 4605
+% Time elapsed: 0.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1566
+clauses deleted: 595
+-----------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on_546 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:gtg=exists_all_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:thsq=on:thsqd=16_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:thsq=on_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:sos=theory:sstl=5_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:gve=force:asg=force:canc=force:ev=force:pum=on_182 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 5884
+% Time elapsed: 23.800 s
+% ------------------------------
+----  Runtime statistics ----
+binary resolutions skipped for weight limit before building clause: 282
+binary resolutions skipped for weight limit while building clause: 17
+clauses created: 4209
+clauses deleted: 18
+clauses discarded by weight limit in forward simplification: 89
+clauses discarded from passive on weight limit update: 559
+ssat_ground_clauses_for_congruence: 43
+ssat_new_components: 61
+ssat_non_splittable_sat_clauses: 43
+ssat_reused_components: 6
+ssat_sat_clauses: 54
+superpositions weight skipped after rewrited literal weight retrieval: 2
+superpositions weight skipped after rewriter weight retrieval: 28
+superpositions weight skipped early: 11
+total_frozen: 480
+-----------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:hsm=on_182 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 3965
+% Time elapsed: 23.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 8196
+-----------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:to=lpo_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:bsd=on:fsd=on_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:av=on:atotf=0.5_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:avsq=on:plsq=on_182 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 3198
+% Time elapsed: 23.800 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 75
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% lrs+1011_3_add=large:afp=1000:afq=1.1:anc=none:cond=on:fsr=off:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:nicw=on:sas=z3:stl=30:sos=all:sac=on:sp=frequency_182 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+1002_5:1_aac=none:afr=on:afp=4000:afq=1.1:amm=sco:anc=none:bsr=on:br=off:cond=on:fsr=off:gsp=input_only:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=32:newcnf=on:nwc=1.1:sas=z3:sp=reverse_arity:tha=off:urr=on_600 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+1011_3:1_aac=none:add=large:afp=1000:afq=2.0:fsr=off:gs=on:gsaa=from_current:gsem=on:ile=on:nm=4:nwc=1.5:sas=z3:sp=reverse_arity:tha=off:uwa=interpreted_only:uhcvi=on_300 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% ott+1_5:1_afr=on:afp=4000:afq=1.2:amm=off:anc=none:bs=unit_only:br=off:cond=on:fsr=off:gs=on:gsem=on:ile=on:nm=64:newcnf=on:nwc=1:sac=on:sp=reverse_arity:urr=on:updr=off_600 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 33389
+% Time elapsed: 78.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 8881
+clauses deleted: 1079
+ssat_new_components: 2
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_300 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs+10_5_add=off:afp=10000:afq=1.0:amm=off:anc=none:bsr=on:fde=unused:gs=on:irw=on:nm=2:newcnf=on:nwc=1:nicw=on:sas=z3:sos=on:sac=on:sp=occurrence:updr=off:uhcvi=on_300 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% dis+10_4_add=off:afp=4000:afq=1.1:amm=sco:anc=none:fsr=off:gs=on:ile=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:tha=off:urr=on:updr=off_300 on divbin_denorm_inv1_1xlen1
+% Child killed by signal 11
+% lrs-11_2:3_av=off:bd=off:lcm=predicate:lma=on:nm=4:newcnf=on:nwc=1:sp=reverse_arity_600 on divbin_denorm_inv1_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 218248
+% Time elapsed: 78.200 s
+% ------------------------------
+----  Runtime statistics ----
+binary resolutions skipped for weight limit before building clause: 1640
+binary resolutions skipped for weight limit while building clause: 7148
+clauses created: 154847
+clauses deleted: 128649
+clauses discarded by weight limit in forward simplification: 64753
+clauses discarded from active on weight limit update: 154
+clauses discarded from passive on weight limit update: 13472
+superpositions skipped for weight limit while constructing other literals: 743
+superpositions weight skipped after rewrited literal weight retrieval: 59763
+superpositions weight skipped after rewriter weight retrieval: 22929
+superpositions weight skipped after rewriter weight retrieval with occurrence counting: 31
+superpositions weight skipped early: 65409
+-----------------------------
+% ------------------------------
+% lrs+1_3:1_acc=model:add=large:afp=40000:afq=1.2:anc=none:bd=off:bsr=on:ccuc=first:fsr=off:inw=on:irw=on:lma=on:nm=64:newcnf=on:nwc=2:sp=reverse_arity:updr=off_300 on divbin_denorm_inv1_1xlen1
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/scripts/../benchmarks/denorm/divbin/divbin_denorm_inv1_1xlen1.smt2
+Aborted by signal SIGTERM on /home/andy/Data/Uni/Master/thesis/benchmarks/scripts/../benchmarks/denorm/divbin/divbin_denorm_inv1_1xlen1.smt2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 22131
+% Time elapsed: 25.100 s
+% ------------------------------
+----  Runtime statistics ----
+binary resolutions skipped for weight limit before building clause: 42
+binary resolutions skipped for weight limit while building clause: 10
+clauses created: 39861
+clauses deleted: 599
+clauses discarded by weight limit in forward simplification: 13
+clauses discarded from passive on weight limit update: 96
+ssat_dp_model: 5
+ssat_dp_model_components: 2
+ssat_ground_clauses_for_congruence: 19
+ssat_new_components: 12
+ssat_non_splittable_sat_clauses: 19
+ssat_reused_components: 28
+ssat_sat_clauses: 20
+superpositions skipped for weight limit while constructing other literals: 4
+superpositions weight skipped after rewrited literal weight retrieval: 343
+superpositions weight skipped after rewriter weight retrieval: 367
+superpositions weight skipped early: 116
+total_frozen: 3
+-----------------------------
+% ------------------------------
+% Proof not found in time 300.043 s
+% SZS status Timeout for divbin_denorm_inv1_1xlen1

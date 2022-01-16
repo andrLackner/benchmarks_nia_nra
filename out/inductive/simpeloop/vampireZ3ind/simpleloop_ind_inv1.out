@@ -1,0 +1,125 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% lrs+10_1_iik=one:ind=int:sos=theory:sstl=1_87 on simpleloop_ind_inv1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 563146
+% Time elapsed: 11.500 s
+% ------------------------------
+% ------------------------------
+% dis+1002_1_aac=none:anc=all:ind=int:sos=theory:sac=on:sstl=1:to=lpo_30 on simpleloop_ind_inv1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 49125
+% Time elapsed: 4.100 s
+% ------------------------------
+% ------------------------------
+% lrs+10_1_iik=one:ind=int:sos=theory:sstl=1:to=lpo_87 on simpleloop_ind_inv1
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for simpleloop_ind_inv1
+% SZS output start Proof for simpleloop_ind_inv1
+1. x00 = x(0) & y00 = y(0) [input]
+2. ! [X0 : $int] : ($greatereq(X0,0) => ($difference(x(X0),1) = x($sum(X0,1)) & $sum(y(X0),1) = y($sum(X0,1)) & $sum($difference($difference(x(X0),y(0)),x(0)),y(X0)) = inv(X0))) [input]
+3. ~! [X0 : $int] : ($greatereq(X0,0) => 0 = inv(X0)) [input]
+4. ~! [X0 : $int] : (~$less(X0,0) => 0 = inv(X0)) [theory normalization 3]
+5. ! [X0 : $int] : (~$less(X0,0) => (x($sum(X0,1)) = $sum(x(X0),$uminus(1)) & $sum(y(X0),1) = y($sum(X0,1)) & inv(X0) = $sum($sum($difference(x(X0),y(0)),$uminus(x(0))),y(X0)))) [theory normalization 2]
+6. $sum(X0,X1) = $sum(X1,X0) [theory axiom 143]
+7. $sum(X0,$sum(X1,X2)) = $sum($sum(X0,X1),X2) [theory axiom 144]
+8. $sum(X0,0) = X0 [theory axiom 145]
+10. 0 = $sum(X0,$uminus(X0)) [theory axiom 148]
+11. ~$less(X0,X0) [theory axiom 150]
+12. ~$less(X1,X2) | ~$less(X0,X1) | $less(X0,X2) [theory axiom 151]
+15. $less(X0,X1) | $less(X1,$sum(X0,1)) [theory axiom 155]
+18. ! [X0 : $int] : (~$less(X0,0) => (x($sum(X0,1)) = $sum(x(X0),$uminus(1)) & $sum(y(X0),1) = y($sum(X0,1)) & inv(X0) = $sum($sum($sum(x(X0),$uminus(y(0))),$uminus(x(0))),y(X0)))) [theory normalization 5]
+19. ? [X0 : $int] : (0 != inv(X0) & ~$less(X0,0)) [ennf transformation 4]
+20. ! [X0 : $int] : ((x($sum(X0,1)) = $sum(x(X0),$uminus(1)) & $sum(y(X0),1) = y($sum(X0,1)) & inv(X0) = $sum($sum($sum(x(X0),$uminus(y(0))),$uminus(x(0))),y(X0))) | $less(X0,0)) [ennf transformation 18]
+21. ? [X0 : $int] : (0 != inv(X0) & ~$less(X0,0)) => (0 != inv(sK0) & ~$less(sK0,0)) [choice axiom]
+22. 0 != inv(sK0) & ~$less(sK0,0) [skolemisation 19,21]
+23. y00 = y(0) [cnf transformation 1]
+24. x00 = x(0) [cnf transformation 1]
+25. ~$less(sK0,0) [cnf transformation 22]
+26. 0 != inv(sK0) [cnf transformation 22]
+27. inv(X0) = $sum($sum($sum(x(X0),$uminus(y(0))),$uminus(x(0))),y(X0)) | $less(X0,0) [cnf transformation 20]
+28. $sum(y(X0),1) = y($sum(X0,1)) | $less(X0,0) [cnf transformation 20]
+29. x($sum(X0,1)) = $sum(x(X0),$uminus(1)) | $less(X0,0) [cnf transformation 20]
+30. x($sum(X0,1)) = $sum(x(X0),-1) | $less(X0,0) [evaluation 29]
+31. $less(X0,0) | x($sum(X0,1)) = $sum(-1,x(X0)) [forward demodulation 30,6]
+32. $less(X0,0) | y($sum(X0,1)) = $sum(1,y(X0)) [forward demodulation 28,6]
+33. inv(X0) = $sum($sum(x(X0),$uminus(y(0))),$sum($uminus(x(0)),y(X0))) | $less(X0,0) [forward demodulation 27,7]
+34. inv(X0) = $sum(x(X0),$sum($uminus(y(0)),$sum($uminus(x(0)),y(X0)))) | $less(X0,0) [forward demodulation 33,7]
+35. inv(X0) = $sum(x(X0),$sum($uminus(y(0)),$sum($uminus(x00),y(X0)))) | $less(X0,0) [forward demodulation 34,24]
+36. $less(X0,0) | inv(X0) = $sum(x(X0),$sum($uminus(y00),$sum($uminus(x00),y(X0)))) [forward demodulation 35,23]
+37. (! [X0 : $int] : ((0 = inv(X0) & ~$less(X0,0)) => 0 = inv($sum(X0,1))) & 0 = inv(0)) => ! [X1 : $int] : (~$less(X1,0) => 0 = inv(X1)) [integer induction hypothesis (up, infinite interval)]
+38. ! [X1 : $int] : (0 = inv(X1) | $less(X1,0)) | (? [X0 : $int] : (0 != inv($sum(X0,1)) & (0 = inv(X0) & ~$less(X0,0))) | 0 != inv(0)) [ennf transformation 37]
+39. 0 != inv(0) | ~$less(sK2,0) | $less(X1,0) | 0 = inv(X1) [cnf transformation 38]
+40. 0 != inv(0) | 0 = inv(sK2) | $less(X1,0) | 0 = inv(X1) [cnf transformation 38]
+41. 0 != inv(0) | 0 != inv($sum(sK2,1)) | $less(X1,0) | 0 = inv(X1) [cnf transformation 38]
+42. 0 != inv(0) | 0 != inv($sum(sK2,1)) | $less(sK0,0) [resolution 41,26]
+43. 0 != inv(0) | 0 = inv(sK2) | $less(sK0,0) [resolution 40,26]
+44. 0 != inv(0) | ~$less(sK2,0) | $less(sK0,0) [resolution 39,26]
+45. 0 != inv(0) | ~$less(sK2,0) [subsumption resolution 44,25]
+47. 1 <=> $less(sK2,0) [avatar definition]
+49. ~$less(sK2,0) <- (~1) [avatar component clause 47]
+51. 2 <=> 0 = inv(0) [avatar definition]
+54. ~1 | ~2 [avatar split clause 45,51,47]
+55. 0 != inv(0) | 0 = inv(sK2) [subsumption resolution 43,25]
+57. 3 <=> 0 = inv(sK2) [avatar definition]
+59. 0 = inv(sK2) <- (3) [avatar component clause 57]
+60. 3 | ~2 [avatar split clause 55,51,57]
+61. 0 != inv(0) | 0 != inv($sum(sK2,1)) [subsumption resolution 42,25]
+62. 0 != inv($sum(1,sK2)) | 0 != inv(0) [forward demodulation 61,6]
+64. 4 <=> 0 = inv($sum(1,sK2)) [avatar definition]
+66. 0 != inv($sum(1,sK2)) <- (~4) [avatar component clause 64]
+67. ~2 | ~4 [avatar split clause 62,64,51]
+82. $less(X1,$sum(1,X0)) | $less(X0,X1) [superposition 15,6]
+234. inv(0) = $sum(x(0),$sum($uminus(y00),$sum($uminus(x00),y(0)))) [resolution 36,11]
+236. inv(0) = $sum(x(0),$sum($sum($uminus(x00),y(0)),$uminus(y00))) [forward demodulation 234,6]
+237. inv(0) = $sum(x(0),$sum($uminus(x00),$sum(y(0),$uminus(y00)))) [forward demodulation 236,7]
+238. inv(0) = $sum(x(0),$sum($uminus(x00),$sum(y00,$uminus(y00)))) [forward demodulation 237,23]
+239. inv(0) = $sum(x(0),$sum($uminus(x00),0)) [forward demodulation 238,10]
+240. inv(0) = $sum(x(0),$uminus(x00)) [forward demodulation 239,8]
+241. inv(0) = $sum(x00,$uminus(x00)) [forward demodulation 240,24]
+242. 0 = inv(0) [forward demodulation 241,10]
+245. 2 [avatar split clause 242,51]
+259. inv(sK2) = $sum(x(sK2),$sum($uminus(y00),$sum($uminus(x00),y(sK2)))) <- (~1) [resolution 49,36]
+260. y($sum(sK2,1)) = $sum(1,y(sK2)) <- (~1) [resolution 49,32]
+261. x($sum(sK2,1)) = $sum(-1,x(sK2)) <- (~1) [resolution 49,31]
+262. $less(0,$sum(1,sK2)) <- (~1) [resolution 49,82]
+266. inv(sK2) = $sum(x(sK2),$sum($sum($uminus(x00),y(sK2)),$uminus(y00))) <- (~1) [forward demodulation 259,6]
+267. inv(sK2) = $sum(x(sK2),$sum($uminus(x00),$sum(y(sK2),$uminus(y00)))) <- (~1) [forward demodulation 266,7]
+268. 0 = $sum(x(sK2),$sum($uminus(x00),$sum(y(sK2),$uminus(y00)))) <- (~1, 3) [forward demodulation 267,59]
+269. $sum(1,y(sK2)) = y($sum(1,sK2)) <- (~1) [forward demodulation 260,6]
+270. $sum(-1,x(sK2)) = x($sum(1,sK2)) <- (~1) [forward demodulation 261,6]
+303. $less(X0,$sum(1,sK2)) | ~$less(X0,0) <- (~1) [resolution 262,12]
+522. ~$less($sum(1,sK2),0) <- (~1) [resolution 303,11]
+548. inv($sum(1,sK2)) = $sum(x($sum(1,sK2)),$sum($uminus(y00),$sum($uminus(x00),y($sum(1,sK2))))) <- (~1) [resolution 522,36]
+559. inv($sum(1,sK2)) = $sum(x($sum(1,sK2)),$sum($sum($uminus(x00),y($sum(1,sK2))),$uminus(y00))) <- (~1) [forward demodulation 548,6]
+560. inv($sum(1,sK2)) = $sum(x($sum(1,sK2)),$sum($uminus(x00),$sum(y($sum(1,sK2)),$uminus(y00)))) <- (~1) [forward demodulation 559,7]
+561. inv($sum(1,sK2)) = $sum(x($sum(1,sK2)),$sum($uminus(x00),$sum($sum(1,y(sK2)),$uminus(y00)))) <- (~1) [forward demodulation 560,269]
+562. inv($sum(1,sK2)) = $sum(x($sum(1,sK2)),$sum($uminus(x00),$sum(1,$sum(y(sK2),$uminus(y00))))) <- (~1) [forward demodulation 561,7]
+563. inv($sum(1,sK2)) = $sum($sum(-1,x(sK2)),$sum($uminus(x00),$sum(1,$sum(y(sK2),$uminus(y00))))) <- (~1) [forward demodulation 562,270]
+564. inv($sum(1,sK2)) = $sum(x(sK2),$sum($uminus(x00),$sum(y(sK2),$uminus(y00)))) <- (~1) [evaluation 563]
+565. 0 = inv($sum(1,sK2)) <- (~1, 3) [forward demodulation 564,268]
+566. $false <- (~1, 3, ~4) [subsumption resolution 565,66]
+567. 1 | ~3 | 4 [avatar contradiction clause 566]
+572. $false [avatar sat refutation 54,60,67,245,567]
+% SZS output end Proof for simpleloop_ind_inv1
+% ------------------------------
+% Version: Vampire 4.6.1 (commit dd79494d8 on 2022-01-05 14:29:51 +0000)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation
+
+% Memory used [KB]: 5884
+% Time elapsed: 0.009 s
+% ------------------------------
+% ------------------------------
+% Success in time 15.619 s

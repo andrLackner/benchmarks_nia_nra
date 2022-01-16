@@ -43,6 +43,7 @@ function extract_vampire_results() {
 
     local result="unsolved"
     local time=300
+    local id=$(uuidgen)
     if [[ "$termination_reason" == "% Termination reason: Refutation" ]]; then
         result="solved"
         time_elapsed=$(echo "$end" | grep "% Time elapsed: ")
@@ -50,11 +51,12 @@ function extract_vampire_results() {
         if [[ $time_elapsed =~ ^%[[:space:]]Time[[:space:]]elapsed:[[:space:]]+([0-9]+(\.[0-9]+))[[:space:]]s.*$ ]]; then
             local time=${BASH_REMATCH[1]}
             local len=$(sed  -nE "s/^([0-9]+)\.[[:space:]].*$/\1/p" $file | tail -n 1)
-            local id=$(uuidgen)
             get_query $id "vampireZ3" $result $len $time $benchmark_id >> $temp
         else
             echo "Cannot process $1. Unexpected format"
         fi
+    else
+        get_query $id "vampireZ3" $result -1 $time $benchmark_id >> $temp
     fi
 }
 
@@ -74,7 +76,8 @@ for FILE in $FILES; do
     ID="$(basename -s ".out" $FILE).smt2"
     SOLVER=$(basename $(dirname $FILE))
     
-    if [[ "$SOLVER" = "z3" ]]; then
+    if [[ "$SOLVER" = "z3" ]] || [[ "$SOLVER" = "z3_test" ]]; then
+        SOVLER="z3"
         extract_z3_results $FILE $ID $TEMP_FILE
     elif [[ "$SOLVER" = "vampireZ3" ]]; then
         extract_vampire_results $FILE $ID $TEMP_FILE
@@ -83,6 +86,7 @@ for FILE in $FILES; do
         echo "Skipping $FILE. Unknown solver $SOLVER"
     fi
 done;
+
 
 sqlite3 $SCRIPT_DIR/../results.db < $TEMP_FILE
 rm $TEMP_FILE

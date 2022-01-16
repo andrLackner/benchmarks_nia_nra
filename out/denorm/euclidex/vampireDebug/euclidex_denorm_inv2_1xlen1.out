@@ -1,0 +1,376 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8827
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1598
+clauses deleted: 559
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 5
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 5
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8955
+% Time elapsed: 1.0000 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1683
+clauses deleted: 578
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 7
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 6
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8571
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1070
+clauses deleted: 214
+ssat_ground_clauses_for_congruence: 76
+ssat_new_components: 38
+ssat_non_splittable_sat_clauses: 76
+ssat_reused_components: 38
+ssat_sat_clauses: 76
+total_frozen: 17
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on:thsqd=16_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7931
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 241
+clauses deleted: 31
+ssat_ground_clauses_for_congruence: 12
+ssat_new_components: 14
+ssat_non_splittable_sat_clauses: 12
+ssat_sat_clauses: 13
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7931
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 241
+clauses deleted: 31
+ssat_ground_clauses_for_congruence: 12
+ssat_new_components: 14
+ssat_non_splittable_sat_clauses: 12
+ssat_sat_clauses: 13
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sos=theory:sstl=5_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 2975
+clauses deleted: 2111
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 5
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 5
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gve=force:asg=force:canc=force:ev=force:pum=on_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8059
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 903
+clauses deleted: 517
+global_subsumption_by_number_of_removed_literals:
+  1: 4
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:hsm=on_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8827
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1143
+clauses deleted: 329
+global_subsumption_by_number_of_removed_literals:
+  1: 29
+  2: 26
+  3: 3
+ssat_ground_clauses_for_congruence: 86
+ssat_new_components: 29
+ssat_non_splittable_sat_clauses: 86
+ssat_reused_components: 57
+ssat_sat_clauses: 86
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:to=lpo_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1419
+clauses deleted: 567
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 5
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 5
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+bsd 0 candidates: 1
+clauses created: 1593
+clauses deleted: 559
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 5
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 5
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:av=on:atotf=0.5_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1347
+clauses deleted: 500
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:avsq=on:plsq=on_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7803
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 359
+clauses deleted: 151
+ssat_new_components: 2
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sp=frequency_2 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8699
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1593
+clauses deleted: 559
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 5
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 5
+-----------------------------
+% ------------------------------
+% dis+1002_5:1_aac=none:afr=on:afp=4000:afq=1.1:amm=sco:anc=none:bsr=on:br=off:cond=on:fsr=off:gsp=input_only:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=32:newcnf=on:nwc=1.1:sas=z3:sp=reverse_arity:tha=off:urr=on_600 on euclidex_denorm_inv2_1xlen1
+% Child killed by signal 11
+% lrs+1011_3:1_aac=none:add=large:afp=1000:afq=2.0:fsr=off:gs=on:gsaa=from_current:gsem=on:ile=on:nm=4:nwc=1.5:sas=z3:sp=reverse_arity:tha=off:uwa=interpreted_only:uhcvi=on_300 on euclidex_denorm_inv2_1xlen1
+% Child killed by signal 11
+% ott+1_5:1_afr=on:afp=4000:afq=1.2:amm=off:anc=none:bs=unit_only:br=off:cond=on:fsr=off:gs=on:gsem=on:ile=on:nm=64:newcnf=on:nwc=1:sac=on:sp=reverse_arity:urr=on:updr=off_600 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 32877
+% Time elapsed: 78.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 74191
+clauses deleted: 1275
+ssat_new_components: 2
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+1011_4:1_anc=none:cond=fast:fsr=off:gs=on:gsaa=full_model:gsem=off:ile=on:lma=on:lwlo=on:nm=64:nwc=1:sas=z3:sac=on:sp=occurrence_300 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8443
+% Time elapsed: 39.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 338
+clauses deleted: 70
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 7
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 6
+-----------------------------
+% ------------------------------
+% lrs+10_5_add=off:afp=10000:afq=1.0:amm=off:anc=none:bsr=on:fde=unused:gs=on:irw=on:nm=2:newcnf=on:nwc=1:nicw=on:sas=z3:sos=on:sac=on:sp=occurrence:updr=off:uhcvi=on_300 on euclidex_denorm_inv2_1xlen1
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8443
+% Time elapsed: 39.200 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 309
+ssat_ground_clauses_for_congruence: 11
+ssat_new_components: 13
+ssat_non_splittable_sat_clauses: 11
+ssat_sat_clauses: 12
+-----------------------------
+% ------------------------------
+% dis+10_4_add=off:afp=4000:afq=1.1:amm=sco:anc=none:fsr=off:gs=on:ile=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:tha=off:urr=on:updr=off_300 on euclidex_denorm_inv2_1xlen1
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for euclidex_denorm_inv2_1xlen1
+% SZS output start Proof for euclidex_denorm_inv2_1xlen1
+1. ? [X3 : $int,X4 : $int,X5 : $int,X0 : $int,X2 : $int,X1 : $int] : (0 = $sum($difference($sum($product($product($uminus(1),X2),X4),$product(X0,X5)),$product(p00,s00)),$product(q00,r00)) & 0 = $sum($sum($difference($product($product($uminus(1),X3),X4),$product(a00,s00)),$product(X1,X5)),$product(b00,r00)) & 0 = $sum($difference($sum($product($product($uminus(1),X1),X2),$product(a00,q00)),$product(b00,p00)),$product(X3,X0)) & 0 = $difference($sum($sum($sum($difference($product($product($product($uminus(1),b00),X0),r00),$product($product(X1,p00),s00)),$product($product(b00,p00),X4)),$product($product(X1,q00),r00)),$product($product(a00,X0),s00)),$product($product(a00,q00),X4)) & 0 = $difference($sum($difference($difference($sum($product($product(X3,q00),r00),$product($product(b00,p00),X5)),$product($product(b00,X2),r00)),$product($product(X3,p00),s00)),$product($product(a00,X2),s00)),$product($product(a00,q00),X5)) & (~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($difference($product($product($uminus(1),X3),$difference(X4,X5)),$product(a00,s00)),$product($difference(X1,X3),X5)),$product(b00,r00)),$uminus(1)),$difference(X1,X3)),$difference(X1,X3)),$difference(X1,X3)),X3),$difference(X0,X2)),$difference(X0,X2)),$difference(X0,X2)),X2),X2),$difference(X4,X5)),$difference(X4,X5)) | ~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($difference($product($product($uminus(1),$difference(X3,X1)),X4),$product(a00,s00)),$product(X1,$difference(X5,X4))),$product(b00,r00)),$uminus(1)),X1),X1),X1),$difference(X3,X1)),X0),X0),X0),$difference(X2,X0)),$difference(X2,X0)),X4),X4))) [input]
+2. ? [X3 : $int,X4 : $int,X5 : $int,X0 : $int,X2 : $int,X1 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),X2),X4),$product(X0,X5)),$uminus($product(p00,s00))),$product(q00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X3),X4),$uminus($product(a00,s00))),$product(X1,X5)),$product(b00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X1),X2),$product(a00,q00)),$uminus($product(b00,p00))),$product(X3,X0)) & 0 = $sum($sum($sum($sum($difference($product($product($product($uminus(1),b00),X0),r00),$product($product(X1,p00),s00)),$product($product(b00,p00),X4)),$product($product(X1,q00),r00)),$product($product(a00,X0),s00)),$uminus($product($product(a00,q00),X4))) & 0 = $sum($sum($difference($difference($sum($product($product(X3,q00),r00),$product($product(b00,p00),X5)),$product($product(b00,X2),r00)),$product($product(X3,p00),s00)),$product($product(a00,X2),s00)),$uminus($product($product(a00,q00),X5))) & (~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),X3),$difference(X4,X5)),$uminus($product(a00,s00))),$product($sum(X1,$uminus(X3)),X5)),$product(b00,r00)),$uminus(1)),$sum(X1,$uminus(X3))),$sum(X1,$uminus(X3))),$sum(X1,$uminus(X3))),X3),$sum(X0,$uminus(X2))),$sum(X0,$uminus(X2))),$sum(X0,$uminus(X2))),X2),X2),$sum(X4,$uminus(X5))),$sum(X4,$uminus(X5))) | ~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),$difference(X3,X1)),X4),$uminus($product(a00,s00))),$product(X1,$sum(X5,$uminus(X4)))),$product(b00,r00)),$uminus(1)),X1),X1),X1),$sum(X3,$uminus(X1))),X0),X0),X0),$sum(X2,$uminus(X0))),$sum(X2,$uminus(X0))),X4),X4))) [theory normalization 1]
+3. ? [X3 : $int,X4 : $int,X5 : $int,X0 : $int,X2 : $int,X1 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),X2),X4),$product(X0,X5)),$uminus($product(p00,s00))),$product(q00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X3),X4),$uminus($product(a00,s00))),$product(X1,X5)),$product(b00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X1),X2),$product(a00,q00)),$uminus($product(b00,p00))),$product(X3,X0)) & 0 = $sum($sum($sum($sum($sum($product($product($product($uminus(1),b00),X0),r00),$uminus($product($product(X1,p00),s00))),$product($product(b00,p00),X4)),$product($product(X1,q00),r00)),$product($product(a00,X0),s00)),$uminus($product($product(a00,q00),X4))) & 0 = $sum($sum($sum($difference($sum($product($product(X3,q00),r00),$product($product(b00,p00),X5)),$product($product(b00,X2),r00)),$uminus($product($product(X3,p00),s00))),$product($product(a00,X2),s00)),$uminus($product($product(a00,q00),X5))) & (~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),X3),$sum(X4,$uminus(X5))),$uminus($product(a00,s00))),$product($sum(X1,$uminus(X3)),X5)),$product(b00,r00)),$uminus(1)),$sum(X1,$uminus(X3))),$sum(X1,$uminus(X3))),$sum(X1,$uminus(X3))),X3),$sum(X0,$uminus(X2))),$sum(X0,$uminus(X2))),$sum(X0,$uminus(X2))),X2),X2),$sum(X4,$uminus(X5))),$sum(X4,$uminus(X5))) | ~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),$sum(X3,$uminus(X1))),X4),$uminus($product(a00,s00))),$product(X1,$sum(X5,$uminus(X4)))),$product(b00,r00)),$uminus(1)),X1),X1),X1),$sum(X3,$uminus(X1))),X0),X0),X0),$sum(X2,$uminus(X0))),$sum(X2,$uminus(X0))),X4),X4))) [theory normalization 2]
+4. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int,X4 : $int,X5 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),X4),X1),$product(X3,X2)),$uminus($product(p00,s00))),$product(q00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X0),X1),$uminus($product(a00,s00))),$product(X5,X2)),$product(b00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X5),X4),$product(a00,q00)),$uminus($product(b00,p00))),$product(X0,X3)) & 0 = $sum($sum($sum($sum($sum($product($product($product($uminus(1),b00),X3),r00),$uminus($product($product(X5,p00),s00))),$product($product(b00,p00),X1)),$product($product(X5,q00),r00)),$product($product(a00,X3),s00)),$uminus($product($product(a00,q00),X1))) & 0 = $sum($sum($sum($difference($sum($product($product(X0,q00),r00),$product($product(b00,p00),X2)),$product($product(b00,X4),r00)),$uminus($product($product(X0,p00),s00))),$product($product(a00,X4),s00)),$uminus($product($product(a00,q00),X2))) & (~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),X0),$sum(X1,$uminus(X2))),$uminus($product(a00,s00))),$product($sum(X5,$uminus(X0)),X2)),$product(b00,r00)),$uminus(1)),$sum(X5,$uminus(X0))),$sum(X5,$uminus(X0))),$sum(X5,$uminus(X0))),X0),$sum(X3,$uminus(X4))),$sum(X3,$uminus(X4))),$sum(X3,$uminus(X4))),X4),X4),$sum(X1,$uminus(X2))),$sum(X1,$uminus(X2))) | ~0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),$sum(X0,$uminus(X5))),X1),$uminus($product(a00,s00))),$product(X5,$sum(X2,$uminus(X1)))),$product(b00,r00)),$uminus(1)),X5),X5),X5),$sum(X0,$uminus(X5))),X3),X3),X3),$sum(X4,$uminus(X3))),$sum(X4,$uminus(X3))),X1),X1))) [rectify 3]
+5. ? [X0 : $int,X1 : $int,X2 : $int,X3 : $int,X4 : $int,X5 : $int] : (0 = $sum($sum($sum($product($product($uminus(1),X4),X1),$product(X3,X2)),$uminus($product(p00,s00))),$product(q00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X0),X1),$uminus($product(a00,s00))),$product(X5,X2)),$product(b00,r00)) & 0 = $sum($sum($sum($product($product($uminus(1),X5),X4),$product(a00,q00)),$uminus($product(b00,p00))),$product(X0,X3)) & 0 = $sum($sum($sum($sum($sum($product($product($product($uminus(1),b00),X3),r00),$uminus($product($product(X5,p00),s00))),$product($product(b00,p00),X1)),$product($product(X5,q00),r00)),$product($product(a00,X3),s00)),$uminus($product($product(a00,q00),X1))) & 0 = $sum($sum($sum($difference($sum($product($product(X0,q00),r00),$product($product(b00,p00),X2)),$product($product(b00,X4),r00)),$uminus($product($product(X0,p00),s00))),$product($product(a00,X4),s00)),$uminus($product($product(a00,q00),X2))) & (0 != $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),X0),$sum(X1,$uminus(X2))),$uminus($product(a00,s00))),$product($sum(X5,$uminus(X0)),X2)),$product(b00,r00)),$uminus(1)),$sum(X5,$uminus(X0))),$sum(X5,$uminus(X0))),$sum(X5,$uminus(X0))),X0),$sum(X3,$uminus(X4))),$sum(X3,$uminus(X4))),$sum(X3,$uminus(X4))),X4),X4),$sum(X1,$uminus(X2))),$sum(X1,$uminus(X2))) | 0 != $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),$sum(X0,$uminus(X5))),X1),$uminus($product(a00,s00))),$product(X5,$sum(X2,$uminus(X1)))),$product(b00,r00)),$uminus(1)),X5),X5),X5),$sum(X0,$uminus(X5))),X3),X3),X3),$sum(X4,$uminus(X3))),$sum(X4,$uminus(X3))),X1),X1))) [flattening 4]
+6. 0 != $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),$sum(sK0,$uminus(sK5))),sK1),$uminus($product(a00,s00))),$product(sK5,$sum(sK2,$uminus(sK1)))),$product(b00,r00)),$uminus(1)),sK5),sK5),sK5),$sum(sK0,$uminus(sK5))),sK3),sK3),sK3),$sum(sK4,$uminus(sK3))),$sum(sK4,$uminus(sK3))),sK1),sK1) | 0 != $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product($uminus(1),sK0),$sum(sK1,$uminus(sK2))),$uminus($product(a00,s00))),$product($sum(sK5,$uminus(sK0)),sK2)),$product(b00,r00)),$uminus(1)),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),sK0),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),sK4),sK4),$sum(sK1,$uminus(sK2))),$sum(sK1,$uminus(sK2))) [cnf transformation 5]
+7. 0 = $sum($sum($sum($difference($sum($product($product(sK0,q00),r00),$product($product(b00,p00),sK2)),$product($product(b00,sK4),r00)),$uminus($product($product(sK0,p00),s00))),$product($product(a00,sK4),s00)),$uminus($product($product(a00,q00),sK2))) [cnf transformation 5]
+8. 0 = $sum($sum($sum($sum($sum($product($product($product($uminus(1),b00),sK3),r00),$uminus($product($product(sK5,p00),s00))),$product($product(b00,p00),sK1)),$product($product(sK5,q00),r00)),$product($product(a00,sK3),s00)),$uminus($product($product(a00,q00),sK1))) [cnf transformation 5]
+9. 0 = $sum($sum($sum($product($product($uminus(1),sK5),sK4),$product(a00,q00)),$uminus($product(b00,p00))),$product(sK0,sK3)) [cnf transformation 5]
+10. 0 = $sum($sum($sum($product($product($uminus(1),sK0),sK1),$uminus($product(a00,s00))),$product(sK5,sK2)),$product(b00,r00)) [cnf transformation 5]
+11. 0 = $sum($sum($sum($product($product($uminus(1),sK4),sK1),$product(sK3,sK2)),$uminus($product(p00,s00))),$product(q00,r00)) [cnf transformation 5]
+12. 0 != $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product(-1,$sum(sK0,$uminus(sK5))),sK1),$uminus($product(a00,s00))),$product(sK5,$sum(sK2,$uminus(sK1)))),$product(b00,r00)),-1),sK5),sK5),sK5),$sum(sK0,$uminus(sK5))),sK3),sK3),sK3),$sum(sK4,$uminus(sK3))),$sum(sK4,$uminus(sK3))),sK1),sK1) | 0 != $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product(-1,sK0),$sum(sK1,$uminus(sK2))),$uminus($product(a00,s00))),$product($sum(sK5,$uminus(sK0)),sK2)),$product(b00,r00)),-1),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),sK0),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),sK4),sK4),$sum(sK1,$uminus(sK2))),$sum(sK1,$uminus(sK2))) [evaluation 6]
+13. 0 != $uminus($sum($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$product(b00,r00)),$sum($uminus($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$product(b00,r00))),$sum($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2))),$sum($uminus($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2)))),$sum($uminus($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$product(a00,s00))),$sum($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$product(a00,s00)),$sum($uminus($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1)))),$sum($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1))),$sum($uminus($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$product(b00,r00))),$sum($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$product(b00,r00)),$sum($uminus($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2)))),$sum($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2))),$sum($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$product(a00,s00)),$sum($uminus($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$product(a00,s00))),$sum($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1))),$uminus($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1)))))))))))))))))))) | 0 != $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product(-1,sK0),$sum(sK1,$uminus(sK2))),$uminus($product(a00,s00))),$product($sum(sK5,$uminus(sK0)),sK2)),$product(b00,r00)),-1),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),sK0),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),sK4),sK4),$sum(sK1,$uminus(sK2))),$sum(sK1,$uminus(sK2))) [polynomial multiplication 12]
+14. 0 = $sum($sum($sum($sum($sum($product($product($product(-1,b00),sK3),r00),$uminus($product($product(sK5,p00),s00))),$product($product(b00,p00),sK1)),$product($product(sK5,q00),r00)),$product($product(a00,sK3),s00)),$uminus($product($product(a00,q00),sK1))) [evaluation 8]
+15. 0 = $sum($sum($sum($product($product(-1,sK5),sK4),$product(a00,q00)),$uminus($product(b00,p00))),$product(sK0,sK3)) [evaluation 9]
+16. 0 = $sum($sum($sum($product($product(-1,sK0),sK1),$uminus($product(a00,s00))),$product(sK5,sK2)),$product(b00,r00)) [evaluation 10]
+17. 0 = $sum($sum($sum($product($product(-1,sK4),sK1),$product(sK3,sK2)),$uminus($product(p00,s00))),$product(q00,r00)) [evaluation 11]
+19. 1 <=> 0 = $sum($sum($sum($product($product(-1,sK4),sK1),$product(sK3,sK2)),$uminus($product(p00,s00))),$product(q00,r00)) [avatar definition]
+21. 1 [avatar split clause 17,19]
+23. 2 <=> 0 = $sum($sum($sum($product($product(-1,sK0),sK1),$uminus($product(a00,s00))),$product(sK5,sK2)),$product(b00,r00)) [avatar definition]
+25. 2 [avatar split clause 16,23]
+27. 3 <=> 0 = $sum($sum($sum($product($product(-1,sK5),sK4),$product(a00,q00)),$uminus($product(b00,p00))),$product(sK0,sK3)) [avatar definition]
+29. 3 [avatar split clause 15,27]
+31. 4 <=> 0 = $sum($sum($sum($sum($sum($product($product($product(-1,b00),sK3),r00),$uminus($product($product(sK5,p00),s00))),$product($product(b00,p00),sK1)),$product($product(sK5,q00),r00)),$product($product(a00,sK3),s00)),$uminus($product($product(a00,q00),sK1))) [avatar definition]
+33. 4 [avatar split clause 14,31]
+35. 5 <=> 0 = $sum($sum($sum($difference($sum($product($product(sK0,q00),r00),$product($product(b00,p00),sK2)),$product($product(b00,sK4),r00)),$uminus($product($product(sK0,p00),s00))),$product($product(a00,sK4),s00)),$uminus($product($product(a00,q00),sK2))) [avatar definition]
+37. 5 [avatar split clause 7,35]
+39. 6 <=> 0 = $product($product($product($product($product($product($product($product($product($product($product($product($sum($sum($sum($product($product(-1,sK0),$sum(sK1,$uminus(sK2))),$uminus($product(a00,s00))),$product($sum(sK5,$uminus(sK0)),sK2)),$product(b00,r00)),-1),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),$sum(sK5,$uminus(sK0))),sK0),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),$sum(sK3,$uminus(sK4))),sK4),sK4),$sum(sK1,$uminus(sK2))),$sum(sK1,$uminus(sK2))) [avatar definition]
+42. 7 <=> 0 = $uminus($sum($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$product(b00,r00)),$sum($uminus($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$product(b00,r00))),$sum($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2))),$sum($uminus($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2)))),$sum($uminus($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$product(a00,s00))),$sum($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$product(a00,s00)),$sum($uminus($product($product($product($product(sK5,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1)))),$sum($product($product($product($product(sK0,sK5),sK1),$product(sK3,sK3)),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1))),$sum($uminus($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$product(b00,r00))),$sum($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$product(b00,r00)),$sum($uminus($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2)))),$sum($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK5,sK2))),$sum($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$product(a00,s00)),$sum($uminus($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$product(a00,s00))),$sum($product($product($product($product($product(sK5,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1))),$uminus($product($product($product($product($product(sK0,sK5),sK1),sK3),sK4),$sum($uminus($product(sK5,sK1)),$product(sK0,sK1)))))))))))))))))))) [avatar definition]
+44. ~6 | ~7 [avatar split clause 13,42,39]
+45. $false [avatar smt refutation 21,25,29,33,37,44]
+% SZS output end Proof for euclidex_denorm_inv2_1xlen1
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation
+
+% Memory used [KB]: 7803
+% Time elapsed: 4.854 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 27
+clauses deleted: 7
+ssat_ground_clauses_for_congruence: 5
+ssat_new_components: 7
+ssat_non_splittable_sat_clauses: 5
+ssat_sat_clauses: 6
+-----------------------------
+% ------------------------------
+% Success in time 169.701 s

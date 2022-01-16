@@ -1,0 +1,98 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on fermat_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8315
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 947
+clauses deleted: 361
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 1
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on fermat_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8827
+% Time elapsed: 1.0000 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1057
+clauses deleted: 380
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on fermat_denorm_inv1_1xlen3
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8443
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 769
+clauses deleted: 220
+ssat_ground_clauses_for_congruence: 29
+ssat_new_components: 28
+ssat_non_splittable_sat_clauses: 29
+ssat_reused_components: 3
+ssat_sat_clauses: 30
+total_frozen: 11
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on:thsqd=16_2 on fermat_denorm_inv1_1xlen3
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for fermat_denorm_inv1_1xlen3
+% SZS output start Proof for fermat_denorm_inv1_1xlen3
+1. ? [X1 : $int,X2 : $int,X0 : $int] : (0 = $difference($sum($sum($difference($sum($difference($sum($difference($difference($product(4,X0),$product(4,r00)),$product(2,u00)),$product(2,X1)),$product(2,X2)),$product(2,v00)),$product(X1,X1)),$product(X2,X2)),$product(u00,u00)),$product(v00,v00)) & (~0 = $product($difference($sum($sum($difference($sum($difference($sum($difference($difference($product(4,$difference(X0,X2)),$product(4,r00)),$product(2,u00)),$product(2,X1)),$product(2,$sum(X2,2))),$product(2,v00)),$product(X1,X1)),$product($sum(X2,2),$sum(X2,2))),$product(u00,u00)),$product(v00,v00)),$difference($product($product($product($product($product($product(0,$difference(X0,X2)),X1),X1),X1),$sum(X2,2)),$sum(X2,2)),$product($product($product($product($product($difference(X0,X2),$difference(X0,X2)),$difference(X0,X2)),X1),$sum(X2,2)),$sum(X2,2)))) | ~0 = $product($difference($sum($sum($difference($sum($difference($sum($difference($difference($product(4,$sum(X0,X1)),$product(4,r00)),$product(2,u00)),$product(2,$sum(X1,2))),$product(2,X2)),$product(2,v00)),$product($sum(X1,2),$sum(X1,2))),$product(X2,X2)),$product(u00,u00)),$product(v00,v00)),$difference($product($product($product($product($product($product(0,$sum(X0,X1)),$sum(X1,2)),$sum(X1,2)),$sum(X1,2)),X2),X2),$product($product($product($product($product($sum(X0,X1),$sum(X0,X1)),$sum(X0,X1)),$sum(X1,2)),X2),X2))))) [input]
+2. ? [X1 : $int,X2 : $int,X0 : $int] : (0 = $sum($sum($sum($difference($sum($difference($sum($difference($difference($product(4,X0),$product(4,r00)),$product(2,u00)),$product(2,X1)),$product(2,X2)),$product(2,v00)),$product(X1,X1)),$product(X2,X2)),$product(u00,u00)),$uminus($product(v00,v00))) & (~0 = $product($sum($sum($sum($difference($sum($difference($sum($difference($difference($product(4,$difference(X0,X2)),$product(4,r00)),$product(2,u00)),$product(2,X1)),$product(2,$sum(X2,2))),$product(2,v00)),$product(X1,X1)),$product($sum(X2,2),$sum(X2,2))),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$difference(X0,X2)),X1),X1),X1),$sum(X2,2)),$sum(X2,2)),$uminus($product($product($product($product($product($difference(X0,X2),$difference(X0,X2)),$difference(X0,X2)),X1),$sum(X2,2)),$sum(X2,2))))) | ~0 = $product($sum($sum($sum($difference($sum($difference($sum($difference($difference($product(4,$sum(X0,X1)),$product(4,r00)),$product(2,u00)),$product(2,$sum(X1,2))),$product(2,X2)),$product(2,v00)),$product($sum(X1,2),$sum(X1,2))),$product(X2,X2)),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(X0,X1)),$sum(X1,2)),$sum(X1,2)),$sum(X1,2)),X2),X2),$uminus($product($product($product($product($product($sum(X0,X1),$sum(X0,X1)),$sum(X0,X1)),$sum(X1,2)),X2),X2)))))) [theory normalization 1]
+21. ? [X1 : $int,X2 : $int,X0 : $int] : (0 = $sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,X0),$product(4,r00)),$product(2,u00)),$product(2,X1)),$product(2,X2)),$product(2,v00)),$uminus($product(X1,X1))),$product(X2,X2)),$product(u00,u00)),$uminus($product(v00,v00))) & (~0 = $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$difference(X0,X2)),$product(4,r00)),$product(2,u00)),$product(2,X1)),$product(2,$sum(X2,2))),$product(2,v00)),$uminus($product(X1,X1))),$product($sum(X2,2),$sum(X2,2))),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(X0,$uminus(X2))),X1),X1),X1),$sum(X2,2)),$sum(X2,2)),$uminus($product($product($product($product($product($sum(X0,$uminus(X2)),$sum(X0,$uminus(X2))),$sum(X0,$uminus(X2))),X1),$sum(X2,2)),$sum(X2,2))))) | ~0 = $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$sum(X0,X1)),$product(4,r00)),$product(2,u00)),$product(2,$sum(X1,2))),$product(2,X2)),$product(2,v00)),$uminus($product($sum(X1,2),$sum(X1,2)))),$product(X2,X2)),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(X0,X1)),$sum(X1,2)),$sum(X1,2)),$sum(X1,2)),X2),X2),$uminus($product($product($product($product($product($sum(X0,X1),$sum(X0,X1)),$sum(X0,X1)),$sum(X1,2)),X2),X2)))))) [theory normalization 2]
+22. ? [X0 : $int,X1 : $int,X2 : $int] : (0 = $sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,X2),$product(4,r00)),$product(2,u00)),$product(2,X0)),$product(2,X1)),$product(2,v00)),$uminus($product(X0,X0))),$product(X1,X1)),$product(u00,u00)),$uminus($product(v00,v00))) & (~0 = $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$difference(X2,X1)),$product(4,r00)),$product(2,u00)),$product(2,X0)),$product(2,$sum(X1,2))),$product(2,v00)),$uminus($product(X0,X0))),$product($sum(X1,2),$sum(X1,2))),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(X2,$uminus(X1))),X0),X0),X0),$sum(X1,2)),$sum(X1,2)),$uminus($product($product($product($product($product($sum(X2,$uminus(X1)),$sum(X2,$uminus(X1))),$sum(X2,$uminus(X1))),X0),$sum(X1,2)),$sum(X1,2))))) | ~0 = $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$sum(X2,X0)),$product(4,r00)),$product(2,u00)),$product(2,$sum(X0,2))),$product(2,X1)),$product(2,v00)),$uminus($product($sum(X0,2),$sum(X0,2)))),$product(X1,X1)),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(X2,X0)),$sum(X0,2)),$sum(X0,2)),$sum(X0,2)),X1),X1),$uminus($product($product($product($product($product($sum(X2,X0),$sum(X2,X0)),$sum(X2,X0)),$sum(X0,2)),X1),X1)))))) [rectify 21]
+23. ? [X0 : $int,X1 : $int,X2 : $int] : (0 = $sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,X2),$product(4,r00)),$product(2,u00)),$product(2,X0)),$product(2,X1)),$product(2,v00)),$uminus($product(X0,X0))),$product(X1,X1)),$product(u00,u00)),$uminus($product(v00,v00))) & (0 != $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$difference(X2,X1)),$product(4,r00)),$product(2,u00)),$product(2,X0)),$product(2,$sum(X1,2))),$product(2,v00)),$uminus($product(X0,X0))),$product($sum(X1,2),$sum(X1,2))),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(X2,$uminus(X1))),X0),X0),X0),$sum(X1,2)),$sum(X1,2)),$uminus($product($product($product($product($product($sum(X2,$uminus(X1)),$sum(X2,$uminus(X1))),$sum(X2,$uminus(X1))),X0),$sum(X1,2)),$sum(X1,2))))) | 0 != $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$sum(X2,X0)),$product(4,r00)),$product(2,u00)),$product(2,$sum(X0,2))),$product(2,X1)),$product(2,v00)),$uminus($product($sum(X0,2),$sum(X0,2)))),$product(X1,X1)),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(X2,X0)),$sum(X0,2)),$sum(X0,2)),$sum(X0,2)),X1),X1),$uminus($product($product($product($product($product($sum(X2,X0),$sum(X2,X0)),$sum(X2,X0)),$sum(X0,2)),X1),X1)))))) [flattening 22]
+24. 0 != $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$sum(sK2,sK0)),$product(4,r00)),$product(2,u00)),$product(2,$sum(sK0,2))),$product(2,sK1)),$product(2,v00)),$uminus($product($sum(sK0,2),$sum(sK0,2)))),$product(sK1,sK1)),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(sK2,sK0)),$sum(sK0,2)),$sum(sK0,2)),$sum(sK0,2)),sK1),sK1),$uminus($product($product($product($product($product($sum(sK2,sK0),$sum(sK2,sK0)),$sum(sK2,sK0)),$sum(sK0,2)),sK1),sK1)))) | 0 != $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$difference(sK2,sK1)),$product(4,r00)),$product(2,u00)),$product(2,sK0)),$product(2,$sum(sK1,2))),$product(2,v00)),$uminus($product(sK0,sK0))),$product($sum(sK1,2),$sum(sK1,2))),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(sK2,$uminus(sK1))),sK0),sK0),sK0),$sum(sK1,2)),$sum(sK1,2)),$uminus($product($product($product($product($product($sum(sK2,$uminus(sK1)),$sum(sK2,$uminus(sK1))),$sum(sK2,$uminus(sK1))),sK0),$sum(sK1,2)),$sum(sK1,2))))) [cnf transformation 23]
+25. 0 = $sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,sK2),$product(4,r00)),$product(2,u00)),$product(2,sK0)),$product(2,sK1)),$product(2,v00)),$uminus($product(sK0,sK0))),$product(sK1,sK1)),$product(u00,u00)),$uminus($product(v00,v00))) [cnf transformation 23]
+28. 1 <=> 0 = $sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,sK2),$product(4,r00)),$product(2,u00)),$product(2,sK0)),$product(2,sK1)),$product(2,v00)),$uminus($product(sK0,sK0))),$product(sK1,sK1)),$product(u00,u00)),$uminus($product(v00,v00))) [avatar definition]
+31. 1 [avatar split clause 25,28]
+33. 2 <=> 0 = $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$difference(sK2,sK1)),$product(4,r00)),$product(2,u00)),$product(2,sK0)),$product(2,$sum(sK1,2))),$product(2,v00)),$uminus($product(sK0,sK0))),$product($sum(sK1,2),$sum(sK1,2))),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(sK2,$uminus(sK1))),sK0),sK0),sK0),$sum(sK1,2)),$sum(sK1,2)),$uminus($product($product($product($product($product($sum(sK2,$uminus(sK1)),$sum(sK2,$uminus(sK1))),$sum(sK2,$uminus(sK1))),sK0),$sum(sK1,2)),$sum(sK1,2))))) [avatar definition]
+37. 3 <=> 0 = $product($sum($sum($sum($sum($sum($difference($sum($difference($difference($product(4,$sum(sK2,sK0)),$product(4,r00)),$product(2,u00)),$product(2,$sum(sK0,2))),$product(2,sK1)),$product(2,v00)),$uminus($product($sum(sK0,2),$sum(sK0,2)))),$product(sK1,sK1)),$product(u00,u00)),$uminus($product(v00,v00))),$sum($product($product($product($product($product($product(0,$sum(sK2,sK0)),$sum(sK0,2)),$sum(sK0,2)),$sum(sK0,2)),sK1),sK1),$uminus($product($product($product($product($product($sum(sK2,sK0),$sum(sK2,sK0)),$sum(sK2,sK0)),$sum(sK0,2)),sK1),sK1)))) [avatar definition]
+40. ~2 | ~3 [avatar split clause 24,37,33]
+41. $false [avatar smt refutation 31,40]
+% SZS output end Proof for fermat_denorm_inv1_1xlen3
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation
+
+% Memory used [KB]: 7419
+% Time elapsed: 0.163 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 31
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% Success in time 2.239 s

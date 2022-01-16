@@ -1,0 +1,304 @@
+% Warning: check-sat is not the last entry. Skipping the rest!
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8059
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 935
+clauses deleted: 348
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity_6 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8059
+% Time elapsed: 1.0000 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 935
+clauses deleted: 348
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gtg=exists_all_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7931
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 761
+clauses deleted: 208
+ssat_ground_clauses_for_congruence: 36
+ssat_new_components: 32
+ssat_non_splittable_sat_clauses: 36
+ssat_reused_components: 8
+ssat_sat_clauses: 38
+total_frozen: 27
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on:thsqd=16_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7419
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 31
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:thsq=on_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7419
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 31
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sos=theory:sstl=5_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8315
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 1662
+clauses deleted: 1042
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:gve=force:asg=force:canc=force:ev=force:pum=on_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7803
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 909
+clauses deleted: 509
+global_subsumption_by_number_of_removed_literals:
+  1: 4
+ssat_ground_clauses_for_congruence: 2
+ssat_new_components: 2
+ssat_non_splittable_sat_clauses: 2
+ssat_sat_clauses: 2
+total_frozen: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:hsm=on_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8059
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 638
+clauses deleted: 185
+global_subsumption_by_number_of_removed_literals:
+  1: 15
+  2: 4
+ssat_ground_clauses_for_congruence: 33
+ssat_new_components: 15
+ssat_non_splittable_sat_clauses: 33
+ssat_reused_components: 20
+ssat_sat_clauses: 34
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:to=lpo_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 10106
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 818
+clauses deleted: 359
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 1
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8059
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+bsd 0 candidates: 1
+clauses created: 935
+clauses deleted: 348
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:av=on:atotf=0.5_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8955
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 3350
+clauses deleted: 2166
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 1
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:avsq=on:plsq=on_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 7547
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 327
+clauses deleted: 151
+ssat_new_components: 2
+ssat_sat_clauses: 1
+-----------------------------
+% ------------------------------
+% dis+11_10_add=off:afr=on:afp=100000:afq=1.2:amm=off:anc=none:cond=on:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=64:newcnf=on:nwc=10:sas=z3:sac=on:sp=reverse_arity:sp=frequency_2 on simpleloopV2_denorm_inv1_3xlen2
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 8059
+% Time elapsed: 0.500 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 935
+clauses deleted: 348
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% dis+1002_5:1_aac=none:afr=on:afp=4000:afq=1.1:amm=sco:anc=none:bsr=on:br=off:cond=on:fsr=off:gsp=input_only:gs=on:gsem=on:inw=on:ile=on:irw=on:lma=on:nm=32:newcnf=on:nwc=1.1:sas=z3:sp=reverse_arity:tha=off:urr=on_600 on simpleloopV2_denorm_inv1_3xlen2
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for simpleloopV2_denorm_inv1_3xlen2
+% SZS output start Proof for simpleloopV2_denorm_inv1_3xlen2
+1. ? [X1 : $int,X0 : $int] : (0 = $sum($difference($difference(X0,y00),x00),X1) & (~0 = $product($product($product($sum($sum($difference($difference($difference(X0,1),y00),x00),X1),1),$difference($product($difference(X0,1),$sum(X1,1)),$product($difference(X0,1),$difference(X0,1)))),$difference($sum(X1,1),$product($product($product($difference(X0,1),$difference(X0,1)),$sum(X1,1)),$sum(X1,1)))),$sum($product($uminus(1),$sum(X1,1)),$product($product($product($difference(X0,1),$difference(X0,1)),$difference(X0,1)),$sum(X1,1)))) | ~0 = $product($product($product($sum($difference($difference($sum(X0,1),y00),x00),$difference(X1,1)),$difference($product($sum(X0,1),$difference(X1,1)),$product($sum(X0,1),$sum(X0,1)))),$difference($difference(X1,1),$product($product($product($sum(X0,1),$sum(X0,1)),$difference(X1,1)),$difference(X1,1)))),$sum($product($uminus(1),$difference(X1,1)),$product($product($product($sum(X0,1),$sum(X0,1)),$sum(X0,1)),$difference(X1,1)))))) [input]
+2. ? [X1 : $int,X0 : $int] : (0 = $sum($sum($difference(X0,y00),$uminus(x00)),X1) & (~0 = $product($product($product($sum($sum($sum($difference($difference(X0,1),y00),$uminus(x00)),X1),1),$sum($product($difference(X0,1),$sum(X1,1)),$uminus($product($difference(X0,1),$difference(X0,1))))),$sum($sum(X1,1),$uminus($product($product($product($difference(X0,1),$difference(X0,1)),$sum(X1,1)),$sum(X1,1))))),$sum($product($uminus(1),$sum(X1,1)),$product($product($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X1,1)))) | ~0 = $product($product($product($sum($sum($difference($sum(X0,1),y00),$uminus(x00)),$sum(X1,$uminus(1))),$sum($product($sum(X0,1),$difference(X1,1)),$uminus($product($sum(X0,1),$sum(X0,1))))),$sum($difference(X1,1),$uminus($product($product($product($sum(X0,1),$sum(X0,1)),$difference(X1,1)),$difference(X1,1))))),$sum($product($uminus(1),$sum(X1,$uminus(1))),$product($product($product($sum(X0,1),$sum(X0,1)),$sum(X0,1)),$sum(X1,$uminus(1))))))) [theory normalization 1]
+3. ? [X1 : $int,X0 : $int] : (0 = $sum($sum($sum(X0,$uminus(y00)),$uminus(x00)),X1) & (~0 = $product($product($product($sum($sum($sum($sum($difference(X0,1),$uminus(y00)),$uminus(x00)),X1),1),$sum($product($sum(X0,$uminus(1)),$sum(X1,1)),$uminus($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1)))))),$sum($sum(X1,1),$uminus($product($product($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1))),$sum(X1,1)),$sum(X1,1))))),$sum($product($uminus(1),$sum(X1,1)),$product($product($product($sum(X0,$uminus(1)),$sum(X0,$uminus(1))),$sum(X0,$uminus(1))),$sum(X1,1)))) | ~0 = $product($product($product($sum($sum($sum($sum(X0,1),$uminus(y00)),$uminus(x00)),$sum(X1,$uminus(1))),$sum($product($sum(X0,1),$sum(X1,$uminus(1))),$uminus($product($sum(X0,1),$sum(X0,1))))),$sum($sum(X1,$uminus(1)),$uminus($product($product($product($sum(X0,1),$sum(X0,1)),$sum(X1,$uminus(1))),$sum(X1,$uminus(1)))))),$sum($product($uminus(1),$sum(X1,$uminus(1))),$product($product($product($sum(X0,1),$sum(X0,1)),$sum(X0,1)),$sum(X1,$uminus(1))))))) [theory normalization 2]
+4. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum(X1,$uminus(y00)),$uminus(x00)),X0) & (~0 = $product($product($product($sum($sum($sum($sum($difference(X1,1),$uminus(y00)),$uminus(x00)),X0),1),$sum($product($sum(X1,$uminus(1)),$sum(X0,1)),$uminus($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1)))))),$sum($sum(X0,1),$uminus($product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1))))),$sum($product($uminus(1),$sum(X0,1)),$product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X0,1)))) | ~0 = $product($product($product($sum($sum($sum($sum(X1,1),$uminus(y00)),$uminus(x00)),$sum(X0,$uminus(1))),$sum($product($sum(X1,1),$sum(X0,$uminus(1))),$uminus($product($sum(X1,1),$sum(X1,1))))),$sum($sum(X0,$uminus(1)),$uminus($product($product($product($sum(X1,1),$sum(X1,1)),$sum(X0,$uminus(1))),$sum(X0,$uminus(1)))))),$sum($product($uminus(1),$sum(X0,$uminus(1))),$product($product($product($sum(X1,1),$sum(X1,1)),$sum(X1,1)),$sum(X0,$uminus(1))))))) [rectify 3]
+5. ? [X0 : $int,X1 : $int] : (0 = $sum($sum($sum(X1,$uminus(y00)),$uminus(x00)),X0) & (0 != $product($product($product($sum($sum($sum($sum($difference(X1,1),$uminus(y00)),$uminus(x00)),X0),1),$sum($product($sum(X1,$uminus(1)),$sum(X0,1)),$uminus($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1)))))),$sum($sum(X0,1),$uminus($product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X0,1)),$sum(X0,1))))),$sum($product($uminus(1),$sum(X0,1)),$product($product($product($sum(X1,$uminus(1)),$sum(X1,$uminus(1))),$sum(X1,$uminus(1))),$sum(X0,1)))) | 0 != $product($product($product($sum($sum($sum($sum(X1,1),$uminus(y00)),$uminus(x00)),$sum(X0,$uminus(1))),$sum($product($sum(X1,1),$sum(X0,$uminus(1))),$uminus($product($sum(X1,1),$sum(X1,1))))),$sum($sum(X0,$uminus(1)),$uminus($product($product($product($sum(X1,1),$sum(X1,1)),$sum(X0,$uminus(1))),$sum(X0,$uminus(1)))))),$sum($product($uminus(1),$sum(X0,$uminus(1))),$product($product($product($sum(X1,1),$sum(X1,1)),$sum(X1,1)),$sum(X0,$uminus(1))))))) [flattening 4]
+6. 0 != $product($product($product($sum($sum($sum($sum(sK1,1),$uminus(y00)),$uminus(x00)),$sum(sK0,$uminus(1))),$sum($product($sum(sK1,1),$sum(sK0,$uminus(1))),$uminus($product($sum(sK1,1),$sum(sK1,1))))),$sum($sum(sK0,$uminus(1)),$uminus($product($product($product($sum(sK1,1),$sum(sK1,1)),$sum(sK0,$uminus(1))),$sum(sK0,$uminus(1)))))),$sum($product($uminus(1),$sum(sK0,$uminus(1))),$product($product($product($sum(sK1,1),$sum(sK1,1)),$sum(sK1,1)),$sum(sK0,$uminus(1))))) | 0 != $product($product($product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($sum(sK1,$uminus(1)),$sum(sK0,1)),$uminus($product($sum(sK1,$uminus(1)),$sum(sK1,$uminus(1)))))),$sum($sum(sK0,1),$uminus($product($product($product($sum(sK1,$uminus(1)),$sum(sK1,$uminus(1))),$sum(sK0,1)),$sum(sK0,1))))),$sum($product($uminus(1),$sum(sK0,1)),$product($product($product($sum(sK1,$uminus(1)),$sum(sK1,$uminus(1))),$sum(sK1,$uminus(1))),$sum(sK0,1)))) [cnf transformation 5]
+7. 0 = $sum($sum($sum(sK1,$uminus(y00)),$uminus(x00)),sK0) [cnf transformation 5]
+8. 0 != $product($product($product($sum(sK1,$sum($uminus(y00),$sum($uminus(x00),sK0))),$sum($product($sum(sK1,1),$sum(sK0,-1)),$uminus($product($sum(sK1,1),$sum(sK1,1))))),$sum($sum(sK0,-1),$uminus($product($product($product($sum(sK1,1),$sum(sK1,1)),$sum(sK0,-1)),$sum(sK0,-1))))),$sum($product(-1,$sum(sK0,-1)),$product($product($product($sum(sK1,1),$sum(sK1,1)),$sum(sK1,1)),$sum(sK0,-1)))) | 0 != $product($product($product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($sum(sK1,-1),$sum(sK0,1)),$uminus($product($sum(sK1,-1),$sum(sK1,-1))))),$sum($sum(sK0,1),$uminus($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1))))),$sum($product(-1,$sum(sK0,1)),$product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)))) [evaluation 6]
+10. 1 <=> 0 = $sum($sum($sum(sK1,$uminus(y00)),$uminus(x00)),sK0) [avatar definition]
+12. 1 [avatar split clause 7,10]
+14. 2 <=> 0 = $product($product($product($sum($sum($sum($sum($difference(sK1,1),$uminus(y00)),$uminus(x00)),sK0),1),$sum($product($sum(sK1,-1),$sum(sK0,1)),$uminus($product($sum(sK1,-1),$sum(sK1,-1))))),$sum($sum(sK0,1),$uminus($product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK0,1)),$sum(sK0,1))))),$sum($product(-1,$sum(sK0,1)),$product($product($product($sum(sK1,-1),$sum(sK1,-1)),$sum(sK1,-1)),$sum(sK0,1)))) [avatar definition]
+17. 3 <=> 0 = $product($product($product($sum(sK1,$sum($uminus(y00),$sum($uminus(x00),sK0))),$sum($product($sum(sK1,1),$sum(sK0,-1)),$uminus($product($sum(sK1,1),$sum(sK1,1))))),$sum($sum(sK0,-1),$uminus($product($product($product($sum(sK1,1),$sum(sK1,1)),$sum(sK0,-1)),$sum(sK0,-1))))),$sum($product(-1,$sum(sK0,-1)),$product($product($product($sum(sK1,1),$sum(sK1,1)),$sum(sK1,1)),$sum(sK0,-1)))) [avatar definition]
+19. ~2 | ~3 [avatar split clause 8,17,14]
+20. $false [avatar smt refutation 12,19]
+% SZS output end Proof for simpleloopV2_denorm_inv1_3xlen2
+% ------------------------------
+% Version: Vampire 4.6.1 (commit 1be729b10 on 2022-01-13 14:39:16 +0100)
+% Linked with Z3 4.8.15.0 dfe2b27f9aa6d72583014fa301bd79d223fb254f z3-4.8.4-5822-gdfe2b27f9
+% Termination reason: Refutation
+
+% Memory used [KB]: 7419
+% Time elapsed: 0.050 s
+% ------------------------------
+----  Runtime statistics ----
+clauses created: 10
+clauses deleted: 3
+ssat_ground_clauses_for_congruence: 1
+ssat_new_components: 3
+ssat_non_splittable_sat_clauses: 1
+ssat_sat_clauses: 2
+-----------------------------
+% ------------------------------
+% Success in time 7.238 s

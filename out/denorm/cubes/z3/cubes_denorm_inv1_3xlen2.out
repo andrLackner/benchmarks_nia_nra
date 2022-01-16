@@ -299,5 +299,5 @@ unsat
  :num-checks                1
  :propagations              11
  :rlimit-count              5077
- :time                      0.01
- :total-time                0.02)
+ :time                      0.02
+ :total-time                0.05)

@@ -1,0 +1,46 @@
+unsat
+((set-logic NIA)
+(proof
+(let (($x47 (exists ((q Int) (r Int) (y Int) )(! (let ((?x30 (* (- 1) y00)))
+ (let ((?x42 (+ ?x30 y00)))
+ (let (($x43 (= ?x42 0)))
+ (let (($x44 (not $x43)))
+ (let (($x45 (or $x44)))
+ (let (($x41 (= (+ (- (- r r00) (* q00 y00)) (* q y00)) 0)))
+ (let (($x33 (= (+ ?x30 y) 0)))
+ (and $x33 $x41 $x45)))))))) :qid k!28))
+ ))
+ (let (($x110 (= $x47 false)))
+ (let (($x103 (exists ((q Int) (r Int) (y Int) )(! false :qid k!28))
+ ))
+ (let ((@x109 (elim-unused (= $x103 false))))
+ (let (($x106 (= $x47 $x103)))
+ (let ((?x121 (lambda ((q Int) (r Int) (y Int) )(let ((?x30 (* (- 1) y00)))
+ (let ((?x42 (+ ?x30 y00)))
+ (let (($x43 (= ?x42 0)))
+ (let (($x44 (not $x43)))
+ (let (($x45 (or $x44)))
+ (let (($x41 (= (+ (- (- r r00) (* q00 y00)) (* q y00)) 0)))
+ (let (($x33 (= (+ ?x30 y) 0)))
+ (let (($x46 (and $x33 $x41 $x45)))
+ (let (($x101 (= $x46 false)))
+ (let (($x140 (= (+ r (* (- 1) r00) (* (- 1) (* q00 y00)) (* y00 q)) 0)))
+ (let (($x74 (= (+ (* (- 1) y00) y) 0)))
+ (let (($x75 (and $x74 $x140 false)))
+ (let ((@x59 (monotonicity (rewrite (= ?x30 (* (- 1) y00))) (= ?x42 (+ (* (- 1) y00) y00)))))
+ (let ((@x70 (monotonicity (trans @x59 (rewrite (= (+ (* (- 1) y00) y00) 0)) $x43) (= $x43 (= 0 0)))))
+ (let ((@x80 (monotonicity (trans @x70 (rewrite (= (= 0 0) true)) (= $x43 true)) (= $x44 (not true)))))
+ (let ((@x91 (monotonicity (trans @x80 (rewrite (= (not true) false)) (= $x44 false)) (= $x45 (or false)))))
+ (let ((@x95 (trans @x91 (rewrite (= (or false) false)) (= $x45 false))))
+ (let ((@x115 (monotonicity (rewrite (= $x33 $x74)) (rewrite (= $x41 $x140)) @x95 (= $x46 $x75))))
+ (trans @x115 (rewrite (= $x75 false)) $x101))))))))))))))))))))
+ ))
+ (let ((@x48 (asserted $x47)))
+ (mp @x48 (trans (quant-intro (proof-bind ?x121) $x106) @x109 $x110) false))))))))))
+
+(:max-memory   19.05
+ :memory       19.05
+ :num-allocs   239208
+ :rlimit-count 82
+ :time         0.00
+ :total-time   0.02)

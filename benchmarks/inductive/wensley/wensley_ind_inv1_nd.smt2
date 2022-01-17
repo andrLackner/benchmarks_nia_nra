@@ -14,22 +14,22 @@
 ;       end
 ;    end
 
-(set-logic NIA)
+(set-logic AUFNIRA)
 (set-option :produce-proofs true)
 
-(declare-fun a (Int) Int)
-(declare-fun b (Int) Int)
-(declare-fun d (Int) Int)
-(declare-fun y (Int) Int)
+(declare-fun a (Int) Real)
+(declare-fun b (Int) Real)
+(declare-fun d (Int) Real)
+(declare-fun y (Int) Real)
 
-(declare-const a00 Int)
-(declare-const b00 Int)
-(declare-const d00 Int)
-(declare-const y00 Int)
+(declare-const a00 Real)
+(declare-const b00 Real)
+(declare-const d00 Real)
+(declare-const y00 Real)
 
-(declare-const p Int)
+(declare-const p Real)
 
-(declare-fun inv (Int) Int)
+(declare-fun inv (Int) Real)
 
 
 ; Initializsation
@@ -50,23 +50,23 @@
         (=>
             (>= i 0)
             (and
-                (or 
+                (or
                     (and
-                        (= (b (+ i 1)) (/ (b i) 2))
-                        (= (d (+ i 1)) (/ (d i) 2))
+                        (= (b (+ i 1)) (/ (b i) 2.0))
+                        (= (d (+ i 1)) (/ (d i) 2.0))
                         (= (a (+ i 1)) (a i))
                         (= (y (+ i 1)) (y i))
                     )    
                     (and
                         (= (a (+ i 1)) (+ (a i) (b i)))
-                        (= (y (+ i 1)) (/ (+ (y i) (d i)) 2))
-                        (= (b (+ i 1)) (/ (b i) 2))
-                        (= (d (+ i 1)) (/ (d i) 2))
+                        (= (y (+ i 1)) (/ (+ (y i) (d i)) 2.0))
+                        (= (b (+ i 1)) (/ (b i) 2.0))
+                        (= (d (+ i 1)) (/ (d i) 2.0))
                     )
                 )
                 (=
                     (inv i)
-                    (- (+ (* (- 2) (b 0) (y 0)) (* (a 0) (d 0)) (* 2 (b 0) (y i))) (* (a i) (d 0)))
+                    (- (+ (* (- 2.0) (b 0) (y 0)) (* (a 0) (d 0)) (* 2.0 (b 0) (y i))) (* (a i) (d 0)))
                 )
             )
         )
@@ -80,7 +80,7 @@
             ((i Int))
             (=>
                 (>= i 0)
-                (= (inv i) 0)
+                (= (inv i) 0.0)
             )
         )
     )

@@ -1,0 +1,105 @@
+unsat
+((set-logic NIA)
+(declare-fun x!1 () Int)
+(declare-fun y!0 () Int)
+(proof
+(let ((?x196 (+ y00 x00 (* (- 1) y!0) (* (- 1) x!1))))
+ (let (($x135 (>= ?x196 0)))
+ (let (($x197 (= ?x196 0)))
+ (let ((?x210 (+ 1 y!0)))
+ (let ((?x214 (+ (- 1) x!1)))
+ (let ((?x123 (* ?x214 ?x214 ?x214 ?x210 ?x210 ?x210 (+ (* (- 1) y00) (* (- 1) x00) y!0 x!1))))
+ (let (($x125 (= ?x123 0)))
+ (let (($x126 (not $x125)))
+ (let (($x258 (and $x197 $x126)))
+ (let ((?x55 (* (- 1) x00)))
+ (let ((?x48 (* (- 1) y00)))
+ (let ((?x215 (+ x!1 y!0 ?x48 ?x55)))
+ (let (($x209 (and (= ?x215 0) (not (= (* ?x214 ?x214 ?x214 ?x210 ?x210 ?x210 ?x215) 0)))))
+ (let (($x222 (exists ((x Int) (y Int) )(! (let ((?x55 (* (- 1) x00)))
+ (let ((?x48 (* (- 1) y00)))
+ (let ((?x69 (+ x y ?x48 ?x55)))
+ (let ((?x110 (+ 1 y)))
+ (let ((?x64 (+ (- 1) x)))
+ (let (($x74 (= ?x69 0)))
+ (and $x74 (not (= (* ?x64 ?x64 ?x64 ?x110 ?x110 ?x110 ?x69) 0))))))))) :qid k!26))
+ ))
+ (let (($x163 (exists ((x Int) (y Int) )(! (let ((?x55 (* (- 1) x00)))
+ (let ((?x48 (* (- 1) y00)))
+ (let ((?x65 (+ x ?x48 ?x55 y)))
+ (let ((?x110 (+ 1 y)))
+ (let ((?x64 (+ (- 1) x)))
+ (and (= ?x65 0) (not (= (* ?x64 ?x64 ?x64 ?x110 ?x110 ?x110 ?x65) 0)))))))) :qid k!26))
+ ))
+ (let ((?x219 (lambda ((x Int) (y Int) )(let ((?x55 (* (- 1) x00)))
+ (let ((?x48 (* (- 1) y00)))
+ (let ((?x69 (+ x y ?x48 ?x55)))
+ (let ((?x110 (+ 1 y)))
+ (let ((?x64 (+ (- 1) x)))
+ (let (($x74 (= ?x69 0)))
+ (let (($x223 (and $x74 (not (= (* ?x64 ?x64 ?x64 ?x110 ?x110 ?x110 ?x69) 0)))))
+ (let (($x169 (= (* ?x64 ?x64 ?x64 ?x110 ?x110 ?x110 (+ x ?x48 ?x55 y)) 0)))
+ (let (($x77 (and (= (+ x ?x48 ?x55 y) 0) (not $x169))))
+ (rewrite (= $x77 $x223))))))))))))
+ ))
+ (let (($x45 (exists ((x Int) (y Int) )(! (let ((?x39 (+ y 1)))
+ (let ((?x34 (- x 1)))
+ (let ((?x40 (* (+ (- (- ?x34 y00) x00) y 1) (- 1) ?x34 ?x34 ?x39 ?x34 ?x39 ?x39)))
+ (and (= (+ (- (- x y00) x00) y) 0) (or (not (= ?x40 0))))))) :qid k!26))
+ ))
+ (let ((?x161 (lambda ((x Int) (y Int) )(let ((?x55 (* (- 1) x00)))
+ (let ((?x48 (* (- 1) y00)))
+ (let ((?x65 (+ x ?x48 ?x55 y)))
+ (let ((?x110 (+ 1 y)))
+ (let ((?x64 (+ (- 1) x)))
+ (let (($x77 (and (= ?x65 0) (not (= (* ?x64 ?x64 ?x64 ?x110 ?x110 ?x110 ?x65) 0)))))
+ (let ((?x39 (+ y 1)))
+ (let ((?x34 (- x 1)))
+ (let ((?x40 (* (+ (- (- ?x34 y00) x00) y 1) (- 1) ?x34 ?x34 ?x39 ?x34 ?x39 ?x39)))
+ (let (($x44 (and (= (+ (- (- x y00) x00) y) 0) (or (not (= ?x40 0))))))
+ (rewrite (= $x44 $x77)))))))))))))
+ ))
+ (let ((@x46 (asserted $x45)))
+ (let ((@x102 (mp (mp @x46 (quant-intro (proof-bind ?x161) (= $x45 $x163)) $x163) (rewrite (= $x163 $x163)) $x163)))
+ (let ((@x206 (mp~ (mp @x102 (quant-intro (proof-bind ?x219) (= $x163 $x222)) $x222) (sk (~ $x222 $x209)) $x209)))
+ (let ((@x257 (mp @x206 (rewrite (= $x209 $x258)) $x258)))
+ (let ((@x254 (and-elim @x257 $x197)))
+ (let ((@x138 (unit-resolution ((_ th-lemma arith triangle-eq) (or (not $x197) $x135)) @x254 $x135)))
+ (let (($x124 (<= ?x196 0)))
+ (let ((@x139 (unit-resolution ((_ th-lemma arith triangle-eq) (or (not $x197) $x124)) @x254 $x124)))
+ (let (($x148 (not (>= ?x123 0))))
+ (let (($x137 (<= ?x123 0)))
+ (let ((@x156 (unit-resolution ((_ th-lemma arith triangle-eq) (or $x125 (not $x137) $x148)) (and-elim @x257 $x126) (or (not $x137) $x148))))
+ (let ((@x158 (unit-resolution @x156 (lemma ((_ th-lemma arith farkas 1 1 1) (hypothesis (not $x137)) @x139 @x138 false) $x137) $x148)))
+ ((_ th-lemma arith farkas 1 1 1) @x158 @x139 @x138 false)))))))))))))))))))))))))))))))))
+
+(:added-eqs                 3
+ :arith-assert-diseq        1
+ :arith-assert-lower        7
+ :arith-assert-upper        6
+ :arith-conflicts           2
+ :arith-eq-adapter          4
+ :arith-fixed-eqs           2
+ :arith-grobner             2
+ :arith-max-min             14
+ :arith-nonlinear-horner    6
+ :arith-num-rows            4
+ :arith-pivots              1
+ :arith-pseudo-nonlinear    2
+ :arith-row-summations      1
+ :arith-tableau-max-columns 11
+ :arith-tableau-max-rows    4
+ :conflicts                 2
+ :decisions                 1
+ :del-clause                11
+ :final-checks              2
+ :max-memory                19.51
+ :memory                    19.10
+ :mk-bool-var               12
+ :mk-clause                 15
+ :num-allocs                456010
+ :num-checks                1
+ :propagations              4
+ :rlimit-count              671
+ :time                      0.01
+ :total-time                0.02)

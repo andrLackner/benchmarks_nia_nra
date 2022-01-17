@@ -1,0 +1,125 @@
+unsat
+((set-logic NIA)
+(declare-fun q!2 () Int)
+(declare-fun r!1 () Int)
+(declare-fun y!0 () Int)
+(proof
+(let ((?x60 (* y00 q00)))
+ (let ((?x161 (+ r00 ?x60 (* (- 1) r!1) (* (- 1) (* y00 q!2)))))
+ (let (($x197 (>= ?x161 0)))
+ (let (($x162 (= ?x161 0)))
+ (let ((?x58 (* (- 1) y00)))
+ (let ((?x167 (+ ?x58 r!1)))
+ (let ((?x65 (+ 1 q!2)))
+ (let ((?x170 (* y00 y00 y00 ?x65 ?x65 ?x65 ?x65 ?x65 ?x65 ?x167 ?x167 ?x167 ?x167 ?x167 (+ (* (- 1) r00) (* (- 1) ?x60) r!1 (* y00 q!2)))))
+ (let (($x172 (= ?x170 0)))
+ (let (($x171 (not $x172)))
+ (let (($x320 (and (= (+ y00 (* (- 1) y!0)) 0) $x162 $x171)))
+ (let ((?x71 (* (- 1) ?x60)))
+ (let ((?x59 (* (- 1) r00)))
+ (let ((?x86 (+ r!1 ?x59 (* q!2 y00) ?x71)))
+ (let ((?x80 (+ r!1 ?x58)))
+ (let ((?x117 (* y00 y00 y00 ?x65 ?x65 ?x65 ?x65 ?x65 ?x65 ?x80 ?x80 ?x80 ?x80 ?x80 ?x86)))
+ (let (($x61 (and (= (+ y!0 ?x58) 0) (= ?x86 0) (not (= ?x117 0)))))
+ (let (($x132 (exists ((q Int) (r Int) (y Int) )(! (let ((?x60 (* y00 q00)))
+ (let ((?x71 (* (- 1) ?x60)))
+ (let ((?x39 (* q y00)))
+ (let ((?x59 (* (- 1) r00)))
+ (let ((?x85 (+ r ?x59 ?x39 ?x71)))
+ (let ((?x58 (* (- 1) y00)))
+ (let ((?x56 (+ r ?x58)))
+ (let ((?x104 (+ 1 q)))
+ (let ((?x108 (* y00 y00 y00 ?x104 ?x104 ?x104 ?x104 ?x104 ?x104 ?x56 ?x56 ?x56 ?x56 ?x56 ?x85)))
+ (let (($x90 (= ?x85 0)))
+ (let (($x67 (= (+ y ?x58) 0)))
+ (and $x67 $x90 (not (= ?x108 0)))))))))))))) :qid k!29))
+ ))
+ (let (($x77 (exists ((q Int) (r Int) (y Int) )(! (let ((?x36 (* q00 y00)))
+ (let ((?x79 (* (- 1) ?x36)))
+ (let ((?x59 (* (- 1) r00)))
+ (let ((?x58 (* (- 1) y00)))
+ (let ((?x56 (+ r ?x58)))
+ (let ((?x104 (+ 1 q)))
+ (let ((?x268 (* y00 y00 y00 ?x104 ?x104 ?x104 ?x104 ?x104 ?x104 ?x56 ?x56 ?x56 ?x56 ?x56 (+ r ?x58 ?x59 ?x79 (* y00 ?x104)))))
+ (and (= (+ ?x58 y) 0) (= (+ r ?x59 ?x79 (* y00 q)) 0) (not (= ?x268 0)))))))))) :qid k!29))
+ ))
+ (let ((?x87 (lambda ((q Int) (r Int) (y Int) )(let ((?x60 (* y00 q00)))
+ (let ((?x71 (* (- 1) ?x60)))
+ (let ((?x39 (* q y00)))
+ (let ((?x59 (* (- 1) r00)))
+ (let ((?x85 (+ r ?x59 ?x39 ?x71)))
+ (let ((?x58 (* (- 1) y00)))
+ (let ((?x56 (+ r ?x58)))
+ (let ((?x104 (+ 1 q)))
+ (let ((?x108 (* y00 y00 y00 ?x104 ?x104 ?x104 ?x104 ?x104 ?x104 ?x56 ?x56 ?x56 ?x56 ?x56 ?x85)))
+ (let (($x90 (= ?x85 0)))
+ (let (($x67 (= (+ y ?x58) 0)))
+ (let (($x121 (and $x67 $x90 (not (= ?x108 0)))))
+ (let ((?x268 (* y00 y00 y00 ?x104 ?x104 ?x104 ?x104 ?x104 ?x104 ?x56 ?x56 ?x56 ?x56 ?x56 (+ r ?x58 ?x59 (* (- 1) (* q00 y00)) (* y00 ?x104)))))
+ (let (($x93 (and (= (+ ?x58 y) 0) (= (+ r ?x59 (* (- 1) (* q00 y00)) (* y00 q)) 0) (not (= ?x268 0)))))
+ (rewrite (= $x93 $x121)))))))))))))))))
+ ))
+ (let (($x53 (exists ((q Int) (r Int) (y Int) )(! (let ((?x42 (- r y00)))
+ (let ((?x45 (+ q 1)))
+ (let ((?x48 (* (+ (- (- ?x42 r00) (* q00 y00)) (* ?x45 y00)) ?x45 ?x45 ?x45 ?x42 ?x42 ?x42 y00 y00 y00 ?x45 ?x45 ?x45 ?x42 ?x42)))
+ (and (= (+ (* (- 1) y00) y) 0) (= (+ (- (- r r00) (* q00 y00)) (* q y00)) 0) (or (not (= ?x48 0))))))) :qid k!29))
+ ))
+ (let ((?x118 (lambda ((q Int) (r Int) (y Int) )(let ((?x36 (* q00 y00)))
+ (let ((?x79 (* (- 1) ?x36)))
+ (let ((?x59 (* (- 1) r00)))
+ (let ((?x58 (* (- 1) y00)))
+ (let ((?x56 (+ r ?x58)))
+ (let ((?x104 (+ 1 q)))
+ (let ((?x268 (* y00 y00 y00 ?x104 ?x104 ?x104 ?x104 ?x104 ?x104 ?x56 ?x56 ?x56 ?x56 ?x56 (+ r ?x58 ?x59 ?x79 (* y00 ?x104)))))
+ (let (($x93 (and (= (+ ?x58 y) 0) (= (+ r ?x59 ?x79 (* y00 q)) 0) (not (= ?x268 0)))))
+ (let ((?x42 (- r y00)))
+ (let ((?x45 (+ q 1)))
+ (let ((?x48 (* (+ (- (- ?x42 r00) ?x36) (* ?x45 y00)) ?x45 ?x45 ?x45 ?x42 ?x42 ?x42 y00 y00 y00 ?x45 ?x45 ?x45 ?x42 ?x42)))
+ (let (($x52 (and (= (+ (* (- 1) y00) y) 0) (= (+ (- (- r r00) ?x36) (* q y00)) 0) (or (not (= ?x48 0))))))
+ (rewrite (= $x52 $x93)))))))))))))))
+ ))
+ (let ((@x54 (asserted $x53)))
+ (let ((@x99 (mp (mp @x54 (quant-intro (proof-bind ?x118) (= $x53 $x77)) $x77) (rewrite (= $x77 $x77)) $x77)))
+ (let ((@x107 (mp~ (mp @x99 (quant-intro (proof-bind ?x87) (= $x77 $x132)) $x132) (sk (~ $x132 $x61)) $x61)))
+ (let ((@x321 (mp @x107 (rewrite (= $x61 $x320)) $x320)))
+ (let ((@x156 (and-elim @x321 $x162)))
+ (let ((@x208 (unit-resolution ((_ th-lemma arith triangle-eq) (or (not $x162) $x197)) @x156 $x197)))
+ (let (($x196 (<= ?x161 0)))
+ (let ((@x211 (unit-resolution ((_ th-lemma arith triangle-eq) (or (not $x162) $x196)) @x156 $x196)))
+ (let (($x216 (not (<= ?x170 0))))
+ (let (($x199 (>= ?x170 0)))
+ (let ((@x220 (unit-resolution ((_ th-lemma arith triangle-eq) (or $x172 $x216 (not $x199))) (and-elim @x321 $x171) (or $x216 (not $x199)))))
+ (let ((@x221 (unit-resolution @x220 (lemma ((_ th-lemma arith farkas 1 1 1) (hypothesis (not $x199)) @x211 @x208 false) $x199) $x216)))
+ ((_ th-lemma arith farkas 1 1 1) @x221 @x211 @x208 false)))))))))))))))))))))))))))))))))))))
+
+(:added-eqs                 5
+ :arith-assert-diseq        1
+ :arith-assert-lower        8
+ :arith-assert-upper        7
+ :arith-conflicts           2
+ :arith-eq-adapter          5
+ :arith-fixed-eqs           2
+ :arith-grobner             2
+ :arith-max-min             34
+ :arith-nonlinear-horner    8
+ :arith-num-rows            5
+ :arith-offset-eqs          1
+ :arith-pivots              2
+ :arith-pseudo-nonlinear    2
+ :arith-row-summations      2
+ :arith-tableau-max-columns 16
+ :arith-tableau-max-rows    5
+ :conflicts                 2
+ :decisions                 1
+ :del-clause                14
+ :final-checks              2
+ :max-memory                19.54
+ :memory                    19.13
+ :mk-bool-var               15
+ :mk-clause                 18
+ :num-allocs                473806
+ :num-checks                1
+ :propagations              6
+ :rlimit-count              992
+ :time                      0.01
+ :total-time                0.02)

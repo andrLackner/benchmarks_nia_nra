@@ -28,13 +28,13 @@ CREATE TABLE "result" (
 CREATE VIEW result_check_vampire ("type", "cnt") AS
     SELECT "type", COUNT(*) FROM result
         JOIN benchmark on benchmark.id = result.benchmark_id
-        WHERE result.solver = 'vampireZ3'
+        WHERE result.solver = "vampireZ3"
         GROUP BY "type";
 
 CREATE VIEW result_check_z3 ("type", "cnt") AS
     SELECT "type", COUNT(*) FROM result
         JOIN benchmark on benchmark.id = result.benchmark_id
-        WHERE result.solver = 'vampireZ3'
+        WHERE result.solver = "vampireZ3"
         GROUP BY "type";
 
 CREATE VIEW result_check ("type", "vampire", "z3") AS
@@ -52,9 +52,46 @@ CREATE VIEW baseline (benchmark_id, vampire, z3) AS
             when "solved" THEN z3.time
             ELSE -1
         END FROM benchmark
-        JOIN result vamp on benchmark.id = vamp.benchmark_id AND vamp.solver = 'vampireZ3'
-        JOIN result z3 on benchmark.id = z3.benchmark_id AND z3.solver = 'z3'
-        WHERE type = 'baseline';
+        JOIN result vamp on benchmark.id = vamp.benchmark_id AND vamp.solver = "vampireZ3"
+        JOIN result z3 on benchmark.id = z3.benchmark_id AND z3.solver = "z3"
+        WHERE type = "baseline";
+
+CREATE VIEW norm (benchmark_id, vampire, z3) AS
+    SELECT benchmark.id, 
+        CASE vamp.result 
+            WHEN "solved" THEN vamp.time
+            ELSE -1
+        END,
+        CASE z3.result 
+            when "solved" THEN z3.time
+            ELSE -1
+        END FROM benchmark
+        JOIN result vamp on benchmark.id = vamp.benchmark_id AND vamp.solver = "vampireZ3"
+        JOIN result z3 on benchmark.id = z3.benchmark_id AND z3.solver = "z3"
+        WHERE type = "norm";
+
+CREATE VIEW denorm (benchmark_id, vampire, z3) AS
+    SELECT benchmark.id, 
+        CASE vamp.result 
+            WHEN "solved" THEN vamp.time
+            ELSE -1
+        END,
+        CASE z3.result 
+            when "solved" THEN z3.time
+            ELSE -1
+        END FROM benchmark
+        JOIN result vamp on benchmark.id = vamp.benchmark_id AND vamp.solver = "vampireZ3"
+        JOIN result z3 on benchmark.id = z3.benchmark_id AND z3.solver = "z3"
+        WHERE type = "denorm";
+
+CREATE VIEW denom_vs_nom (benchmark_id, dVampire, dZ3, nVampire, nZ3) AS
+    SELECT REPLACE(d.benchmark_id,"denorm","norm") AS bid, 
+    d.vampire AS dVampire, 
+    d.z3 AS dZ3, 
+    n.vampire AS nVampire, 
+    n.z3 AS nZ3 
+    FROM denorm d JOIN norm n ON bid = n.benchmark_id;
+
 
 CREATE VIEW denorm_std (benchmark_id, len, result) AS 
     SELECT benchmark_id, len_proof, result FROM result 
@@ -80,3 +117,11 @@ CREATE VIEW overview_denorm_std_vs_opt (result, cnt) AS
     SELECT D1.result || "/" || D2.result AS res, count(*) FROM denorm_std D1 
         JOIN denorm_mul_opt D2 ON D1.benchmark_id = D2.benchmark_id 
         GROUP BY res;
+
+
+CREATE VIEW proofLenCompare (v_proof_len, p_proof_len) AS
+    SELECT v.len_proof, p.len_proof FROM result v 
+        JOIN result p ON v.benchmark_id = p.benchmark_id 
+        JOIN benchmark ON v.benchmark_id = benchmark.id
+        WHERE v.solver = "vampireZ3" AND p.solver = "vampireZ3polymulOpt"
+        AND type = "denorm";
